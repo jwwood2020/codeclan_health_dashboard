@@ -19,7 +19,8 @@ library(janitor)
 # Read raw data -----------------------------------------------------------
 
 bmi_clinical <- read_csv(here("data_raw/bmi_p1_clinical.csv")) %>% 
-  clean_names()
+  clean_names() %>% 
+  mutate(year = str_sub(date_code,1,4))
 
 
 # Get Health Board names --------------------------------------------------
@@ -43,3 +44,6 @@ bmi_clinical <- bmi_clinical %>%
 # write csv ---------------------------------------------------------------
 
 write_csv(bmi_clinical, "data_clean/bmi_clinical")
+
+
+
