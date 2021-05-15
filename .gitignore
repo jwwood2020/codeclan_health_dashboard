@@ -278,7 +278,7 @@ vignettes/*.pdf
 # End of https://www.toptal.com/developers/gitignore/api/r,python,macos,jupyternotebooks
 
 ### Data Files###
-*.csv
+### removed .csv from ignore 
 *.dat
 *.efx
 *.gbr
