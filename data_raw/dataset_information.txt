@@ -1,0 +1,24 @@
+Details of all raw datasets downloaded from https://statistics.gov.scot/home
+
+******  bmi_p1_clinical.csv
+
+This is a complete download of all data in the bmi_p1_clinical datasets
+
+
+***** ante_natal_smoking.csv
+
+This dataset contains the ratio of Current Smokers.
+Data is grouped by Council Area and for the whole of Scotland.
+
+
+***** breastfeeding.csv
+
+This dataset contains breastfeeding information.
+The data is grouped at several levels; analysis will be easiest on the full
+national records.
+
+
+***** first_time_mothers_over35.csv
+
+This dataset contains the ratio of first time mothers aged 35 and over.
+The data is grouped by Council Area and for the whole of Scotland.

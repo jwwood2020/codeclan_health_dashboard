@@ -1,0 +1,55 @@
+feature_code,date_code,measurement,units,value,birth_weight,year
+S92000003,2014-2016,Count,Births,2879,Low Weight Births,2016
+S92000003,2017-2019,Count,Births,2835,Low Weight Births,2019
+S92000003,2016-2018,Count,Births,2933,Low Weight Births,2018
+S92000003,2006-2008,Count,Births,3611,Low Weight Births,2008
+S92000003,2012-2014,Count,Births,3111,Low Weight Births,2014
+S92000003,2000-2002,Count,Births,3468,Low Weight Births,2002
+S92000003,2009-2011,Count,Births,3236,Low Weight Births,2011
+S92000003,2008-2010,Count,Births,3416,Low Weight Births,2010
+S92000003,2013-2015,Count,Births,2942,Low Weight Births,2015
+S92000003,2007-2009,Count,Births,3472,Low Weight Births,2009
+S92000003,2005-2007,Count,Births,3546,Low Weight Births,2007
+S92000003,2004-2006,Count,Births,3593,Low Weight Births,2006
+S92000003,2003-2005,Count,Births,3479,Low Weight Births,2005
+S92000003,2002-2004,Count,Births,3482,Low Weight Births,2004
+S92000003,2001-2003,Count,Births,3410,Low Weight Births,2003
+S92000003,2011-2013,Count,Births,3168,Low Weight Births,2013
+S92000003,2010-2012,Count,Births,3218,Low Weight Births,2012
+S92000003,2015-2017,Count,Births,2882,Low Weight Births,2017
+S92000003,2014-2016,Count,Births,148556,Live Singleton Births,2016
+S92000003,2015-2017,Count,Births,147430,Live Singleton Births,2017
+S92000003,2016-2018,Count,Births,144392,Live Singleton Births,2018
+S92000003,2017-2019,Count,Births,140669,Live Singleton Births,2019
+S92000003,2008-2010,Count,Births,158674,Live Singleton Births,2010
+S92000003,2009-2011,Count,Births,158673,Live Singleton Births,2011
+S92000003,2004-2006,Count,Births,143962,Live Singleton Births,2006
+S92000003,2007-2009,Count,Births,155823,Live Singleton Births,2009
+S92000003,2010-2012,Count,Births,158652,Live Singleton Births,2012
+S92000003,2005-2007,Count,Births,146501,Live Singleton Births,2007
+S92000003,2002-2004,Count,Births,139880,Live Singleton Births,2004
+S92000003,2003-2005,Count,Births,142190,Live Singleton Births,2005
+S92000003,2001-2003,Count,Births,140046,Live Singleton Births,2003
+S92000003,2012-2014,Count,Births,153762,Live Singleton Births,2014
+S92000003,2006-2008,Count,Births,150714,Live Singleton Births,2008
+S92000003,2011-2013,Count,Births,157189,Live Singleton Births,2013
+S92000003,2013-2015,Count,Births,150503,Live Singleton Births,2015
+S92000003,2000-2002,Count,Births,143023,Live Singleton Births,2002
+S92000003,2017-2019,Ratio,Percent Of Births,2.02,Low Weight Births,2019
+S92000003,2014-2016,Ratio,Percent Of Births,1.94,Low Weight Births,2016
+S92000003,2016-2018,Ratio,Percent Of Births,2.03,Low Weight Births,2018
+S92000003,2007-2009,Ratio,Percent Of Births,2.23,Low Weight Births,2009
+S92000003,2005-2007,Ratio,Percent Of Births,2.42,Low Weight Births,2007
+S92000003,2002-2004,Ratio,Percent Of Births,2.49,Low Weight Births,2004
+S92000003,2006-2008,Ratio,Percent Of Births,2.4,Low Weight Births,2008
+S92000003,2008-2010,Ratio,Percent Of Births,2.15,Low Weight Births,2010
+S92000003,2013-2015,Ratio,Percent Of Births,1.95,Low Weight Births,2015
+S92000003,2009-2011,Ratio,Percent Of Births,2.04,Low Weight Births,2011
+S92000003,2010-2012,Ratio,Percent Of Births,2.03,Low Weight Births,2012
+S92000003,2011-2013,Ratio,Percent Of Births,2.02,Low Weight Births,2013
+S92000003,2004-2006,Ratio,Percent Of Births,2.5,Low Weight Births,2006
+S92000003,2003-2005,Ratio,Percent Of Births,2.45,Low Weight Births,2005
+S92000003,2001-2003,Ratio,Percent Of Births,2.43,Low Weight Births,2003
+S92000003,2000-2002,Ratio,Percent Of Births,2.42,Low Weight Births,2002
+S92000003,2012-2014,Ratio,Percent Of Births,2.02,Low Weight Births,2014
+S92000003,2015-2017,Ratio,Percent Of Births,1.95,Low Weight Births,2017
