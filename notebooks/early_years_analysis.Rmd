@@ -23,6 +23,7 @@ smokers %>%
   geom_point() +
   scale_x_continuous(breaks = 2002:2019) +
   scale_y_continuous(limits = c(0, NA)) +
+  geom_smooth(method=lm , color="red", se = FALSE) +
   labs(x = "Year",
        y = "Percentage of antenatal smokers",
        title = "What proportion of new mothers in Scotland are smokers?",
@@ -41,19 +42,151 @@ low_birthweight <- read_csv(here("data_clean/low_birthweight.csv")) %>%
 ```{r}
 low_birthweight <- low_birthweight %>% 
   left_join(smokers,
-            by = "year")
+            by = "year")  %>% 
+  rename(smoker_ratio = ratio)
 ```
 
 ```{r}
 low_birthweight %>% 
   ggplot() +
-  aes(x = ratio,
+  aes(x = smoker_ratio,
       y = value,) +
   geom_point() +
   geom_smooth(method=lm , color="red") +
   labs(x = "Percentage of antenatal smokers",
        y = "Percentage of low-weight births",
        title = "Is there a relationship between low birthweight and smoking?",
-       subtitle = "Plot of birthweight vs smoking, Scotland 2002 - 2019") 
+       subtitle = "Plot of low birthweight % vs smoking %, Scotland 2002 - 2019") 
+```
+
+
+Older mother analysis
+```{r}
+older_mothers <- read_csv(here("data_clean/older_mothers.csv"))
+```
+
+```{r}
+older_mothers %>% 
+  ggplot() +
+  aes(x = year,
+      y = ratio) +
+  geom_point() +
+  scale_x_continuous(breaks = 2002:2019) +
+  scale_y_continuous(limits = c(0, NA)) +
+  geom_smooth(method=lm , color="red", se = FALSE) +
+  labs(x = "Year",
+       y = "Percentage of first-time mothers aged 35+",
+       title = "Are first-time mothers in Scotland getting older?")
+
+```
+# Age vs low-birthweight
+```{r}
+low_birthweight <- low_birthweight %>% 
+  left_join(older_mothers,
+            by = "year") %>% 
+  rename(older_ratio = ratio)
+```
+
+```{r}
+low_birthweight %>% 
+  ggplot() +
+  aes(x = older_ratio,
+      y = value,) +
+  geom_point() +
+  geom_smooth(method=lm , color="red") +
+  labs(x = "Percentage of first-time mothers aged 35+",
+       y = "Percentage of low-weight births",
+       title = "Is there a relationship between low birthweight and mother's age?",
+       subtitle = "Plot of low birthweight % vs older mothers %, Scotland 2002 - 2019") 
+```
+
+```{r}
+breastfeeding <- read_csv(here("data_clean/breastfeeding.csv")) %>% 
+  filter(measurement == "Ratio",
+         population_group == "Breastfed",
+         breastfeeding_data_collection_time == "6 To 8 Week Review") %>% 
+  rename(breastfeed_ratio = value) %>% 
+  arrange(year)
+```
+
+```{r}
+breastfeeding %>% 
+  ggplot() +
+  aes(x = year,
+      y = breastfeed_ratio) +
+  geom_point() +
+  scale_x_continuous(breaks = 2002:2019) +
+  scale_y_continuous(limits = c(0, NA)) +
+  geom_smooth(method=lm , color="red", se = FALSE) +
+  labs(x = "Year",
+       y = "Percentage of babies breastfed",
+       title = "Are more babies being breastfed?")
+```
+
+```{r}
+bmi_scotland <- read_csv(here("data_clean/bmi_clinical.csv")) %>% 
+  filter(weight_category == "Clinical - Overweight, Obese & Severely Obese") %>% 
+  filter(hb_name == "Scotland",
+         gender == "All",
+         measurement == "Ratio")  %>% 
+  rename(bmi_ratio = value)
+
+```
+
+```{r}
+bmi_scotland %>% 
+  ggplot() +
+  aes(x = year,
+      y = bmi_ratio) +
+  scale_x_continuous(breaks = 2002:2019) +
+  scale_y_continuous(limits = c(0, NA)) +
+  geom_line() +
+  labs(x = "Year",
+       y = "% Overweight / Obese / Severely Obese",
+       title = "How many Primary 1 children have high BMI?",
+       subtitle = "Children in Scotland, 2002 - 2019")
+```
+
+```{r}
+bmi_healthboard <- read_csv(here("data_clean/bmi_clinical.csv")) %>% 
+  filter(weight_category == "Clinical - Overweight, Obese & Severely Obese") %>% 
+  filter(hb_name != "Scotland",
+         gender == "All",
+         measurement == "Ratio")  %>% 
+  rename(bmi_ratio = value)
+```
+
+```{r}
+bmi_healthboard %>% 
+  ggplot() +
+  aes(x = year,
+      y = bmi_ratio,
+      group = hb_name,
+      colour = hb_name) +
+  scale_y_continuous(limits = c(0, NA)) +
+  geom_line() +
+  labs(x = "Year",
+       y = "% Overweight / Obese / Severely Obese",
+       title = "How many Primary 1 children have high BMI?",
+       subtitle = "Children in Scotland, 2002 - 2019",
+       colour = "Health Board")
+```
+
+
+
+
+```{r}
+dental_health <- read_csv(here("data_clean/dentalhealth.csv"))
+```
+```{r}
+dental_health %>% 
+  ggplot() +
+  aes(x = date_code,
+      y = value) +
+  geom_line() +
+  geom_point() +
+  labs(x = "Year",
+       y = "% of P1 children with no obvious tooth decay",
+       title = "Has children's dental health improved?")
 ```
 
