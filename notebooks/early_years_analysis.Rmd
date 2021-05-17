@@ -26,8 +26,34 @@ smokers %>%
   labs(x = "Year",
        y = "Percentage of antenatal smokers",
        title = "What proportion of new mothers in Scotland are smokers?",
-       subtitle = "Based on self-reported information obtained from mothers at their ante-natal visit") +
-  theme_minimal()
+       subtitle = "Based on self-reported information obtained from mothers at their ante-natal visit")
 
+```
+
+
+# Low birthweight analysis
+```{r}
+low_birthweight <- read_csv(here("data_clean/low_birthweight.csv")) %>% 
+  filter(measurement == "Ratio") %>% 
+  arrange(year)
+```
+
+```{r}
+low_birthweight <- low_birthweight %>% 
+  left_join(smokers,
+            by = "year")
+```
+
+```{r}
+low_birthweight %>% 
+  ggplot() +
+  aes(x = ratio,
+      y = value,) +
+  geom_point() +
+  geom_smooth(method=lm , color="red") +
+  labs(x = "Percentage of antenatal smokers",
+       y = "Percentage of low-weight births",
+       title = "Is there a relationship between low birthweight and smoking?",
+       subtitle = "Plot of birthweight vs smoking, Scotland 2002 - 2019") 
 ```
 
