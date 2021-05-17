@@ -6,6 +6,7 @@ output: html_notebook
 ```{r}
 library(tidyverse)
 library(here)
+
 ```
 
 
@@ -58,6 +59,21 @@ low_birthweight %>%
        title = "Is there a relationship between low birthweight and smoking?",
        subtitle = "Plot of low birthweight % vs smoking %, Scotland 2002 - 2019") 
 ```
+```{r}
+low_birthweight %>% 
+  ggplot() +
+  aes(x = year, 
+      y = smoker_ratio,
+      size = value
+     ) +
+  geom_point() +
+  #geom_smooth(method=lm , color="red", se = FALSE) +
+  labs(x = "Year",
+       y = "% smoking",
+       size = "% of births classed as low birthweight",
+       title = "How have smoking and low birthweights changed over time?") 
+ 
+```
 
 
 Older mother analysis
@@ -99,6 +115,23 @@ low_birthweight %>%
        title = "Is there a relationship between low birthweight and mother's age?",
        subtitle = "Plot of low birthweight % vs older mothers %, Scotland 2002 - 2019") 
 ```
+```{r}
+low_birthweight %>% 
+  ggplot() +
+  aes(x = year,
+      y = older_ratio,
+      size = value) +
+  geom_point() +
+ # geom_smooth(method=lm , color="red") +
+  labs(x = "Year",
+       y = "Percentage of first-time mothers aged 35+",
+       title = "Is there a relationship between low birthweight and mother's age?",
+       subtitle = "Plot of low birthweight % vs older mothers %, Scotland 2002 - 2019",
+       size = "% low birthweight") 
+```
+
+
+
 
 ```{r}
 breastfeeding <- read_csv(here("data_clean/breastfeeding.csv")) %>% 
@@ -160,16 +193,15 @@ bmi_healthboard <- read_csv(here("data_clean/bmi_clinical.csv")) %>%
 bmi_healthboard %>% 
   ggplot() +
   aes(x = year,
-      y = bmi_ratio,
-      group = hb_name,
-      colour = hb_name) +
+      y = bmi_ratio) +
   scale_y_continuous(limits = c(0, NA)) +
   geom_line() +
   labs(x = "Year",
        y = "% Overweight / Obese / Severely Obese",
        title = "How many Primary 1 children have high BMI?",
-       subtitle = "Children in Scotland, 2002 - 2019",
-       colour = "Health Board")
+       subtitle = "Children in Scotland, 2002 - 2019"
+       ) +
+  facet_wrap(~ hb_name)
 ```
 
 
@@ -189,4 +221,6 @@ dental_health %>%
        y = "% of P1 children with no obvious tooth decay",
        title = "Has children's dental health improved?")
 ```
+
+
 
