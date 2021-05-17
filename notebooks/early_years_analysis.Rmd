@@ -13,7 +13,9 @@ library(here)
 # Analysis of antenatal smoking
 ```{r}
 smokers <- read_csv(here("data_clean/antenatal_smoking.csv")) %>% 
-  arrange(year)
+  filter(feature_id == "S92000003") %>% 
+  arrange(year) 
+  
 ```
 
 ```{r}
@@ -24,11 +26,11 @@ smokers %>%
   geom_point() +
   scale_x_continuous(breaks = 2002:2019) +
   scale_y_continuous(limits = c(0, NA)) +
-  geom_smooth(method=lm , color="red", se = FALSE) +
+  geom_smooth(method=lm , color="grey", se = FALSE) +
   labs(x = "Year",
        y = "Percentage of antenatal smokers",
-       title = "What proportion of new mothers in Scotland are smokers?",
-       subtitle = "Based on self-reported information obtained from mothers at their ante-natal visit")
+       title = "Fewer new mothers in Scotland are smokers") +
+  theme_minimal()
 
 ```
 
@@ -36,7 +38,7 @@ smokers %>%
 # Low birthweight analysis
 ```{r}
 low_birthweight <- read_csv(here("data_clean/low_birthweight.csv")) %>% 
-  filter(measurement == "Ratio") %>% 
+  filter(measurement == "Ratio" & feature_code == "S92000003") %>% 
   arrange(year)
 ```
 
@@ -50,15 +52,15 @@ low_birthweight <- low_birthweight %>%
 ```{r}
 low_birthweight %>% 
   ggplot() +
-  aes(x = smoker_ratio,
+  aes(x = year,
       y = value,) +
   geom_point() +
-  geom_smooth(method=lm , color="red") +
-  labs(x = "Percentage of antenatal smokers",
+  geom_smooth(method=lm , color="grey", se = FALSE) +
+  labs(x = "Year",
        y = "Percentage of low-weight births",
-       title = "Is there a relationship between low birthweight and smoking?",
-       subtitle = "Plot of low birthweight % vs smoking %, Scotland 2002 - 2019") 
+       title = "Fewer newborns are being classified as having low birthweight")
 ```
+
 ```{r}
 low_birthweight %>% 
   ggplot() +
@@ -78,7 +80,9 @@ low_birthweight %>%
 
 Older mother analysis
 ```{r}
-older_mothers <- read_csv(here("data_clean/older_mothers.csv"))
+older_mothers <- read_csv(here("data_clean/older_mothers.csv")) %>% 
+  filter(feature_id == "S92000003") %>% 
+  arrange(year)
 ```
 
 ```{r}
@@ -135,7 +139,8 @@ low_birthweight %>%
 
 ```{r}
 breastfeeding <- read_csv(here("data_clean/breastfeeding.csv")) %>% 
-  filter(measurement == "Ratio",
+  filter(feature_code == "S92000003",
+         measurement == "Ratio",
          population_group == "Breastfed",
          breastfeeding_data_collection_time == "6 To 8 Week Review") %>% 
   rename(breastfeed_ratio = value) %>% 
