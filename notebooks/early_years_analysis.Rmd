@@ -1,0 +1,33 @@
+---
+title: "Early Years Analysis"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(here)
+```
+
+
+# Analysis of antenatal smoking
+```{r}
+smokers <- read_csv(here("data_clean/antenatal_smoking.csv")) %>% 
+  arrange(year)
+```
+
+```{r}
+smokers %>% 
+  ggplot() +
+  aes(x = year,
+      y = ratio) +
+  geom_point() +
+  scale_x_continuous(breaks = 2002:2019) +
+  scale_y_continuous(limits = c(0, NA)) +
+  labs(x = "Year",
+       y = "Percentage of antenatal smokers",
+       title = "What proportion of new mothers in Scotland are smokers?",
+       subtitle = "Based on self-reported information obtained from mothers at their ante-natal visit") +
+  theme_minimal()
+
+```
+
