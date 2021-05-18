@@ -1,9 +1,3 @@
-library(shiny)
-library(tidyverse)
-library(shinydashboard)
-library(dplyr)
-library(ggplot2)
-
 
 # Define UI for application
 shinyUI(
@@ -66,14 +60,17 @@ shinyUI(
                 ),
             
             # Baby menu content
-            tabItem(tabName = "baby_data",
-                    h2("Baby Data menu content")
+            tabItem(tabName = "scotland_data",
+                    h2("Scotland Data menu content"),
+                    plotOutput("smokers_scotland")
                     ),
             
-            tabItem(tabName = "mother_data",
-                    h2("Mother menu content")
+            tabItem(tabName = "council_data",
+                    h2("Council menu content"),
+                    plotOutput("smokers_council")
+                    )
+            
             )
-            )
-        )
-        )
-)
+        )   # DashboardBody bracket
+    ) #Dasboardpage bracket
+) # UI bracket
