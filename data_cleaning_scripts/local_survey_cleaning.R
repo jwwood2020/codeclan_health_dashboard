@@ -30,24 +30,6 @@ alcohol <- survey %>%
 
 alcohol
 
-# Cardiovascular Condition
-
-cardiovascular <- survey %>% 
-  filter(str_detect(scottish_health_survey_indicator, "cardiovascular")) %>% 
-  rename(cardiovascular_condition = scottish_health_survey_indicator) %>% 
-  mutate(cardiovascular_condition = str_sub(cardiovascular_condition, 31))
-
-cardiovascular
-
-# Asthma
-
-asthma <- survey %>% 
-  filter(str_detect(scottish_health_survey_indicator, "asthma")) %>% 
-  rename(doctor_diagnosed_asthma = scottish_health_survey_indicator) %>% 
-  mutate(doctor_diagnosed_asthma = str_sub(doctor_diagnosed_asthma, 26))
-
-asthma
-
 # E-cigarette
 
 e_cig <- survey %>% 
@@ -84,15 +66,6 @@ life_satisfaction <- survey %>%
 
 life_satisfaction
 
-# Long-term Illness
-
-long_term_illness <- survey %>% 
-  filter(str_detect(scottish_health_survey_indicator, "illness")) %>% 
-  rename(long_term_illness = scottish_health_survey_indicator) %>% 
-  mutate(long_term_illness = str_sub(long_term_illness, 20))
-
-long_term_illness
-
 # Obesity
 
 obesity <- survey %>% 
@@ -101,31 +74,6 @@ obesity <- survey %>%
   mutate(obesity = str_sub(obesity, 10))
 
 obesity
-
-# Overweight
-
-overweight <- survey %>% 
-  filter(str_detect(scottish_health_survey_indicator, "Overweight")) %>% 
-  rename(overweight = scottish_health_survey_indicator) %>% 
-  mutate(overweight = str_sub(overweight, 13))
-
-overweight
-
-# Provide help
-
-provide_help <- survey %>% 
-  filter(str_detect(scottish_health_survey_indicator, "Provide"))
-
-provide_help
-
-# Self-assessed General Health
-
-self_assessed <- survey %>% 
-  filter(str_detect(scottish_health_survey_indicator, "Self")) %>% 
-  rename(self_assessed_general_health = scottish_health_survey_indicator) %>% 
-  mutate(self_assessed_general_health = str_sub(self_assessed_general_health, 31))
-
-self_assessed
 
 # Smoking Status
 
