@@ -62,12 +62,16 @@ shinyUI(
             # Baby menu content
             tabItem(tabName = "scotland_data",
                     h2("Scotland Data menu content"),
-                    plotOutput("smokers_scotland")
+                    plotOutput("smokers_scotland"),
+                    plotOutput("birth_scotland"),
+                    plotOutput("smokebirth_scotland"),
+                    plotOutput("mothers_ages")
                     ),
             
             tabItem(tabName = "council_data",
                     h2("Council menu content"),
-                    plotOutput("smokers_council")
+                    plotOutput("smokers_council"),
+                    plotOutput("birthweight_council")
                     )
             
             )
