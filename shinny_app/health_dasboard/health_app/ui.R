@@ -7,6 +7,8 @@ shinyUI(
         
         # Sidebar content
         dashboardSidebar(
+            
+            # Home Menu
             sidebarMenu(id = "menu1",
                 menuItem("Home", tabName = "home", icon = icon("home"))),
             
@@ -20,8 +22,9 @@ shinyUI(
                 radioButtons("data_button",
                              "Which data do you want to look at",
                              choices = c("Data", "Selection"))
-            ),
-                
+                ),
+            
+            # Scotland data Menu    
             sidebarMenu(id = "menu1",    
                 menuItem("Scotland Data", tabName = "scotland_data", icon = icon("baby"))),
                 
@@ -34,17 +37,21 @@ shinyUI(
                     
                 ),
             
-                
+            # Council data Menu      
             sidebarMenu(id = "menu1",    
                 menuItem("Council Data", tabName = "council_data", icon = icon("plus"))),
                 
                 conditionalPanel(
                     condition = "input.menu1 =='council_data'",
                     
-                    selectInput("location_button",
-                                "What data do you want to look at?",
-                                choices = c("Need Council data"))
-                )
+                    selectInput("council_selection",
+                                "council",
+                                choices = unique(low_birthweight$la_name))
+                ),
+            
+            # Stats data Menu
+            sidebarMenu(id = "menu1",    
+                        menuItem("Statistics", tabName = "stats", icon = icon("plus")))
             
             ), # Dashboardsidebar bracket
         
@@ -65,13 +72,21 @@ shinyUI(
                     plotOutput("smokers_scotland"),
                     plotOutput("birth_scotland"),
                     plotOutput("smokebirth_scotland"),
-                    plotOutput("mothers_ages")
+                    plotOutput("mothers_ages_scotland"),
+                    plotOutput("age_weight_scotland"),
+                    plotOutput("age_weight2_scotland"),
+                    plotOutput("breastfed_scotland")
                     ),
             
             tabItem(tabName = "council_data",
                     h2("Council menu content"),
                     plotOutput("smokers_council"),
-                    plotOutput("birthweight_council")
+                    plotOutput("birth_council"),
+                    plotOutput("smokebirth_council"),
+                    plotOutput("mothers_ages_council"),
+                    plotOutput("age_weight_council"),
+                    plotOutput("age_weight2_council"),
+                    plotOutput("breastfed_council")
                     )
             
             )
