@@ -5,7 +5,8 @@
 # early-year health.
 #
 # Records have a "feature_code" identifier which links to local council area, 
-# health board, electoral ward etc.
+# health board, electoral ward etc. We are only going to keep data at a national/
+# council or health board level.
 #
 # feature_code = S92000003 corresponds to the country_name = "Scotland; records 
 # with this code correspond to the overall national level data in the dataset.
