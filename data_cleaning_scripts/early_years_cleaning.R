@@ -18,6 +18,20 @@ library(janitor)
 
 
 
+# Reference areas ---------------------------------------------------------
+
+council_id <- read_csv("data_clean/council_id.csv")
+health_board_id <- read_csv("data_clean/health_board_id.csv")
+
+# Create vectors of all health board/local council id numbers
+# These can then be used in filtering out data
+health_vector <- health_board_id %>% 
+  pull(hb_code)
+
+council_vector <- council_id %>% 
+  pull(la_code)
+
+
 # BMI dataset -------------------------------------------------------------
 bmi_clinical <- read_csv("data_raw/bmi_p1_clinical.csv") %>% 
   clean_names() %>% 
@@ -46,7 +60,12 @@ low_birthweight <- read_csv("data_raw/low_birthweight.csv") %>%
   clean_names() %>% 
   mutate(year = str_sub(date_code,6,9)) %>% 
   left_join(council_id,
-            by = c("feature_code" = "la_code"))
+            by = c("feature_code" = "la_code")) %>% 
+  filter(feature_code == "S92000003" | feature_code %in% council_vector) %>% 
+  filter(measurement == "Ratio") %>% 
+  mutate(la_name = case_when(
+    feature_code == "S92000003" ~ "Scotland",
+    TRUE ~ la_name))
 
 write_csv(low_birthweight, "data_clean/low_birthweight.csv")
 
@@ -56,13 +75,14 @@ write_csv(low_birthweight, "data_clean/low_birthweight.csv")
 antenatal_smoking <- read_csv("data_raw/antenatal_smoking.csv",
                               skip = 7) %>% 
   clean_names() %>% 
-  rename(feature_id = 1) %>% 
-  mutate(feature_id = str_sub(feature_id, -9)) %>% 
+  rename(feature_code = 1) %>% 
+  mutate(feature_code = str_sub(feature_code, -9)) %>% 
+  filter(feature_code == "S92000003" | feature_code %in% council_vector) %>% 
   pivot_longer(cols = 3:20, 
                names_to = "date_code", 
-               values_to = "ratio") %>% 
+               values_to = "smoker_ratio") %>% 
   mutate(year = str_sub(date_code,-4)) %>% 
-  select(feature_id, reference_area, year, ratio)
+  select(feature_code, reference_area, year, smoker_ratio)
 
 write_csv(antenatal_smoking, "data_clean/antenatal_smoking.csv")
  
@@ -71,9 +91,16 @@ write_csv(antenatal_smoking, "data_clean/antenatal_smoking.csv")
 # Breastfeeding dataset ---------------------------------------------------
 breastfeeding <- read_csv("data_raw/breastfeeding.csv") %>% 
   clean_names() %>% 
+  filter(feature_code == "S92000003" | feature_code %in% council_vector) %>% 
+  filter(measurement == "Ratio" & 
+           population_group == "Breastfed" &
+           breastfeeding_data_collection_time == "6 To 8 Week Review") %>% 
   mutate(year = str_sub(date_code,6,9)) %>% 
   left_join(council_id,
-            by = c("feature_code" = "la_code"))
+            by = c("feature_code" = "la_code")) %>% 
+  mutate(la_name = case_when(
+    feature_code == "S92000003" ~ "Scotland",
+    TRUE ~ la_name))
 
 write_csv(breastfeeding, "data_clean/breastfeeding.csv")
 
@@ -82,7 +109,11 @@ write_csv(breastfeeding, "data_clean/breastfeeding.csv")
 # Dental Health dataset ---------------------------------------------------
 dental_health <- read_csv("data_raw/dental_health.csv") %>% 
   clean_names() %>% 
-  filter(feature_code == "S92000003")
+  left_join(health_board_id,
+            by = c("feature_code" = "hb_code")) %>% 
+  mutate(hb_name = case_when(
+    feature_code == "S92000003" ~ "Scotland",
+    TRUE ~ hb_name))
 
 write_csv(dental_health, "data_clean/dentalhealth.csv")
 
@@ -92,16 +123,43 @@ write_csv(dental_health, "data_clean/dentalhealth.csv")
 older_mothers <- read_csv("data_raw/mothers_over35.csv",
                           skip = 7) %>% 
   clean_names() %>% 
-  rename(feature_id = 1) %>% 
-  mutate(feature_id = str_sub(feature_id, -9)) %>% 
+  rename(feature_code = 1) %>% 
+  mutate(feature_code = str_sub(feature_code, -9)) %>% 
+  filter(feature_code == "S92000003" | feature_code %in% council_vector) %>% 
   pivot_longer(cols = 3:20, 
                names_to = "date_code", 
                values_to = "ratio") %>% 
-  mutate(year = str_c("20",str_sub(date_code,-2))) %>% 
-  select(feature_id, reference_area, year, ratio)
+  mutate(year = str_c("20",str_sub(date_code,-2)),
+         age_band = "over 35") %>% 
+  select(feature_code, reference_area, year, ratio, age_band)
 
 write_csv(older_mothers, "data_clean/older_mothers.csv")
 
+
+
+# First time mothers under 19 ---------------------------------------------
+younger_mothers <- read_csv("data_raw/younger_mothers.csv",
+                          skip = 7) %>% 
+  clean_names() %>% 
+  rename(feature_code = 1) %>% 
+  mutate(feature_code = str_sub(feature_code, -9)) %>% 
+  filter(feature_code == "S92000003" | feature_code %in% council_vector) %>% 
+  pivot_longer(cols = 3:20, 
+               names_to = "date_code", 
+               values_to = "ratio") %>% 
+  mutate(year = str_c("20",str_sub(date_code,-2)),
+         age_band = "under 19") %>% 
+  select(feature_code, reference_area, year, ratio, age_band)
+
+write_csv(older_mothers, "data_clean/younger_mothers.csv")
+
+
+
+# Mothers Age -------------------------------------------------------------
+mothers_ages <- bind_rows(older_mothers, younger_mothers) %>% 
+  arrange(feature_code, year)
+
+write_csv(older_mothers, "data_clean/mothers_ages.csv")
 
 
 # Immunisation dataset ----------------------------------------------------
