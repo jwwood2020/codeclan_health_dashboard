@@ -137,6 +137,7 @@ older_mothers <- read_csv("data_raw/mothers_over35.csv",
                names_to = "date_code", 
                values_to = "ratio") %>% 
   mutate(year = str_c("20",str_sub(date_code,-2)),
+         year = as.character(year),
          age_band = "over 35") %>% 
   select(feature_code, reference_area, year, ratio, age_band)
 
@@ -166,7 +167,7 @@ write_csv(older_mothers, "data_clean/younger_mothers.csv")
 mothers_ages <- bind_rows(older_mothers, younger_mothers) %>% 
   arrange(feature_code, year)
 
-write_csv(older_mothers, "data_clean/mothers_ages.csv")
+write_csv(mothers_ages, "data_clean/mothers_ages.csv")
 
 
 # Immunisation dataset ----------------------------------------------------
