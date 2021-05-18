@@ -65,7 +65,9 @@ low_birthweight <- read_csv("data_raw/low_birthweight.csv") %>%
   filter(measurement == "Ratio") %>% 
   mutate(la_name = case_when(
     feature_code == "S92000003" ~ "Scotland",
-    TRUE ~ la_name))
+    TRUE ~ la_name)) %>% 
+  rename(weight_ratio = value) %>% 
+  select(feature_code, weight_ratio, year, la_name)
 
 write_csv(low_birthweight, "data_clean/low_birthweight.csv")
 
@@ -100,7 +102,9 @@ breastfeeding <- read_csv("data_raw/breastfeeding.csv") %>%
             by = c("feature_code" = "la_code")) %>% 
   mutate(la_name = case_when(
     feature_code == "S92000003" ~ "Scotland",
-    TRUE ~ la_name))
+    TRUE ~ la_name)) %>% 
+  rename(feeding_ratio = value) %>% 
+  select(feature_code, feeding_ratio, year, la_name)
 
 write_csv(breastfeeding, "data_clean/breastfeeding.csv")
 
@@ -113,7 +117,10 @@ dental_health <- read_csv("data_raw/dental_health.csv") %>%
             by = c("feature_code" = "hb_code")) %>% 
   mutate(hb_name = case_when(
     feature_code == "S92000003" ~ "Scotland",
-    TRUE ~ hb_name))
+    TRUE ~ hb_name)) %>% 
+  rename(dental_ratio = value,
+         year = date_code) %>% 
+  select(feature_code, dental_ratio, year, hb_name)
 
 write_csv(dental_health, "data_clean/dentalhealth.csv")
 

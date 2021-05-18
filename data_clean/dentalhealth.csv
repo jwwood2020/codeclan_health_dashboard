@@ -1,136 +1,136 @@
-feature_code,date_code,measurement,units,value,hb_name
-S92000003,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,67,Scotland
-S92000003,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,71.1,Scotland
-S92000003,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,64,Scotland
-S92000003,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,69.4,Scotland
-S92000003,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,68.2,Scotland
-S92000003,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,50.7,Scotland
-S92000003,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,54.1,Scotland
-S92000003,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,44.6,Scotland
-S92000003,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,57.7,Scotland
-S08000015,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,72.5,Ayrshire and Arran
-S08000015,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,66.3,Ayrshire and Arran
-S08000015,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,69.4,Ayrshire and Arran
-S08000015,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,50.9,Ayrshire and Arran
-S08000015,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,63.1,Ayrshire and Arran
-S08000015,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,46.7,Ayrshire and Arran
-S08000015,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,52,Ayrshire and Arran
-S08000015,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,65.5,Ayrshire and Arran
-S08000015,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,62.7,Ayrshire and Arran
-S08000016,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,77.1,Borders
-S08000016,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,76.2,Borders
-S08000016,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,77.2,Borders
-S08000016,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,70.8,Borders
-S08000016,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,76.8,Borders
-S08000016,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,69.2,Borders
-S08000016,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,63.6,Borders
-S08000016,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,62.6,Borders
-S08000016,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,59.8,Borders
-S08000017,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,67,Dumfries and Galloway
-S08000017,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,68.1,Dumfries and Galloway
-S08000017,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,57.9,Dumfries and Galloway
-S08000017,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,56.7,Dumfries and Galloway
-S08000017,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,50.9,Dumfries and Galloway
-S08000017,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,52.5,Dumfries and Galloway
-S08000017,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,62.3,Dumfries and Galloway
-S08000017,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,66.2,Dumfries and Galloway
-S08000017,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,65.8,Dumfries and Galloway
-S08000019,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,69.7,Forth Valley
-S08000019,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,73.6,Forth Valley
-S08000019,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,73.2,Forth Valley
-S08000019,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,62.6,Forth Valley
-S08000019,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,66.2,Forth Valley
-S08000019,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,66.1,Forth Valley
-S08000019,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,55.9,Forth Valley
-S08000019,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,45.5,Forth Valley
-S08000019,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,68.1,Forth Valley
-S08000020,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,73.2,Grampian
-S08000020,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,67.9,Grampian
-S08000020,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,70.2,Grampian
-S08000020,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,76.2,Grampian
-S08000020,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,68.5,Grampian
-S08000020,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,56.9,Grampian
-S08000020,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,55.5,Grampian
-S08000020,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,48.9,Grampian
-S08000020,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,58.6,Grampian
-S08000022,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,73,Highland
-S08000022,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,71.9,Highland
-S08000022,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,63.7,Highland
-S08000022,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,60.3,Highland
-S08000022,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,70.1,Highland
-S08000022,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,70.2,Highland
-S08000022,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,52.5,Highland
-S08000022,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,47.7,Highland
-S08000022,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,56,Highland
-S08000024,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,57.1,Lothian
-S08000024,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,55.2,Lothian
-S08000024,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,68.6,Lothian
-S08000024,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,70.3,Lothian
-S08000024,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,46.3,Lothian
-S08000024,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,49.8,Lothian
-S08000024,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,68.9,Lothian
-S08000024,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,71.1,Lothian
-S08000024,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,70.1,Lothian
-S08000025,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,65,Orkney
-S08000025,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,72,Orkney
-S08000025,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,78.7,Orkney
-S08000025,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,57,Orkney
-S08000025,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,50.3,Orkney
-S08000025,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,66.7,Orkney
-S08000025,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,79.1,Orkney
-S08000025,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,45.7,Orkney
-S08000025,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,83.6,Orkney
-S08000026,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,81.9,Shetland
-S08000026,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,79.4,Shetland
-S08000026,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,71.9,Shetland
-S08000026,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,62.7,Shetland
-S08000026,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,80.9,Shetland
-S08000026,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,74.7,Shetland
-S08000026,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,60.8,Shetland
-S08000026,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,51.6,Shetland
-S08000026,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,59.7,Shetland
-S08000028,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,79,Western Isles
-S08000028,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,35.6,Western Isles
-S08000028,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,57.7,Western Isles
-S08000028,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,53.9,Western Isles
-S08000028,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,41.8,Western Isles
-S08000028,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,71.7,Western Isles
-S08000028,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,79.1,Western Isles
-S08000028,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,56.3,Western Isles
-S08000028,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,62,Western Isles
-S08000029,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,70.8,Fife
-S08000029,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,67.2,Fife
-S08000029,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,68.2,Fife
-S08000029,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,54.3,Fife
-S08000029,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,57.3,Fife
-S08000029,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,57.6,Fife
-S08000029,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,71.9,Fife
-S08000029,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,59.7,Fife
-S08000029,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,56.3,Fife
-S08000030,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,69.9,Tayside
-S08000030,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,63.2,Tayside
-S08000030,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,68.3,Tayside
-S08000030,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,60.8,Tayside
-S08000030,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,64.8,Tayside
-S08000030,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,56.7,Tayside
-S08000030,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,55.3,Tayside
-S08000030,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,68.5,Tayside
-S08000030,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,57.1,Tayside
-S08000031,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,63.2,Greater Glasgow and Clyde
-S08000031,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,65.3,Greater Glasgow and Clyde
-S08000031,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,58.2,Greater Glasgow and Clyde
-S08000031,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,67.1,Greater Glasgow and Clyde
-S08000031,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,68.2,Greater Glasgow and Clyde
-S08000031,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,42,Greater Glasgow and Clyde
-S08000031,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,35.2,Greater Glasgow and Clyde
-S08000031,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,54.8,Greater Glasgow and Clyde
-S08000031,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,47.4,Greater Glasgow and Clyde
-S08000032,2012,Ratio,Percent Of P1 Children With No Obvious Decay Experience,64.6,Lanarkshire
-S08000032,2014,Ratio,Percent Of P1 Children With No Obvious Decay Experience,67.8,Lanarkshire
-S08000032,2010,Ratio,Percent Of P1 Children With No Obvious Decay Experience,60.8,Lanarkshire
-S08000032,2018,Ratio,Percent Of P1 Children With No Obvious Decay Experience,70.7,Lanarkshire
-S08000032,2016,Ratio,Percent Of P1 Children With No Obvious Decay Experience,66.2,Lanarkshire
-S08000032,2004,Ratio,Percent Of P1 Children With No Obvious Decay Experience,47.4,Lanarkshire
-S08000032,2003,Ratio,Percent Of P1 Children With No Obvious Decay Experience,40.7,Lanarkshire
-S08000032,2008,Ratio,Percent Of P1 Children With No Obvious Decay Experience,52.2,Lanarkshire
-S08000032,2006,Ratio,Percent Of P1 Children With No Obvious Decay Experience,50.2,Lanarkshire
+feature_code,dental_ratio,year,hb_name
+S92000003,67,2012,Scotland
+S92000003,71.1,2018,Scotland
+S92000003,64,2010,Scotland
+S92000003,69.4,2016,Scotland
+S92000003,68.2,2014,Scotland
+S92000003,50.7,2004,Scotland
+S92000003,54.1,2006,Scotland
+S92000003,44.6,2003,Scotland
+S92000003,57.7,2008,Scotland
+S08000015,72.5,2016,Ayrshire and Arran
+S08000015,66.3,2014,Ayrshire and Arran
+S08000015,69.4,2018,Ayrshire and Arran
+S08000015,50.9,2006,Ayrshire and Arran
+S08000015,63.1,2008,Ayrshire and Arran
+S08000015,46.7,2003,Ayrshire and Arran
+S08000015,52,2004,Ayrshire and Arran
+S08000015,65.5,2012,Ayrshire and Arran
+S08000015,62.7,2010,Ayrshire and Arran
+S08000016,77.1,2018,Borders
+S08000016,76.2,2016,Borders
+S08000016,77.2,2010,Borders
+S08000016,70.8,2008,Borders
+S08000016,76.8,2014,Borders
+S08000016,69.2,2012,Borders
+S08000016,63.6,2004,Borders
+S08000016,62.6,2003,Borders
+S08000016,59.8,2006,Borders
+S08000017,67,2018,Dumfries and Galloway
+S08000017,68.1,2016,Dumfries and Galloway
+S08000017,57.9,2006,Dumfries and Galloway
+S08000017,56.7,2008,Dumfries and Galloway
+S08000017,50.9,2003,Dumfries and Galloway
+S08000017,52.5,2004,Dumfries and Galloway
+S08000017,62.3,2012,Dumfries and Galloway
+S08000017,66.2,2014,Dumfries and Galloway
+S08000017,65.8,2010,Dumfries and Galloway
+S08000019,69.7,2016,Forth Valley
+S08000019,73.6,2018,Forth Valley
+S08000019,73.2,2010,Forth Valley
+S08000019,62.6,2008,Forth Valley
+S08000019,66.2,2014,Forth Valley
+S08000019,66.1,2012,Forth Valley
+S08000019,55.9,2004,Forth Valley
+S08000019,45.5,2003,Forth Valley
+S08000019,68.1,2006,Forth Valley
+S08000020,73.2,2014,Grampian
+S08000020,67.9,2012,Grampian
+S08000020,70.2,2016,Grampian
+S08000020,76.2,2018,Grampian
+S08000020,68.5,2010,Grampian
+S08000020,56.9,2004,Grampian
+S08000020,55.5,2006,Grampian
+S08000020,48.9,2003,Grampian
+S08000020,58.6,2008,Grampian
+S08000022,73,2018,Highland
+S08000022,71.9,2016,Highland
+S08000022,63.7,2010,Highland
+S08000022,60.3,2008,Highland
+S08000022,70.1,2014,Highland
+S08000022,70.2,2012,Highland
+S08000022,52.5,2004,Highland
+S08000022,47.7,2003,Highland
+S08000022,56,2006,Highland
+S08000024,57.1,2008,Lothian
+S08000024,55.2,2006,Lothian
+S08000024,68.6,2010,Lothian
+S08000024,70.3,2016,Lothian
+S08000024,46.3,2003,Lothian
+S08000024,49.8,2004,Lothian
+S08000024,68.9,2014,Lothian
+S08000024,71.1,2018,Lothian
+S08000024,70.1,2012,Lothian
+S08000025,65,2010,Orkney
+S08000025,72,2014,Orkney
+S08000025,78.7,2012,Orkney
+S08000025,57,2006,Orkney
+S08000025,50.3,2004,Orkney
+S08000025,66.7,2008,Orkney
+S08000025,79.1,2016,Orkney
+S08000025,45.7,2003,Orkney
+S08000025,83.6,2018,Orkney
+S08000026,81.9,2018,Shetland
+S08000026,79.4,2016,Shetland
+S08000026,71.9,2010,Shetland
+S08000026,62.7,2008,Shetland
+S08000026,80.9,2014,Shetland
+S08000026,74.7,2012,Shetland
+S08000026,60.8,2004,Shetland
+S08000026,51.6,2003,Shetland
+S08000026,59.7,2006,Shetland
+S08000028,79,2016,Western Isles
+S08000028,35.6,2003,Western Isles
+S08000028,57.7,2008,Western Isles
+S08000028,53.9,2006,Western Isles
+S08000028,41.8,2004,Western Isles
+S08000028,71.7,2014,Western Isles
+S08000028,79.1,2018,Western Isles
+S08000028,56.3,2010,Western Isles
+S08000028,62,2012,Western Isles
+S08000029,70.8,2014,Fife
+S08000029,67.2,2016,Fife
+S08000029,68.2,2012,Fife
+S08000029,54.3,2003,Fife
+S08000029,57.3,2004,Fife
+S08000029,57.6,2006,Fife
+S08000029,71.9,2018,Fife
+S08000029,59.7,2010,Fife
+S08000029,56.3,2008,Fife
+S08000030,69.9,2018,Tayside
+S08000030,63.2,2012,Tayside
+S08000030,68.3,2014,Tayside
+S08000030,60.8,2008,Tayside
+S08000030,64.8,2010,Tayside
+S08000030,56.7,2004,Tayside
+S08000030,55.3,2003,Tayside
+S08000030,68.5,2016,Tayside
+S08000030,57.1,2006,Tayside
+S08000031,63.2,2012,Greater Glasgow and Clyde
+S08000031,65.3,2014,Greater Glasgow and Clyde
+S08000031,58.2,2010,Greater Glasgow and Clyde
+S08000031,67.1,2018,Greater Glasgow and Clyde
+S08000031,68.2,2016,Greater Glasgow and Clyde
+S08000031,42,2004,Greater Glasgow and Clyde
+S08000031,35.2,2003,Greater Glasgow and Clyde
+S08000031,54.8,2008,Greater Glasgow and Clyde
+S08000031,47.4,2006,Greater Glasgow and Clyde
+S08000032,64.6,2012,Lanarkshire
+S08000032,67.8,2014,Lanarkshire
+S08000032,60.8,2010,Lanarkshire
+S08000032,70.7,2018,Lanarkshire
+S08000032,66.2,2016,Lanarkshire
+S08000032,47.4,2004,Lanarkshire
+S08000032,40.7,2003,Lanarkshire
+S08000032,52.2,2008,Lanarkshire
+S08000032,50.2,2006,Lanarkshire
