@@ -2,7 +2,7 @@ library(tidyverse)
 library(janitor)
 library(stringr)
 
-survey <- read_csv("local_survey.csv") %>% 
+survey <- read_csv("data_raw/local_survey.csv") %>% 
   clean_names() %>% 
   filter(measurement == "Percent")
 
@@ -13,6 +13,13 @@ survey %>%
 survey %>% 
   group_by(feature_code) %>% 
   summarise()
+
+health_board_id <- read.csv("data_clean/health_board_id.csv")
+
+survey <- left_join(survey, health_board_id, by = c("feature_code" = "hb_code"))
+
+survey <- survey %>% 
+  drop_na()
 
 # Alcohol Consumption
 
