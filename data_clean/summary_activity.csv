@@ -1,0 +1,361 @@
+feature_code,date_code,measurement,units,value,summary_activity_levels,sex,hb_name
+S92000003,2015-2018,Percent,Percent Of Adults,12,Some activity,Female,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,4,Low activity,All,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,12,Some activity,Female,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,11,Some activity,All,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,5,Low activity,Female,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,23,Very low activity,Female,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,23,Very low activity,Female,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,21,Very low activity,All,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,21,Very low activity,All,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,11,Some activity,All,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,64,Meets recommendations,All,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,65,Meets recommendations,All,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,5,Low activity,Female,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,69,Meets recommendations,Male,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,4,Low activity,Male,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,18,Very low activity,Male,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,18,Very low activity,Male,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,70,Meets recommendations,Male,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,3,Low activity,Male,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,9,Some activity,Male,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,9,Some activity,Male,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,4,Low activity,All,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,60,Meets recommendations,Female,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,60,Meets recommendations,Female,Scotland
+S08000015,2016-2019,Percent,Percent Of Adults,26,Very low activity,Male,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,3,Low activity,Male,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,3,Low activity,Male,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,26,Very low activity,Male,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,58,Meets recommendations,All,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,59,Meets recommendations,All,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,10,Some activity,All,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,28,Very low activity,All,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,3,Low activity,All,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,8,Some activity,Male,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,3,Low activity,All,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,28,Very low activity,All,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,10,Some activity,All,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,8,Some activity,Male,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,63,Meets recommendations,Male,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,55,Meets recommendations,Female,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,30,Very low activity,Female,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,63,Meets recommendations,Male,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,30,Very low activity,Female,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,3,Low activity,Female,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,12,Some activity,Female,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,12,Some activity,Female,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,4,Low activity,Female,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,55,Meets recommendations,Female,Ayrshire and Arran
+S08000016,2015-2018,Percent,Percent Of Adults,6,Low activity,All,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,5,Low activity,All,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,66,Meets recommendations,Male,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,6,Low activity,Male,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,19,Very low activity,Female,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,19,Very low activity,All,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,6,Low activity,Female,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,6,Low activity,Female,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,17,Very low activity,Female,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,12,Some activity,All,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,21,Very low activity,Male,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,9,Some activity,Male,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,9,Some activity,Male,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,20,Very low activity,All,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,13,Some activity,All,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,15,Some activity,Female,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,64,Meets recommendations,All,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,61,Meets recommendations,All,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,59,Meets recommendations,Female,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,16,Some activity,Female,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,62,Meets recommendations,Female,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,4,Low activity,Male,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,22,Very low activity,Male,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,64,Meets recommendations,Male,Borders
+S08000017,2015-2018,Percent,Percent Of Adults,3,Low activity,All,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,23,Very low activity,All,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,10,Some activity,Female,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,12,Some activity,Female,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,9,Some activity,All,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,65,Meets recommendations,Female,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,20,Very low activity,All,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,66,Meets recommendations,Male,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,22,Very low activity,Female,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,64,Meets recommendations,Female,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,20,Very low activity,Female,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,3,Low activity,All,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,2,Low activity,Male,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,66,Meets recommendations,Male,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,12,Some activity,All,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,66,Meets recommendations,All,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,20,Very low activity,Male,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,65,Meets recommendations,All,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,3,Low activity,Female,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,3,Low activity,Female,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,23,Very low activity,Male,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,11,Some activity,Male,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,2,Low activity,Male,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,8,Some activity,Male,Dumfries and Galloway
+S08000019,2016-2019,Percent,Percent Of Adults,4,Low activity,Male,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,20,Very low activity,All,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,16,Very low activity,Male,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,5,Low activity,All,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,4,Low activity,Male,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,17,Very low activity,Male,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,58,Meets recommendations,Female,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,19,Very low activity,All,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,61,Meets recommendations,Female,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,10,Some activity,Male,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,11,Some activity,Male,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,6,Low activity,Female,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,63,Meets recommendations,All,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,65,Meets recommendations,All,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,14,Some activity,Female,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,11,Some activity,Female,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,5,Low activity,All,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,68,Meets recommendations,Male,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,22,Very low activity,Female,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,7,Low activity,Female,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,12,Some activity,All,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,70,Meets recommendations,Male,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,11,Some activity,All,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,22,Very low activity,Female,Forth Valley
+S08000020,2016-2019,Percent,Percent Of Adults,9,Some activity,All,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,20,Very low activity,All,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,65,Meets recommendations,All,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,20,Very low activity,All,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,4,Low activity,All,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,10,Some activity,All,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,23,Very low activity,Female,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,4,Low activity,All,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,23,Very low activity,Female,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,5,Low activity,Female,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,61,Meets recommendations,Female,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,66,Meets recommendations,All,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,10,Some activity,Female,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,11,Some activity,Female,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,5,Low activity,Female,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,62,Meets recommendations,Female,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,18,Very low activity,Male,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,9,Some activity,Male,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,4,Low activity,Male,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,69,Meets recommendations,Male,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,71,Meets recommendations,Male,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,9,Some activity,Male,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,17,Very low activity,Male,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,3,Low activity,Male,Grampian
+S08000022,2016-2019,Percent,Percent Of Adults,19,Very low activity,All,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,3,Low activity,All,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,3,Low activity,Female,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,10,Some activity,All,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,66,Meets recommendations,Female,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,4,Low activity,Female,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,12,Some activity,Female,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,10,Some activity,Female,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,71,Meets recommendations,Male,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,69,Meets recommendations,All,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,22,Very low activity,Female,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,20,Very low activity,All,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,18,Very low activity,Male,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,18,Very low activity,Male,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,21,Very low activity,Female,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,66,Meets recommendations,All,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,3,Low activity,Male,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,7,Some activity,Male,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,73,Meets recommendations,Male,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,4,Low activity,Male,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,8,Some activity,Male,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,4,Low activity,All,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,62,Meets recommendations,Female,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,8,Some activity,All,Highland
+S08000024,2016-2019,Percent,Percent Of Adults,3,Low activity,All,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,14,Very low activity,Male,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,15,Very low activity,All,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,66,Meets recommendations,Female,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,16,Very low activity,All,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,10,Some activity,All,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,68,Meets recommendations,Female,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,72,Meets recommendations,All,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,2,Low activity,Male,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,70,Meets recommendations,All,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,77,Meets recommendations,Male,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,9,Some activity,Male,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,9,Some activity,All,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,18,Very low activity,Female,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,3,Low activity,Male,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,3,Low activity,All,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,9,Some activity,Male,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,19,Very low activity,Female,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,74,Meets recommendations,Male,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,10,Some activity,Female,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,4,Low activity,Female,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,4,Low activity,Female,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,13,Very low activity,Male,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,11,Some activity,Female,Lothian
+S08000025,2015-2018,Percent,Percent Of Adults,55,Meets recommendations,Female,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,25,Very low activity,Female,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,55,Meets recommendations,Female,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,3,Low activity,Male,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,5,Low activity,All,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,22,Very low activity,All,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,6,Low activity,All,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,11,Some activity,All,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,12,Some activity,All,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,20,Very low activity,Male,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,7,Low activity,Female,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,10,Some activity,Male,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,61,Meets recommendations,All,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,12,Some activity,Female,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,67,Meets recommendations,Male,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,25,Very low activity,Female,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,67,Meets recommendations,Male,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,19,Very low activity,Male,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,3,Low activity,Male,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,22,Very low activity,All,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,12,Some activity,Female,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,61,Meets recommendations,All,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,9,Low activity,Female,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,11,Some activity,Male,Orkney
+S08000026,2015-2018,Percent,Percent Of Adults,3,Low activity,Male,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,21,Very low activity,All,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,65,Meets recommendations,Male,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,14,Some activity,Female,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,11,Some activity,All,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,66,Meets recommendations,Male,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,12,Some activity,Female,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,62,Meets recommendations,All,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,18,Very low activity,Male,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,62,Meets recommendations,All,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,5,Low activity,Female,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,20,Very low activity,Male,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,12,Some activity,Male,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,11,Some activity,Male,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,4,Low activity,Female,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,13,Some activity,All,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,4,Low activity,All,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,24,Very low activity,Female,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,4,Low activity,All,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,22,Very low activity,All,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,58,Meets recommendations,Female,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,60,Meets recommendations,Female,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,4,Low activity,Male,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,24,Very low activity,Female,Shetland
+S08000028,2016-2019,Percent,Percent Of Adults,26,Very low activity,Female,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,5,Some activity,Male,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,73,Meets recommendations,Male,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,8,Some activity,Male,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,63,Meets recommendations,All,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,11,Some activity,Female,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,11,Some activity,Female,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,3,Low activity,Female,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,1,Low activity,Male,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,57,Meets recommendations,Female,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,61,Meets recommendations,Female,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,2,Low activity,Female,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,29,Very low activity,Female,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,2,Low activity,Male,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,2,Low activity,All,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,10,Some activity,All,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,67,Meets recommendations,All,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,21,Very low activity,Male,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,23,Very low activity,All,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,2,Low activity,All,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,8,Some activity,All,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,20,Very low activity,Male,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,69,Meets recommendations,Male,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,25,Very low activity,All,Western Isles
+S08000029,2015-2018,Percent,Percent Of Adults,8,Some activity,Male,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,19,Very low activity,Male,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,20,Very low activity,Male,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,12,Some activity,Female,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,9,Some activity,Male,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,5,Low activity,Female,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,5,Low activity,Female,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,5,Low activity,All,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,22,Very low activity,All,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,25,Very low activity,Female,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,22,Very low activity,All,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,11,Some activity,All,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,4,Low activity,Male,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,11,Some activity,All,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,5,Low activity,All,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,58,Meets recommendations,Female,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,63,Meets recommendations,All,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,68,Meets recommendations,Male,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,24,Very low activity,Female,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,58,Meets recommendations,Female,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,5,Low activity,Male,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,13,Some activity,Female,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,68,Meets recommendations,Male,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,63,Meets recommendations,All,Fife
+S08000030,2015-2018,Percent,Percent Of Adults,8,Some activity,Male,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,68,Meets recommendations,All,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,8,Some activity,Male,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,67,Meets recommendations,All,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,20,Very low activity,Female,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,63,Meets recommendations,Female,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,10,Some activity,All,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,4,Low activity,All,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,20,Very low activity,Female,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,4,Low activity,Male,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,64,Meets recommendations,Female,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,5,Low activity,Male,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,19,Very low activity,All,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,15,Very low activity,Male,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,5,Low activity,All,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,12,Some activity,Female,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,12,Some activity,Female,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,18,Very low activity,All,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,72,Meets recommendations,Male,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,10,Some activity,All,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,71,Meets recommendations,Male,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,4,Low activity,Female,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,5,Low activity,Female,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,17,Very low activity,Male,Tayside
+S08000031,2016-2019,Percent,Percent Of Adults,11,Some activity,All,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,21,Very low activity,All,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,18,Very low activity,Male,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,3,Low activity,Male,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,57,Meets recommendations,Female,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,18,Very low activity,Male,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,11,Some activity,All,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,4,Low activity,Male,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,4,Low activity,All,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,57,Meets recommendations,Female,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,22,Very low activity,All,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,69,Meets recommendations,Male,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,63,Meets recommendations,All,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,4,Low activity,All,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,63,Meets recommendations,All,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,13,Some activity,Female,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,9,Some activity,Male,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,4,Low activity,Female,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,70,Meets recommendations,Male,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,13,Some activity,Female,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,5,Low activity,Female,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,9,Some activity,Male,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,26,Very low activity,Female,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,25,Very low activity,Female,Greater Glasgow and Clyde
+S08000032,2016-2019,Percent,Percent Of Adults,23,Very low activity,Female,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,6,Low activity,Female,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,6,Low activity,Female,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,64,Meets recommendations,Male,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,3,Low activity,Male,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,23,Very low activity,Female,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,57,Meets recommendations,Female,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,22,Very low activity,All,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,5,Low activity,All,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,12,Some activity,All,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,55,Meets recommendations,Female,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,23,Very low activity,Male,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,10,Some activity,Male,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,12,Some activity,All,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,4,Low activity,All,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,67,Meets recommendations,Male,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,10,Some activity,Male,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,2,Low activity,Male,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,21,Very low activity,Male,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,14,Some activity,Female,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,61,Meets recommendations,All,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,15,Some activity,Female,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,60,Meets recommendations,All,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,23,Very low activity,All,Lanarkshire
