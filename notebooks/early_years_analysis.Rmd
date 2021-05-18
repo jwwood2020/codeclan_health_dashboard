@@ -26,11 +26,11 @@ council_vector <- council_id %>%
 
 # Analysis of antenatal smoking
 ```{r}
-smokers <- read_csv(here("data_clean/antenatal_smoking.csv")) %>% 
-  arrange(year) 
+smokers <- read_csv(here("data_clean/antenatal_smoking.csv")) 
 ```
 
 ```{r}
+# Plot percentage of smokers - all Scotland
 smokers_scotland <- smokers %>% 
   filter(feature_code == "S92000003") %>% 
   ggplot() +
@@ -51,10 +51,13 @@ smokers_scotland
 
 
 ```{r}
+# Plot percentage of smokers - individual council data
+# Can have a dropdown selector in the dashboard to filter on feature_code
+# so that we can select individual council areas
 smokers_council <- smokers %>% 
-  # Can have a dropdown selector in the dashboard to filter on feature_code
-  # so that we can select individual council areas
-  ggplot() +
+  # example of filter:
+  # filter(feature_code == "S12000041") %>% 
+ggplot() +
   aes(x = year,
       y = smoker_ratio) +
   geom_point() +
@@ -73,21 +76,17 @@ smokers_council
 # Low birthweight analysis
 ```{r}
 low_birthweight <- read_csv(here("data_clean/low_birthweight.csv")) %>% 
-  arrange(year)
-```
-
-```{r}
-low_birthweight <- low_birthweight %>% 
-  left_join(smokers,
+ left_join(smokers,
             by = c("feature_code", "year")) 
 ```
 
 ```{r}
+# Plot percentage of low birthweights - all Scotland
 low_birthweight %>% 
   filter(feature_code == "S92000003") %>% 
   ggplot() +
   aes(x = year,
-      y = weight_ratio,) +
+      y = weight_ratio) +
   geom_point() +
   geom_smooth(method=lm , color="grey", se = FALSE) +
   labs(x = "Year",
@@ -96,20 +95,24 @@ low_birthweight %>%
 ```
 
 ```{r}
+# Plot percentage of low birthweights - individual council data
+# Can have a dropdown selector in the dashboard to filter on feature_code
+# so that we can select individual council areas
 low_birthweight %>% 
-   # Can have a dropdown selector in the dashboard to filter on feature_code
-  # so that we can select individual council areas
+  # example of filter:
+  # filter(feature_code == "S12000041") %>% 
   ggplot() +
   aes(x = year,
       y = weight_ratio,) +
   geom_point() +
   labs(x = "Year",
        y = "Percentage of low-weight births",
-       title = "tbc")
+       title = "title")
 ```
 
 
 ```{r}
+# Plot birthweight/smoking over time - all Scotland
 low_birthweight %>% 
   filter(feature_code == "S92000003") %>% 
   ggplot() +
@@ -130,11 +133,11 @@ low_birthweight %>%
 Older mother analysis
 ```{r}
 mothers_ages <- read_csv(here("data_clean/mothers_ages.csv")) %>% 
-  arrange(year) %>% 
   mutate(year = as.character(year))
 ```
 
 ```{r}
+# Plot age band of first time mothers: Scotland
 mothers_ages%>% 
   filter(feature_code == "S92000003") %>% 
   ggplot() +
@@ -152,6 +155,29 @@ mothers_ages%>%
        title = "Are first-time mothers in Scotland getting older?")
 
 ```
+
+```{r}
+# Plot age band of first time mothers: all council areas
+# This chart will not work unless there is a filter on feature_code
+mothers_ages%>% 
+  ggplot() +
+  aes(x = year,
+      y = ratio,
+      group = age_band,
+      colour = age_band) +
+  geom_point() +
+  geom_line() +
+  scale_x_discrete(breaks = 2002:2019) +
+  scale_y_continuous(limits = c(0, NA)) +
+#  geom_smooth(method=lm , color="red", se = FALSE) +
+  labs(x = "Year",
+       y = "Percentage of first-time mothers",
+       title = "Are first-time mothers in Scotland getting older?")
+```
+
+
+
+
 # Age vs low-birthweight
 ```{r}
 low_birthweight <- low_birthweight %>% 
@@ -215,51 +241,51 @@ breastfeeding %>%
 ```
 
 ```{r}
-bmi_scotland <- read_csv(here("data_clean/bmi_clinical.csv")) %>% 
-  filter(weight_category == "Clinical - Overweight, Obese & Severely Obese") %>% 
-  filter(hb_name == "Scotland",
-         gender == "All",
-         measurement == "Ratio")  %>% 
-  rename(bmi_ratio = value)
+# bmi_scotland <- read_csv(here("data_clean/bmi_clinical.csv")) %>% 
+#   filter(weight_category == "Clinical - Overweight, Obese & Severely Obese") %>% 
+#   filter(hb_name == "Scotland",
+#          gender == "All",
+#          measurement == "Ratio")  %>% 
+#   rename(bmi_ratio = value)
 
 ```
 
 ```{r}
-bmi_scotland %>% 
-  ggplot() +
-  aes(x = year,
-      y = bmi_ratio) +
-  scale_x_continuous(breaks = 2002:2019) +
-  scale_y_continuous(limits = c(0, NA)) +
-  geom_line() +
-  labs(x = "Year",
-       y = "% Overweight / Obese / Severely Obese",
-       title = "How many Primary 1 children have high BMI?",
-       subtitle = "Children in Scotland, 2002 - 2019")
+# bmi_scotland %>% 
+#   ggplot() +
+#   aes(x = year,
+#       y = bmi_ratio) +
+#   scale_x_continuous(breaks = 2002:2019) +
+#   scale_y_continuous(limits = c(0, NA)) +
+#   geom_line() +
+#   labs(x = "Year",
+#        y = "% Overweight / Obese / Severely Obese",
+#        title = "How many Primary 1 children have high BMI?",
+#        subtitle = "Children in Scotland, 2002 - 2019")
 ```
 
 ```{r}
-bmi_healthboard <- read_csv(here("data_clean/bmi_clinical.csv")) %>% 
-  filter(weight_category == "Clinical - Overweight, Obese & Severely Obese") %>% 
-  filter(hb_name != "Scotland",
-         gender == "All",
-         measurement == "Ratio")  %>% 
-  rename(bmi_ratio = value)
+# bmi_healthboard <- read_csv(here("data_clean/bmi_clinical.csv")) %>% 
+#   filter(weight_category == "Clinical - Overweight, Obese & Severely Obese") %>% 
+#   filter(hb_name != "Scotland",
+#          gender == "All",
+#          measurement == "Ratio")  %>% 
+#   rename(bmi_ratio = value)
 ```
 
 ```{r}
-bmi_healthboard %>% 
-  ggplot() +
-  aes(x = year,
-      y = bmi_ratio) +
-  scale_y_continuous(limits = c(0, NA)) +
-  geom_line() +
-  labs(x = "Year",
-       y = "% Overweight / Obese / Severely Obese",
-       title = "How many Primary 1 children have high BMI?",
-       subtitle = "Children in Scotland, 2002 - 2019"
-       ) +
-  facet_wrap(~ hb_name)
+# bmi_healthboard %>% 
+#   ggplot() +
+#   aes(x = year,
+#       y = bmi_ratio) +
+#   scale_y_continuous(limits = c(0, NA)) +
+#   geom_line() +
+#   labs(x = "Year",
+#        y = "% Overweight / Obese / Severely Obese",
+#        title = "How many Primary 1 children have high BMI?",
+#        subtitle = "Children in Scotland, 2002 - 2019"
+#        ) +
+#   facet_wrap(~ hb_name)
 ```
 
 
@@ -268,6 +294,7 @@ bmi_healthboard %>%
 ```{r}
 dental_health <- read_csv(here("data_clean/dentalhealth.csv"))
 ```
+
 ```{r}
 dental_health %>% 
   filter(feature_code == "S92000003") %>% 
