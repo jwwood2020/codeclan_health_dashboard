@@ -56,10 +56,12 @@ smokers_scotland
 # so that we can select individual council areas
 smokers_council <- smokers %>% 
   # example of filter:
-  # filter(feature_code == "S12000041") %>% 
+  filter(feature_code %in% c("S12000049", "S12000011" )) %>% 
 ggplot() +
   aes(x = year,
-      y = smoker_ratio) +
+      y = smoker_ratio,
+      group = reference_area,
+      colour = reference_area) +
   geom_point() +
   scale_x_continuous(breaks = 2002:2019) +
   scale_y_continuous(limits = c(0, NA)) +
@@ -132,8 +134,8 @@ low_birthweight %>%
 
 Older mother analysis
 ```{r}
-mothers_ages <- read_csv(here("data_clean/mothers_ages.csv")) %>% 
-  mutate(year = as.character(year))
+mothers_ages <- read_csv(here("data_clean/mothers_ages.csv")) 
+  
 ```
 
 ```{r}

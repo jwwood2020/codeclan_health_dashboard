@@ -64,8 +64,9 @@ low_birthweight <- read_csv("data_raw/low_birthweight.csv") %>%
   filter(feature_code == "S92000003" | feature_code %in% council_vector) %>% 
   filter(measurement == "Ratio") %>% 
   mutate(la_name = case_when(
-    feature_code == "S92000003" ~ "Scotland",
-    TRUE ~ la_name)) %>% 
+                  feature_code == "S92000003" ~ "Scotland",
+                  TRUE ~ la_name),
+         year = as.numeric(year)) %>% 
   rename(weight_ratio = value) %>% 
   select(feature_code, weight_ratio, year, la_name)
 
@@ -83,7 +84,7 @@ antenatal_smoking <- read_csv("data_raw/antenatal_smoking.csv",
   pivot_longer(cols = 3:20, 
                names_to = "date_code", 
                values_to = "smoker_ratio") %>% 
-  mutate(year = str_sub(date_code,-4)) %>% 
+  mutate(year = as.numeric(str_sub(date_code,-4))) %>% 
   select(feature_code, reference_area, year, smoker_ratio)
 
 write_csv(antenatal_smoking, "data_clean/antenatal_smoking.csv")
@@ -97,7 +98,7 @@ breastfeeding <- read_csv("data_raw/breastfeeding.csv") %>%
   filter(measurement == "Ratio" & 
            population_group == "Breastfed" &
            breastfeeding_data_collection_time == "6 To 8 Week Review") %>% 
-  mutate(year = str_sub(date_code,6,9)) %>% 
+  mutate(year = as.numeric(str_sub(date_code,6,9))) %>% 
   left_join(council_id,
             by = c("feature_code" = "la_code")) %>% 
   mutate(la_name = case_when(
@@ -116,8 +117,8 @@ dental_health <- read_csv("data_raw/dental_health.csv") %>%
   left_join(health_board_id,
             by = c("feature_code" = "hb_code")) %>% 
   mutate(hb_name = case_when(
-    feature_code == "S92000003" ~ "Scotland",
-    TRUE ~ hb_name)) %>% 
+         feature_code == "S92000003" ~ "Scotland",
+         TRUE ~ hb_name)) %>% 
   rename(dental_ratio = value,
          year = date_code) %>% 
   select(feature_code, dental_ratio, year, hb_name)
@@ -136,8 +137,7 @@ older_mothers <- read_csv("data_raw/mothers_over35.csv",
   pivot_longer(cols = 3:20, 
                names_to = "date_code", 
                values_to = "ratio") %>% 
-  mutate(year = str_c("20",str_sub(date_code,-2)),
-         year = as.character(year),
+  mutate(year = as.numeric(str_c("20",str_sub(date_code,-2))),
          age_band = "over 35") %>% 
   select(feature_code, reference_area, year, ratio, age_band)
 
@@ -155,7 +155,7 @@ younger_mothers <- read_csv("data_raw/younger_mothers.csv",
   pivot_longer(cols = 3:20, 
                names_to = "date_code", 
                values_to = "ratio") %>% 
-  mutate(year = str_c("20",str_sub(date_code,-2)),
+  mutate(year = as.numeric(str_c("20",str_sub(date_code,-2))),
          age_band = "under 19") %>% 
   select(feature_code, reference_area, year, ratio, age_band)
 
