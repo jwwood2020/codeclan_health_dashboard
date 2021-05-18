@@ -62,10 +62,57 @@ ages_hist <- mothers_ages %>%
   geom_histogram(bins = 10,
                  colour = "white") +
   facet_wrap(year ~ age_band) +
-  labs(x = "Number of councils",
-       y = "Percentage of first-time mothers",
+  labs(y = "Number of councils",
+       x = "Percentage of first-time mothers",
        title = "Histogram of first-time mother age bands")
 
 ages_hist
+```
+
+```{r}
+# Stats for first-time mother ages
+age_stats <- mothers_ages %>% 
+  filter(year %in% c("2010", "2019")) %>% 
+  group_by(age_band, year) %>% 
+  summarise(mean = mean(ratio),
+            median = median(ratio),
+            min = min(ratio),
+            max = max(ratio),
+            sd = sd(ratio))
+
+age_stats
+```
+
+```{r}
+# Plot distribution of low birthweights in 2010 and 2018
+
+low_birthweight <- read_csv(here("data_clean/low_birthweight.csv"))
+
+weights_hist <- low_birthweight %>% 
+  filter(year %in% c("2010", "2019")) %>% 
+  ggplot() +
+  aes(x = weight_ratio) +
+  geom_histogram(bins = 10,
+                 colour = "white") +
+  facet_wrap(~ year) +
+  labs(y = "Number of councils",
+       x = "Percentage of births classed as low weight",
+       title = "Histogram of low birthweights")
+
+weights_hist
+```
+
+```{r}
+# Stats for low birthweights
+weight_stats <- low_birthweight %>% 
+  filter(year %in% c("2010", "2019")) %>% 
+  group_by(year) %>% 
+  summarise(mean = mean(weight_ratio),
+            median = median(weight_ratio),
+            min = min(weight_ratio),
+            max = max(weight_ratio),
+            sd = sd(weight_ratio))
+
+weight_stats
 ```
 
