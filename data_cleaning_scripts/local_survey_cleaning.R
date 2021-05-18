@@ -21,6 +21,12 @@ survey <- left_join(survey, health_board_id, by = c("feature_code" = "hb_code"))
 survey <- survey %>% 
   drop_na()
 
+write_csv(survey, "data_clean/survey.csv")
+
+survey %>%   
+  group_by(feature_code) %>% 
+  summarise()
+
 # Alcohol Consumption
 
 alcohol <- survey %>% 
@@ -29,6 +35,8 @@ alcohol <- survey %>%
   mutate(alcohol_consumption = str_sub(alcohol_consumption, 22))
 
 alcohol
+
+write_csv(alcohol, "data_clean/alcohol.csv")
 
 # E-cigarette
 
@@ -39,6 +47,8 @@ e_cig <- survey %>%
 
 e_cig
 
+write_csv(e_cig, "data_clean/e_cig.csv")
+
 # Fruit and Veg
 
 fruit_and_veg <- survey %>% 
@@ -47,6 +57,8 @@ fruit_and_veg <- survey %>%
   mutate(fruit_and_veg_consumption = str_sub(fruit_and_veg_consumption, 32))
 
 fruit_and_veg
+
+write_csv(fruit_and_veg, "data_clean/fruit_and_veg.csv")
 
 # General Health
 
@@ -57,6 +69,8 @@ general_health <- survey %>%
 
 general_health
 
+write_csv(general_health, "data_clean/general_health.csv")
+
 # Life Satisfaction
 
 life_satisfaction <- survey %>% 
@@ -65,6 +79,8 @@ life_satisfaction <- survey %>%
   mutate(life_satisfaction_level = str_sub(life_satisfaction_level, 20))
 
 life_satisfaction
+
+write_csv(life_satisfaction, "data_clean/life_satisfaction.csv")
 
 # Obesity
 
@@ -75,6 +91,8 @@ obesity <- survey %>%
 
 obesity
 
+write_csv(obesity, "data_clean/obesity.csv")
+
 # Smoking Status
 
 smoking_status <- survey %>% 
@@ -83,6 +101,8 @@ smoking_status <- survey %>%
   mutate(smoking_status = str_sub(smoking_status, 17))
 
 smoking_status
+
+write_csv(smoking_status, "data_clean/smoking_status.csv")
 
 # Summary Activity
 
@@ -93,4 +113,4 @@ summary_activity <- survey %>%
 
 summary_activity
 
-
+write_csv(summary_activity, "data_clean/summary_activity.csv")

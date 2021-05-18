@@ -1,0 +1,181 @@
+feature_code,date_code,measurement,units,value,obesity,sex,hb_name
+S92000003,2016-2019,Percent,Percent Of Adults,29,Obese,All,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,29,Obese,All,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,71,Not obese,All,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,71,Not obese,All,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,70,Not obese,Female,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,70,Not obese,Female,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,28,Obese,Male,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,28,Obese,Male,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,72,Not obese,Male,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,72,Not obese,Male,Scotland
+S92000003,2015-2018,Percent,Percent Of Adults,30,Obese,Female,Scotland
+S92000003,2016-2019,Percent,Percent Of Adults,30,Obese,Female,Scotland
+S08000015,2015-2018,Percent,Percent Of Adults,30,Obese,Male,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,31,Obese,Male,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,70,Not obese,Male,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,69,Not obese,Male,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,33,Obese,All,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,66,Not obese,All,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,34,Obese,All,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,67,Not obese,All,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,36,Obese,Female,Ayrshire and Arran
+S08000015,2016-2019,Percent,Percent Of Adults,64,Not obese,Female,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,36,Obese,Female,Ayrshire and Arran
+S08000015,2015-2018,Percent,Percent Of Adults,64,Not obese,Female,Ayrshire and Arran
+S08000016,2015-2018,Percent,Percent Of Adults,31,Obese,Male,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,28,Obese,All,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,29,Obese,All,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,73,Not obese,Female,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,71,Not obese,All,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,74,Not obese,Female,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,27,Obese,Female,Borders
+S08000016,2015-2018,Percent,Percent Of Adults,69,Not obese,Male,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,68,Not obese,Male,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,32,Obese,Male,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,26,Obese,Female,Borders
+S08000016,2016-2019,Percent,Percent Of Adults,72,Not obese,All,Borders
+S08000017,2015-2018,Percent,Percent Of Adults,37,Obese,Male,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,33,Obese,All,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,67,Not obese,All,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,65,Not obese,All,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,35,Obese,All,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,32,Obese,Female,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,34,Obese,Male,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,63,Not obese,Male,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,66,Not obese,Male,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,33,Obese,Female,Dumfries and Galloway
+S08000017,2015-2018,Percent,Percent Of Adults,67,Not obese,Female,Dumfries and Galloway
+S08000017,2016-2019,Percent,Percent Of Adults,68,Not obese,Female,Dumfries and Galloway
+S08000019,2015-2018,Percent,Percent Of Adults,35,Obese,Female,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,71,Not obese,Male,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,71,Not obese,Male,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,34,Obese,Female,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,29,Obese,Male,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,66,Not obese,Female,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,65,Not obese,Female,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,29,Obese,Male,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,69,Not obese,All,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,68,Not obese,All,Forth Valley
+S08000019,2015-2018,Percent,Percent Of Adults,32,Obese,All,Forth Valley
+S08000019,2016-2019,Percent,Percent Of Adults,31,Obese,All,Forth Valley
+S08000020,2015-2018,Percent,Percent Of Adults,29,Obese,All,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,29,Obese,Female,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,30,Obese,Female,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,72,Not obese,Male,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,71,Not obese,All,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,72,Not obese,Male,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,29,Obese,All,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,70,Not obese,Female,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,71,Not obese,Female,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,71,Not obese,All,Grampian
+S08000020,2016-2019,Percent,Percent Of Adults,28,Obese,Male,Grampian
+S08000020,2015-2018,Percent,Percent Of Adults,28,Obese,Male,Grampian
+S08000022,2015-2018,Percent,Percent Of Adults,26,Obese,All,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,74,Not obese,All,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,30,Obese,Female,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,23,Obese,Male,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,28,Obese,All,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,70,Not obese,Female,Highland
+S08000022,2015-2018,Percent,Percent Of Adults,77,Not obese,Male,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,31,Obese,Female,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,26,Obese,Male,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,72,Not obese,All,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,69,Not obese,Female,Highland
+S08000022,2016-2019,Percent,Percent Of Adults,74,Not obese,Male,Highland
+S08000024,2016-2019,Percent,Percent Of Adults,24,Obese,All,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,77,Not obese,Male,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,24,Obese,All,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,23,Obese,Male,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,76,Not obese,All,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,75,Not obese,Female,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,75,Not obese,Female,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,25,Obese,Female,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,25,Obese,Female,Lothian
+S08000024,2016-2019,Percent,Percent Of Adults,23,Obese,Male,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,76,Not obese,All,Lothian
+S08000024,2015-2018,Percent,Percent Of Adults,77,Not obese,Male,Lothian
+S08000025,2015-2018,Percent,Percent Of Adults,69,Not obese,All,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,33,Obese,Female,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,31,Obese,Male,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,33,Obese,All,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,67,Not obese,Male,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,68,Not obese,Female,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,67,Not obese,All,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,31,Obese,All,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,69,Not obese,Male,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,33,Obese,Male,Orkney
+S08000025,2016-2019,Percent,Percent Of Adults,67,Not obese,Female,Orkney
+S08000025,2015-2018,Percent,Percent Of Adults,32,Obese,Female,Orkney
+S08000026,2015-2018,Percent,Percent Of Adults,62,Not obese,All,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,33,Obese,Male,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,34,Obese,All,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,66,Not obese,All,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,67,Not obese,Male,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,65,Not obese,Female,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,62,Not obese,Male,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,62,Not obese,Female,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,38,Obese,Female,Shetland
+S08000026,2016-2019,Percent,Percent Of Adults,35,Obese,Female,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,38,Obese,Male,Shetland
+S08000026,2015-2018,Percent,Percent Of Adults,38,Obese,All,Shetland
+S08000028,2015-2018,Percent,Percent Of Adults,33,Obese,Female,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,67,Not obese,Female,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,29,Obese,Female,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,71,Not obese,Male,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,31,Obese,All,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,71,Not obese,Female,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,74,Not obese,Male,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,69,Not obese,All,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,28,Obese,All,Western Isles
+S08000028,2015-2018,Percent,Percent Of Adults,29,Obese,Male,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,72,Not obese,All,Western Isles
+S08000028,2016-2019,Percent,Percent Of Adults,26,Obese,Male,Western Isles
+S08000029,2015-2018,Percent,Percent Of Adults,31,Obese,Male,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,66,Not obese,Female,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,71,Not obese,Male,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,68,Not obese,Female,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,69,Not obese,All,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,69,Not obese,Male,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,34,Obese,Female,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,32,Obese,Female,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,29,Obese,Male,Fife
+S08000029,2016-2019,Percent,Percent Of Adults,31,Obese,All,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,68,Not obese,All,Fife
+S08000029,2015-2018,Percent,Percent Of Adults,32,Obese,All,Fife
+S08000030,2015-2018,Percent,Percent Of Adults,27,Obese,Male,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,72,Not obese,Female,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,27,Obese,Male,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,28,Obese,Female,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,27,Obese,All,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,73,Not obese,All,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,73,Not obese,Male,Tayside
+S08000030,2016-2019,Percent,Percent Of Adults,27,Obese,All,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,73,Not obese,Male,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,73,Not obese,All,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,73,Not obese,Female,Tayside
+S08000030,2015-2018,Percent,Percent Of Adults,27,Obese,Female,Tayside
+S08000031,2015-2018,Percent,Percent Of Adults,72,Not obese,All,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,28,Obese,All,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,72,Not obese,All,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,29,Obese,Female,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,28,Obese,All,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,29,Obese,Female,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,73,Not obese,Male,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,71,Not obese,Female,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,27,Obese,Male,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,27,Obese,Male,Greater Glasgow and Clyde
+S08000031,2015-2018,Percent,Percent Of Adults,73,Not obese,Male,Greater Glasgow and Clyde
+S08000031,2016-2019,Percent,Percent Of Adults,71,Not obese,Female,Greater Glasgow and Clyde
+S08000032,2015-2018,Percent,Percent Of Adults,32,Obese,All,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,66,Not obese,Male,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,70,Not obese,Female,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,34,Obese,Male,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,30,Obese,Female,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,31,Obese,Female,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,69,Not obese,Female,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,68,Not obese,All,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,32,Obese,All,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,66,Not obese,Male,Lanarkshire
+S08000032,2015-2018,Percent,Percent Of Adults,34,Obese,Male,Lanarkshire
+S08000032,2016-2019,Percent,Percent Of Adults,68,Not obese,All,Lanarkshire
