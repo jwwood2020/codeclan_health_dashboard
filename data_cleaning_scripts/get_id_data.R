@@ -26,3 +26,23 @@ id_lookups <- read_csv("data_raw/Datazone2011lookup.csv") %>%
 
 write_csv(id_lookups, "data_clean/id_lookups.csv")
 
+
+
+# Get health board names --------------------------------------------------
+
+health_board_id <- id_lookups %>% 
+  select(hb_code, hb_name) %>% 
+  distinct(hb_code, .keep_all = TRUE)
+
+write_csv(health_board_id, "data_clean/health_board_id.csv")
+
+
+
+# Get Council names -------------------------------------------------------
+
+council_id <- id_lookups %>% 
+  select(la_code, la_name) %>% 
+  distinct(la_code, .keep_all = TRUE)
+
+write_csv(council_id, "data_clean/council_id.csv")
+  

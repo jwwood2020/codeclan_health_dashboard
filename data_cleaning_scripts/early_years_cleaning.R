@@ -45,7 +45,8 @@ write_csv(bmi_clinical, "data_clean/bmi_clinical.csv")
 low_birthweight <- read_csv("data_raw/low_birthweight.csv") %>% 
   clean_names() %>% 
   mutate(year = str_sub(date_code,6,9)) %>% 
-  filter(feature_code == "S92000003")
+  left_join(council_id,
+            by = c("feature_code" = "la_code"))
 
 write_csv(low_birthweight, "data_clean/low_birthweight.csv")
 
@@ -55,12 +56,13 @@ write_csv(low_birthweight, "data_clean/low_birthweight.csv")
 antenatal_smoking <- read_csv("data_raw/antenatal_smoking.csv",
                               skip = 7) %>% 
   clean_names() %>% 
-  filter(reference_area == "Scotland") %>% 
+  rename(feature_id = 1) %>% 
+  mutate(feature_id = str_sub(feature_id, -9)) %>% 
   pivot_longer(cols = 3:20, 
                names_to = "date_code", 
                values_to = "ratio") %>% 
   mutate(year = str_sub(date_code,-4)) %>% 
-  select(reference_area, year, ratio)
+  select(feature_id, reference_area, year, ratio)
 
 write_csv(antenatal_smoking, "data_clean/antenatal_smoking.csv")
  
@@ -70,7 +72,8 @@ write_csv(antenatal_smoking, "data_clean/antenatal_smoking.csv")
 breastfeeding <- read_csv("data_raw/breastfeeding.csv") %>% 
   clean_names() %>% 
   mutate(year = str_sub(date_code,6,9)) %>% 
-  filter(feature_code == "S92000003")
+  left_join(council_id,
+            by = c("feature_code" = "la_code"))
 
 write_csv(breastfeeding, "data_clean/breastfeeding.csv")
 
@@ -89,12 +92,13 @@ write_csv(dental_health, "data_clean/dentalhealth.csv")
 older_mothers <- read_csv("data_raw/mothers_over35.csv",
                           skip = 7) %>% 
   clean_names() %>% 
-  filter(reference_area == "Scotland") %>% 
+  rename(feature_id = 1) %>% 
+  mutate(feature_id = str_sub(feature_id, -9)) %>% 
   pivot_longer(cols = 3:20, 
                names_to = "date_code", 
                values_to = "ratio") %>% 
   mutate(year = str_c("20",str_sub(date_code,-2))) %>% 
-  select(reference_area, year, ratio)
+  select(feature_id, reference_area, year, ratio)
 
 write_csv(older_mothers, "data_clean/older_mothers.csv")
 
