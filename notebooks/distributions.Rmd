@@ -1,0 +1,71 @@
+---
+title: "Distributions & Statistics"
+output: html_notebook
+---
+
+# Notebook to look at distributions of statistics by council level.
+# This analysis shoud be caveated as follows:
+# The datasets provide percentages of various measures (smokers, etc)
+# They do not take account of local council size, so conclusions should make 
+# this clear.
+
+
+```{r}
+library(tidyverse)
+library(skimr)
+library(here)
+```
+
+```{r}
+# Plot distribution of smoking in 2010 and 2018
+
+smokers <- read_csv(here("data_clean/antenatal_smoking.csv"))
+
+smokers_hist <- smokers %>% 
+  filter(year %in% c("2010", "2019")) %>% 
+  ggplot() +
+  aes(x = smoker_ratio) +
+  geom_histogram(bins = 10,
+                 colour = "white") +
+  facet_wrap(~ year) +
+  labs(x = "Percentage of antenatal smokers",
+       y = "Number of local councils",
+       title = "Histogram of antenatal smoking percentages")
+
+smokers_hist
+
+```
+
+```{r}
+# Stats for antenatal smoking
+smoker_stats <- smokers %>% 
+  filter(year %in% c("2010", "2019")) %>% 
+  group_by(year) %>% 
+  summarise(mean_smoking = mean(smoker_ratio),
+            median_smoking = median(smoker_ratio),
+            min_smoking = min(smoker_ratio),
+            max_smoking = max(smoker_ratio),
+            sd_smoking = sd(smoker_ratio))
+
+smoker_stats
+```
+
+```{r}
+# Plot distribution of mothers age bands in 2010 and 2018
+
+mothers_ages <- read_csv(here("data_clean/mothers_ages.csv"))
+
+ages_hist <- mothers_ages %>% 
+  filter(year %in% c("2010", "2019")) %>% 
+  ggplot() +
+  aes(x = ratio) +
+  geom_histogram(bins = 10,
+                 colour = "white") +
+  facet_wrap(year ~ age_band) +
+  labs(x = "Number of councils",
+       y = "Percentage of first-time mothers",
+       title = "Histogram of first-time mother age bands")
+
+ages_hist
+```
+
