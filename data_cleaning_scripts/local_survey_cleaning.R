@@ -21,6 +21,10 @@ survey <- left_join(survey, health_board_id, by = c("feature_code" = "hb_code"))
 survey <- survey %>% 
   drop_na()
 
+survey %>%   
+  group_by(feature_code) %>% 
+  summarise()
+
 # Alcohol Consumption
 
 alcohol <- survey %>% 

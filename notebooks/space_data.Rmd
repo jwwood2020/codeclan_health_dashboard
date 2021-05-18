@@ -1,0 +1,29 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(sf)
+library(here)
+```
+
+```{r}
+scotland <- read_sf(here("data_raw/SG_NHS_HealthBoards_2019/SG_NHS_HealthBoards_2019.shp"))
+```
+
+```{r}
+class(scotland)
+```
+
+```{r}
+head(scotland, 14)
+```
+
+```{r}
+scotland_geometry <- st_geometry(scotland)
+
+scotland_geometry
+```
+
