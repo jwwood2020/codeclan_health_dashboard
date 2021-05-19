@@ -49,14 +49,6 @@ ggplot(data = scotland_simple) +
     xlab("Longitude") + ylab("Latitude")
 ```
 
-```{r}
-lothian <- scotland_simple %>% 
-  filter(HBName == "Lothian")
-```
-
-```{r}
-plot(lothian)
-```
 
 ```{r}
 ggplot(data = lothian) +
@@ -128,5 +120,45 @@ ggplot() +
   theme(panel.grid.major = element_blank(), axis.text = element_blank()) +
   ggtitle("E-cigarette use in Scotland") + 
   scale_fill_gradient(low = "green", high = "red")
+```
+
+```{r}
+alcohol_scotland <- read_csv("../data_clean/alcohol.csv") %>% 
+  filter(sex == "All") %>% 
+  filter(hb_name == "Scotland") %>% 
+    filter(date_code == "2016-2019") %>% 
+  filter(alcohol_consumption == "Hazardous/Harmful drinker")
+
+alcohol_scotland
+```
+
+```{r}
+obesity_scotland <- read_csv("../data_clean/obesity.csv") %>% 
+  filter(sex == "All") %>% 
+  filter(hb_name == "Scotland") %>% 
+    filter(date_code == "2016-2019") %>% 
+  filter(obesity == "Obese")
+
+obesity_scotland
+```
+
+```{r}
+smoking_status_scotland <- read_csv("../data_clean/smoking_status.csv") %>% 
+  filter(sex == "All") %>% 
+  filter(hb_name == "Scotland") %>% 
+    filter(date_code == "2016-2019") %>% 
+  filter(smoking_status == "Current smoker")
+
+smoking_status_scotland
+```
+
+```{r}
+e_cig_scotland <- read_csv("../data_clean/e_cig.csv") %>% 
+  filter(sex == "All") %>% 
+  filter(hb_name == "Scotland") %>% 
+    filter(date_code == "2016-2019") %>% 
+  filter(e_cigarette_use == "Currently using")
+
+e_cig_scotland
 ```
 
