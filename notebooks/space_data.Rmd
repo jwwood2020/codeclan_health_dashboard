@@ -7,6 +7,7 @@ output: html_notebook
 library(tidyverse)
 library(sf)
 library(here)
+library(rmapshaper)
 ```
 
 ```{r}
@@ -27,3 +28,22 @@ scotland_geometry <- st_geometry(scotland)
 scotland_geometry
 ```
 
+```{r}
+scotland_simple <- ms_simplify(scotland)
+```
+
+```{r}
+plot(scotland_simple)
+```
+
+```{r}
+plot(scotland_simple [2])
+```
+
+```{r}
+ggplot(data = scotland_simple) +
+  geom_sf(aes()) +
+  theme_minimal() +
+  ggtitle("Scotland") + 
+    xlab("Longitude") + ylab("Latitude")
+```
