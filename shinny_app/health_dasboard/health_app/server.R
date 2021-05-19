@@ -17,7 +17,7 @@ shinyServer(function(input, output) {
                 geom_smooth(method=lm , color="grey", se = FALSE) +
                 labs(x = "Year",
                      y = "Percentage of antenatal smokers",
-                     title = "Fewer new mothers in Scotland are smokers") +
+                     title = "G1 Fewer new mothers in Scotland are smokers") +
                 theme_minimal()
         
         })
@@ -32,7 +32,7 @@ shinyServer(function(input, output) {
                 geom_smooth(method=lm , color="grey", se = FALSE) +
                 labs(x = "Year",
                      y = "Percentage of low-weight births",
-                     title = "Fewer newborns in Scotland are being classified as having low birthweight")
+                     title = "G2 Fewer newborns in Scotland are being classified as having low birthweight")
         })
         
         output$smokebirth_scotland <- renderPlot({
@@ -48,7 +48,7 @@ shinyServer(function(input, output) {
                 labs(x = "Year",
                      y = "% smoking",
                      size = "% of births classed as low birthweight",
-                     title = "How have smoking and low birthweights in Scotland changed over time?") 
+                     title = "G3 How have smoking and low birthweights in Scotland changed over time?") 
             
         })
         
@@ -67,7 +67,7 @@ shinyServer(function(input, output) {
                 #  geom_smooth(method=lm , color="red", se = FALSE) +
                 labs(x = "Year",
                      y = "Percentage of first-time mothers",
-                     title = "Are first-time mothers in Scotland getting older?")
+                     title = "G4 Are first-time mothers in Scotland getting older?")
         })
         
         output$age_weight_scotland <- renderPlot({
@@ -81,7 +81,7 @@ shinyServer(function(input, output) {
                 labs(x = "Percentage of first-time mothers",
                      y = "Percentage of low-weight births",
                      title = "Is there a relationship between low birthweight and mother's age?",
-                     subtitle = "Plot of low birthweight % vs mothers age band %, Scotland 2002 - 2019") +
+                     subtitle = " G5 Plot of low birthweight % vs mothers age band %, Scotland 2002 - 2019") +
                 facet_wrap(~ age_band)
         })
         
@@ -97,7 +97,7 @@ shinyServer(function(input, output) {
                 labs(x = "Year",
                      y = "Percentage of first-time mothers aged 35+",
                      title = "Is there a relationship between low birthweight and mother's age?",
-                     subtitle = "Plot of low birthweight % vs older mothers %, Scotland 2002 - 2019",
+                     subtitle = "G6 Plot of low birthweight % vs older mothers %, Scotland 2002 - 2019",
                      size = "% low birthweight") +
                 facet_wrap(~ age_band)
         })
@@ -114,7 +114,7 @@ shinyServer(function(input, output) {
                 geom_smooth(method=lm , color="red", se = FALSE) +
                 labs(x = "Year",
                      y = "Percentage of babies breastfed",
-                     title = "Are more babies being breastfed?")
+                     title = "G7 Are more babies being breastfed?")
         })
         
         
@@ -134,7 +134,7 @@ shinyServer(function(input, output) {
                 scale_y_continuous(limits = c(0, NA)) +
                 labs(x = "Year",
                      y = "Percentage of antenatal smokers",
-                     title = "Antenatal smokers") +
+                     title = "G1  Antenatal smokers") +
                 theme_minimal()
             
         })
@@ -150,7 +150,7 @@ shinyServer(function(input, output) {
                 geom_smooth(method=lm , color="grey", se = FALSE) +
                 labs(x = "Year",
                      y = "Percentage of low-weight births",
-                     title = "Fewer newborns in Scotland are being classified as having low birthweight")
+                     title = "G2 Fewer newborns in Scotland are being classified as having low birthweight")
         })
         
         output$smokebirth_council <- renderPlot({
@@ -166,7 +166,7 @@ shinyServer(function(input, output) {
                 labs(x = "Year",
                      y = "% smoking",
                      size = "% of births classed as low birthweight",
-                     title = "How have smoking and low birthweights in Scotland changed over time?") 
+                     title = " G3 How have smoking and low birthweights in Scotland changed over time?") 
             
         })
         
@@ -185,7 +185,7 @@ shinyServer(function(input, output) {
                 #  geom_smooth(method=lm , color="red", se = FALSE) +
                 labs(x = "Year",
                      y = "Percentage of first-time mothers",
-                     title = "Are first-time mothers in Scotland getting older?")
+                     title = "G4 Are first-time mothers in Scotland getting older?")
         })
         
         output$age_weight_council <- renderPlot({
@@ -200,7 +200,7 @@ shinyServer(function(input, output) {
                 labs(x = "Percentage of first-time mothers",
                      y = "Percentage of low-weight births",
                      title = "Is there a relationship between low birthweight and mother's age?",
-                     subtitle = "Plot of low birthweight % vs mothers age band %, Scotland 2002 - 2019") +
+                     subtitle = "G5 Plot of low birthweight % vs mothers age band %, Scotland 2002 - 2019") +
                 facet_wrap(~ age_band)
         })
         
@@ -217,7 +217,7 @@ shinyServer(function(input, output) {
                 labs(x = "Year",
                      y = "Percentage of first-time mothers aged 35+",
                      title = "Is there a relationship between low birthweight and mother's age?",
-                     subtitle = "Plot of low birthweight % vs older mothers %, Scotland 2002 - 2019",
+                     subtitle = "G6 Plot of low birthweight % vs older mothers %, Scotland 2002 - 2019",
                      size = "% low birthweight") +
                 facet_wrap(~ age_band)
         })
@@ -235,7 +235,7 @@ shinyServer(function(input, output) {
                 geom_smooth(method=lm , color="red", se = FALSE) +
                 labs(x = "Year",
                      y = "Percentage of babies breastfed",
-                     title = "Are more babies being breastfed?")
+                     title = "G7 Are more babies being breastfed?")
         })
         
         # Stats data Menu
@@ -250,19 +250,19 @@ shinyServer(function(input, output) {
                 facet_wrap(~ year) +
                 labs(x = "Percentage of antenatal smokers",
                      y = "Number of local councils",
-                     title = "Histogram of antenatal smoking percentages")
+                     title = "G1 Histogram of antenatal smoking percentages")
         })
 
-        output$smoker_stats_stats <- renderPlot({
-        smokers %>%
-            filter(year %in% c("2010", "2019")) %>%
-            group_by(year) %>%
-            summarise(mean_smoking = mean(smoker_ratio),
-                      median_smoking = median(smoker_ratio),
-                      min_smoking = min(smoker_ratio),
-                      max_smoking = max(smoker_ratio),
-                      sd_smoking = sd(smoker_ratio))
-        })
+        # output$smoker_stats_stats <- renderPlot({
+        # smokers %>%
+        #     filter(year %in% c("2010", "2019")) %>%
+        #     group_by(year) %>%
+        #     summarise(mean_smoking = mean(smoker_ratio),
+        #               median_smoking = median(smoker_ratio),
+        #               min_smoking = min(smoker_ratio),
+        #               max_smoking = max(smoker_ratio),
+        #               sd_smoking = sd(smoker_ratio))
+        # })
 
         output$ages_hist_stats <- renderPlot({
             mothers_ages %>%
@@ -274,7 +274,7 @@ shinyServer(function(input, output) {
                 facet_wrap(year ~ age_band) +
                 labs(y = "Number of councils",
                      x = "Percentage of first-time mothers",
-                     title = "Histogram of first-time mother age bands")
+                     title = "G2 Histogram of first-time mother age bands")
         })
 
         output$weights_hist_stats <- renderPlot({
@@ -287,7 +287,7 @@ shinyServer(function(input, output) {
                 facet_wrap(~ year) +
                 labs(y = "Number of councils",
                      x = "Percentage of births classed as low weight",
-                     title = "Histogram of low birthweights")
+                     title = "G3 Histogram of low birthweights")
         })
 
         # output$weights_hist_stats <- renderPlot({

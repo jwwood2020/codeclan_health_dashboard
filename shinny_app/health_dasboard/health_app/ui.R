@@ -31,9 +31,9 @@ shinyUI(
                 conditionalPanel(
                     condition = "input.menu1 =='scotland_data'",
                     
-                    selectInput("location_button",
-                                "What data do you want to look at?",
-                                choices = c("Baby", "Mother"))
+                    radioButtons("scotland_comparison",
+                                 "Comparison Selection",
+                                 choices = c("Smoking Effects", "Age Effects"))
                     
                 ),
             
@@ -46,12 +46,25 @@ shinyUI(
                     
                     selectInput("council_selection",
                                 "council",
-                                choices = unique(low_birthweight$la_name))
+                                choices = unique(low_birthweight$la_name)),
+                    
+                    radioButtons("council_comparison",
+                                 "Comparison Selection",
+                                 choices = c("Smoking Effects", "Age Effects"))
                 ),
             
             # Stats data Menu
             sidebarMenu(id = "menu1",    
-                        menuItem("Statistics", tabName = "stats", icon = icon("plus")))
+                        menuItem("Statistics", tabName = "stats", icon = icon("plus")),
+                        
+                        conditionalPanel(
+                            condition = "input.menu1 =='stats'",
+                            
+                            radioButtons("stats_comparison",
+                                         "Comparison Selection through the Years",
+                                         choices = c("Smoking", "Mother's Age"))
+                            )
+            )
             
             ), # Dashboardsidebar bracket
         
@@ -65,39 +78,57 @@ shinyUI(
                         valueBox("Quickstat2", 24535),
                         valueBox("Quickstat3", 42435)
                 ),
-            
-            # Baby menu content
-            tabItem(tabName = "scotland_data",
-                    h2("Scotland Data menu content"),
-                    plotOutput("smokers_scotland"),
-                    plotOutput("birth_scotland"),
-                    plotOutput("smokebirth_scotland"),
-                    plotOutput("mothers_ages_scotland"),
-                    plotOutput("age_weight_scotland"),
-                    plotOutput("age_weight2_scotland"),
-                    plotOutput("breastfed_scotland")
-                    ),
-            
-            tabItem(tabName = "council_data",
-                    h2("Council menu content"),
-                    plotOutput("smokers_council"),
-                    plotOutput("birth_council"),
-                    plotOutput("smokebirth_council"),
-                    plotOutput("mothers_ages_council"),
-                    plotOutput("age_weight_council"),
-                    plotOutput("age_weight2_council"),
-                    plotOutput("breastfed_council")
-                    ),
-            
-            tabItem(tabName = "stats",
-                    h2("Statistics data"),
-                    plotOutput("smoker_hist_stats"),
-                    plotOutput("smoker_stats_stats"),
-                    plotOutput("ages_hist_stats"),
-                    plotOutput("weights_hist_stats")
-                    # plotOutput("weights_hist_stats")
-                    )
+                
+                # Scotland menu content
+                tabItem(tabName = "scotland_data",
+                        h2("Scotland Data menu content"),
+                        plotOutput("birth_scotland", "50%"),
+                        
+                        conditionalPanel(
+                            condition = "input.scotland_comparison =='Smoking Effects'",
+                            plotOutput("smokers_scotland", "50%"),
+                            plotOutput("smokebirth_scotland", "50%")),
+                        
+                        conditionalPanel(
+                            condition = "input.scotland_comparison =='Age Effects'",
+                            plotOutput("mothers_ages_scotland", "50%"),
+                            plotOutput("age_weight2_scotland", "50%"))
+                ),
+                
+                # Council menu content
+                tabItem(tabName = "council_data",
+                        h2("Council menu content"),
+                        plotOutput("birth_council", "50%"),
+                        
+                        conditionalPanel(
+                            condition = "input.council_comparison =='Smoking Effects'",
+                            plotOutput("smokers_council", "50%"),
+                            plotOutput("smokebirth_council", "50%")),
+                        
+                        conditionalPanel(
+                            condition = "input.council_comparison =='Age Effects'",
+                            plotOutput("mothers_ages_council", "50%"),
+                            plotOutput("age_weight2_council", "50%"))
+                ),
+                
+                # Stats menu content
+                tabItem(tabName = "stats",
+                        h2("Statistics data"),
+                        plotOutput("weights_hist_stats"),
+                        
+                        conditionalPanel(
+                            condition = "input.stats_comparison =='Smoking'",
+                            plotOutput("smoker_hist_stats")),
+                        
+                        conditionalPanel(
+                            condition = "input.stats_comparison =='Mother\\'s Age'",
+                            plotOutput("ages_hist_stats"))
+                        
+                        #plotOutput("weights_hist_stats")
+                        # plotOutput("smoker_stats_stats"),
+                )
             )
+            
         )   # DashboardBody bracket
     ) #Dasboardpage bracket
 ) # UI bracket
