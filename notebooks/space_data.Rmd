@@ -31,6 +31,8 @@ scotland_geometry
 
 ```{r}
 scotland_simple <- ms_simplify(scotland)
+
+st_write(scotland_simple, "../data_clean/scotland_simple.shp")
 ```
 
 ```{r}
@@ -46,15 +48,6 @@ ggplot(data = scotland_simple) +
   geom_sf(aes()) +
   theme_minimal() +
   ggtitle("Scotland") + 
-    xlab("Longitude") + ylab("Latitude")
-```
-
-
-```{r}
-ggplot(data = lothian) +
-  geom_sf(aes()) +
-  theme_minimal() +
-  ggtitle("Lothian") + 
     xlab("Longitude") + ylab("Latitude")
 ```
 
