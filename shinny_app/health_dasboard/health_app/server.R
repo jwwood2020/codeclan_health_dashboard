@@ -253,16 +253,16 @@ shinyServer(function(input, output) {
                      title = "G1 Histogram of antenatal smoking percentages")
         })
 
-        # output$smoker_stats_stats <- renderPlot({
-        # smokers %>%
-        #     filter(year %in% c("2010", "2019")) %>%
-        #     group_by(year) %>%
-        #     summarise(mean_smoking = mean(smoker_ratio),
-        #               median_smoking = median(smoker_ratio),
-        #               min_smoking = min(smoker_ratio),
-        #               max_smoking = max(smoker_ratio),
-        #               sd_smoking = sd(smoker_ratio))
-        # })
+        output$smoker_stats_stats <- renderDataTable({
+        smokers %>%
+            filter(year %in% c("2010", "2019")) %>%
+            group_by(year) %>%
+            summarise(mean_smoking = mean(smoker_ratio),
+                      median_smoking = median(smoker_ratio),
+                      min_smoking = min(smoker_ratio),
+                      max_smoking = max(smoker_ratio),
+                      sd_smoking = sd(smoker_ratio))
+        })
 
         output$ages_hist_stats <- renderPlot({
             mothers_ages %>%
@@ -290,16 +290,16 @@ shinyServer(function(input, output) {
                      title = "G3 Histogram of low birthweights")
         })
 
-        # output$weights_hist_stats <- renderPlot({
-        #     low_birthweight %>%
-        #         filter(year %in% c("2010", "2019")) %>%
-        #         group_by(year) %>%
-        #         summarise(mean = mean(weight_ratio),
-        #                   median = median(weight_ratio),
-        #                   min = min(weight_ratio),
-        #                   max = max(weight_ratio),
-        #                   sd = sd(weight_ratio))
-        # })
+        output$weights_h_stats <- renderDataTable({
+            low_birthweight %>%
+                filter(year %in% c("2010", "2019")) %>%
+                group_by(year) %>%
+                summarise(mean = mean(weight_ratio),
+                          median = median(weight_ratio),
+                          min = min(weight_ratio),
+                          max = max(weight_ratio),
+                          sd = sd(weight_ratio))
+        })
         
         
 })

@@ -127,14 +127,14 @@ shinyUI(
                         
                         conditionalPanel(
                             condition = "input.stats_comparison =='Smoking'",
-                            plotOutput("smoker_hist_stats")),
+                            plotOutput("smoker_hist_stats"),
+                            dataTableOutput("weights_h_stats")),
                         
                         conditionalPanel(
                             condition = "input.stats_comparison =='Mother\\'s Age'",
-                            plotOutput("ages_hist_stats"))
+                            plotOutput("ages_hist_stats"),
+                            dataTableOutput("smoker_stats_stats"))
                         
-                        #plotOutput("weights_hist_stats")
-                        # plotOutput("smoker_stats_stats"),
                 )
             )
             

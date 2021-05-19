@@ -5,6 +5,7 @@ library(dplyr)
 library(ggplot2)
 library(here)
 library(skimr)
+library(DT)
 
 # John's Data (not working need to get some more context interms of the data used)
 
