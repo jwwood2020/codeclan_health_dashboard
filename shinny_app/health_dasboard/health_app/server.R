@@ -188,21 +188,21 @@ shinyServer(function(input, output) {
                      title = "G4 Are first-time mothers in Scotland getting older?")
         })
         
-        output$age_weight_council <- renderPlot({
-            low_birthweight %>% 
-                filter(la_name == "Scotland" | la_name == input$council_selection) %>% 
-                ggplot() +
-                aes(x = older_ratio,
-                    y = weight_ratio,
-                    fill = la_name) +
-                geom_point() +
-                geom_smooth(method=lm , color="red") +
-                labs(x = "Percentage of first-time mothers",
-                     y = "Percentage of low-weight births",
-                     title = "Is there a relationship between low birthweight and mother's age?",
-                     subtitle = "G5 Plot of low birthweight % vs mothers age band %, Scotland 2002 - 2019") +
-                facet_wrap(~ age_band)
-        })
+        # output$age_weight_council <- renderPlot({
+        #     low_birthweight %>% 
+        #         filter(la_name == "Scotland" | la_name == input$council_selection) %>% 
+        #         ggplot() +
+        #         aes(x = older_ratio,
+        #             y = weight_ratio,
+        #             fill = la_name) +
+        #         geom_point() +
+        #         geom_smooth(method=lm , color="red") +
+        #         labs(x = "Percentage of first-time mothers",
+        #              y = "Percentage of low-weight births",
+        #              title = "Is there a relationship between low birthweight and mother's age?",
+        #              subtitle = "G5 Plot of low birthweight % vs mothers age band %, Scotland 2002 - 2019") +
+        #         facet_wrap(~ age_band)
+        # })
         
         output$age_weight2_council  <- renderPlot({
             low_birthweight %>% 
@@ -222,21 +222,21 @@ shinyServer(function(input, output) {
                 facet_wrap(~ age_band)
         })
         
-        output$breastfed_council  <- renderPlot({
-            breastfeeding %>% 
-                filter(la_name == "Scotland" | la_name == input$council_selection) %>% 
-                ggplot() +
-                aes(x = year,
-                    y = feeding_ratio,
-                    fill = la_name) +
-                geom_point() +
-                scale_x_continuous(breaks = 2002:2019) +
-                scale_y_continuous(limits = c(0, NA)) +
-                geom_smooth(method=lm , color="red", se = FALSE) +
-                labs(x = "Year",
-                     y = "Percentage of babies breastfed",
-                     title = "G7 Are more babies being breastfed?")
-        })
+        # output$breastfed_council  <- renderPlot({
+        #     breastfeeding %>% 
+        #         filter(la_name == "Scotland" | la_name == input$council_selection) %>% 
+        #         ggplot() +
+        #         aes(x = year,
+        #             y = feeding_ratio,
+        #             fill = la_name) +
+        #         geom_point() +
+        #         scale_x_continuous(breaks = 2002:2019) +
+        #         scale_y_continuous(limits = c(0, NA)) +
+        #         geom_smooth(method=lm , color="red", se = FALSE) +
+        #         labs(x = "Year",
+        #              y = "Percentage of babies breastfed",
+        #              title = "G7 Are more babies being breastfed?")
+        # })
         
         # Stats data Menu
         

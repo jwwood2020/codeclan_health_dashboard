@@ -86,29 +86,38 @@ shinyUI(
                         
                         conditionalPanel(
                             condition = "input.scotland_comparison =='Smoking Effects'",
-                            plotOutput("smokers_scotland", "50%"),
-                            plotOutput("smokebirth_scotland", "50%")),
+                            fluidRow(
+                                column(6, plotOutput("smokers_scotland")),
+                                column(6, plotOutput("smokebirth_scotland")))
+                        ),
                         
                         conditionalPanel(
                             condition = "input.scotland_comparison =='Age Effects'",
-                            plotOutput("mothers_ages_scotland", "50%"),
-                            plotOutput("age_weight2_scotland", "50%"))
+                            fluidRow(
+                                column(6, plotOutput("mothers_ages_scotland")),
+                                column(6, plotOutput("age_weight2_scotland")))
+                        )
                 ),
                 
                 # Council menu content
                 tabItem(tabName = "council_data",
                         h2("Council menu content"),
-                        plotOutput("birth_council", "50%"),
+                        fluidRow(
+                            column(6, plotOutput("birth_council"))),
                         
                         conditionalPanel(
                             condition = "input.council_comparison =='Smoking Effects'",
-                            plotOutput("smokers_council", "50%"),
-                            plotOutput("smokebirth_council", "50%")),
+                            fluidRow(
+                                column(6, plotOutput("smokers_council")),
+                                column(6, plotOutput("smokebirth_council")))
+                        ),
                         
                         conditionalPanel(
                             condition = "input.council_comparison =='Age Effects'",
-                            plotOutput("mothers_ages_council", "50%"),
-                            plotOutput("age_weight2_council", "50%"))
+                            fluidRow(
+                                column(6, plotOutput("mothers_ages_council")),
+                                column(6, plotOutput("age_weight2_council")))
+                        )
                 ),
                 
                 # Stats menu content
