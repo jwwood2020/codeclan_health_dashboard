@@ -87,8 +87,16 @@ shinyUI(
                     plotOutput("age_weight_council"),
                     plotOutput("age_weight2_council"),
                     plotOutput("breastfed_council")
-                    )
+                    ),
             
+            tabItem(tabName = "stats",
+                    h2("Statistics data"),
+                    plotOutput("smoker_hist_stats"),
+                    plotOutput("smoker_stats_stats"),
+                    plotOutput("ages_hist_stats"),
+                    plotOutput("weights_hist_stats")
+                    # plotOutput("weights_hist_stats")
+                    )
             )
         )   # DashboardBody bracket
     ) #Dasboardpage bracket

@@ -238,4 +238,68 @@ shinyServer(function(input, output) {
                      title = "Are more babies being breastfed?")
         })
         
+        # Stats data Menu
+        
+        output$smoker_hist_stats <- renderPlot({
+            smokers %>%
+                filter(year %in% c("2010", "2019")) %>%
+                ggplot() +
+                aes(x = smoker_ratio) +
+                geom_histogram(bins = 10,
+                               colour = "white") +
+                facet_wrap(~ year) +
+                labs(x = "Percentage of antenatal smokers",
+                     y = "Number of local councils",
+                     title = "Histogram of antenatal smoking percentages")
+        })
+
+        output$smoker_stats_stats <- renderPlot({
+        smokers %>%
+            filter(year %in% c("2010", "2019")) %>%
+            group_by(year) %>%
+            summarise(mean_smoking = mean(smoker_ratio),
+                      median_smoking = median(smoker_ratio),
+                      min_smoking = min(smoker_ratio),
+                      max_smoking = max(smoker_ratio),
+                      sd_smoking = sd(smoker_ratio))
+        })
+
+        output$ages_hist_stats <- renderPlot({
+            mothers_ages %>%
+                filter(year %in% c("2010", "2019")) %>%
+                ggplot() +
+                aes(x = ratio) +
+                geom_histogram(bins = 10,
+                               colour = "white") +
+                facet_wrap(year ~ age_band) +
+                labs(y = "Number of councils",
+                     x = "Percentage of first-time mothers",
+                     title = "Histogram of first-time mother age bands")
+        })
+
+        output$weights_hist_stats <- renderPlot({
+            low_birthweight %>%
+                filter(year %in% c("2010", "2019")) %>%
+                ggplot() +
+                aes(x = weight_ratio) +
+                geom_histogram(bins = 10,
+                               colour = "white") +
+                facet_wrap(~ year) +
+                labs(y = "Number of councils",
+                     x = "Percentage of births classed as low weight",
+                     title = "Histogram of low birthweights")
+        })
+
+        # output$weights_hist_stats <- renderPlot({
+        #     low_birthweight %>%
+        #         filter(year %in% c("2010", "2019")) %>%
+        #         group_by(year) %>%
+        #         summarise(mean = mean(weight_ratio),
+        #                   median = median(weight_ratio),
+        #                   min = min(weight_ratio),
+        #                   max = max(weight_ratio),
+        #                   sd = sd(weight_ratio))
+        # })
+        
+        
 })
