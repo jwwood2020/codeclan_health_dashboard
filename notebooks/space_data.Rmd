@@ -47,3 +47,111 @@ ggplot(data = scotland_simple) +
   ggtitle("Scotland") + 
     xlab("Longitude") + ylab("Latitude")
 ```
+
+```{r}
+lothian <- scotland_simple %>% 
+  filter(HBName == "Lothian")
+```
+
+```{r}
+plot(lothian)
+```
+
+```{r}
+ggplot(data = lothian) +
+  geom_sf(aes()) +
+  theme_minimal() +
+  ggtitle("Lothian") + 
+    xlab("Longitude") + ylab("Latitude")
+```
+
+```{r}
+alcohol <- read_csv("../data_clean/alcohol.csv") %>% 
+  filter(sex == "All") %>% 
+  filter(date_code == "2016-2019") %>% 
+  filter(alcohol_consumption == "Hazardous/Harmful drinker")
+
+scotland_simple %>% 
+  left_join(alcohol, by = c("HBCode" = "feature_code")) %>% 
+ggplot() +
+  geom_sf(aes(group = hb_name, fill = value)) +
+  theme_minimal() +
+  ggtitle("Alcohol Consumption in Scotland") + 
+    xlab("Longitude") + ylab("Latitude")
+```
+
+```{r}
+obesity <- read_csv("../data_clean/obesity.csv") %>% 
+  filter(sex == "All") %>% 
+  filter(date_code == "2016-2019") %>% 
+  filter(obesity == "Obese")
+
+scotland_simple %>% 
+  left_join(obesity, by = c("HBCode" = "feature_code")) %>% 
+ggplot() +
+  geom_sf(aes(group = hb_name, fill = value)) +
+  theme_minimal() +
+  ggtitle("Obesity in Scotland") + 
+    xlab("Longitude") + ylab("Latitude")
+```
+
+```{r}
+smoking_status <- read_csv("../data_clean/smoking_status.csv") %>% 
+  filter(sex == "All") %>% 
+  filter(date_code == "2016-2019") %>% 
+  filter(smoking_status == "Current smoker")
+
+scotland_simple %>% 
+  left_join(smoking_status, by = c("HBCode" = "feature_code")) %>% 
+ggplot() +
+  geom_sf(aes(group = hb_name, fill = value)) +
+  theme_minimal() +
+  ggtitle("Smoking Status in Scotland") + 
+    xlab("Longitude") + ylab("Latitude")
+```
+
+```{r}
+e_cig <- read_csv("../data_clean/e_cig.csv") %>% 
+  filter(sex == "All") %>% 
+  filter(date_code == "2016-2019") %>% 
+  filter(e_cigarette_use == "Currently using")
+
+scotland_simple %>% 
+  left_join(e_cig, by = c("HBCode" = "feature_code")) %>% 
+ggplot() +
+  geom_sf(aes(group = hb_name, fill = value)) +
+  theme_minimal() +
+  ggtitle("E-cigarette use in Scotland") + 
+    xlab("Longitude") + ylab("Latitude")
+```
+
+```{r}
+summary_activity <- read_csv("../data_clean/summary_activity.csv") %>% 
+  filter(sex == "All") %>% 
+  filter(date_code == "2016-2019") %>% 
+  filter(summary_activity_levels == "Meets recommendations")
+
+scotland_simple %>% 
+  left_join(summary_activity, by = c("HBCode" = "feature_code")) %>% 
+ggplot() +
+  geom_sf(aes(group = hb_name, fill = value)) +
+  theme_minimal() +
+  ggtitle("Summary Activity in Scotland") + 
+    xlab("Longitude") + ylab("Latitude")
+```
+
+```{r}
+fruit_and_veg <- read_csv("../data_clean/fruit_and_veg.csv") %>% 
+  filter(sex == "All") %>% 
+  filter(date_code == "2016-2019") %>% 
+  filter(fruit_and_veg_consumption == "5 portions or more")
+
+scotland_simple %>% 
+  left_join(fruit_and_veg, by = c("HBCode" = "feature_code")) %>% 
+ggplot() +
+  geom_sf(aes(group = hb_name, fill = value)) +
+  theme_minimal() +
+  ggtitle("Fruit and Veg Consumption in Scotland") + 
+    xlab("Longitude") + ylab("Latitude")
+```
+
