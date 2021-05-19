@@ -6,6 +6,9 @@ library(ggplot2)
 library(here)
 library(skimr)
 library(DT)
+library(sf)
+library(leaflet)
+library(rmapshaper)
 
 # John's Data (not working need to get some more context interms of the data used)
 
@@ -44,4 +47,22 @@ low_birthweight <- low_birthweight %>%
 breastfeeding <- read_csv(here("data_clean/breastfeeding.csv")) 
 
 # Emilies Data 
+
+# scotland_simple <- st_read("data_clean/scotland_simple.shp")
+
+scotland <- read_sf(here("data_raw/SG_NHS_HealthBoards_2019/SG_NHS_HealthBoards_2019.shp"))
+
+scotland_simple <- ms_simplify(scotland)
+
+alcohol <- read_csv("../data_clean/alcohol.csv") %>% 
+  filter(alcohol_consumption == "Hazardous/Harmful drinker")
+
+obesity <- read_csv("../data_clean/obesity.csv") %>% 
+  filter(obesity == "Obese")
+
+smoking_status <- read_csv("../data_clean/smoking_status.csv") %>% 
+  filter(smoking_status == "Current smoker")
+
+e_cig <- read_csv("../data_clean/e_cig.csv") %>% 
+  filter(e_cigarette_use == "Currently using")
 

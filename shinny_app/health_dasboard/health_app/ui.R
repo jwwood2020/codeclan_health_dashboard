@@ -2,7 +2,7 @@
 # Define UI for application
 shinyUI(
     dashboardPage(
-        dashboardHeader(title = tags$i("Scothland Health Dasboard")),
+        dashboardHeader(title = tags$i("Scotland Health Dashboard")),
         
         
         # Sidebar content
@@ -15,13 +15,14 @@ shinyUI(
             conditionalPanel(
                 condition = "input.menu1 =='home'",
                 
-                selectInput("location_button",
-                            "Which location do you want to look at?",
-                            choices = c("Need to Add")),
+                selectInput("sex_selection",
+                            "Gender Data Selection",
+                            choices = unique(obesity$sex)),
                 
-                radioButtons("data_button",
-                             "Which data do you want to look at",
-                             choices = c("Data", "Selection"))
+                selectInput("year_selection",
+                            "Year Selection",
+                            choices = unique(obesity$date_code))
+                    
                 ),
             
             # Scotland data Menu    
@@ -71,19 +72,29 @@ shinyUI(
         # Body content
         dashboardBody(
             tabItems(
+                
+                # Home Menu Content
                 tabItem(tabName = "home",
                 h2("Home menu content"),
 
-                        valueBox("Quickstat1", 24524), #Needs to be valueBoxOutput to pick up data later on
-                        valueBox("Quickstat2", 24535),
-                        valueBox("Quickstat3", 42435)
+                valueBoxOutput ("quickstat1", 3), #Needs to be valueBoxOutput to pick up data later on
+                valueBoxOutput ("quickstat2", 3),
+                valueBoxOutput ("quickstat3", 3),
+                valueBoxOutput ("quickstat4", 3),
+                
+                fluidRow(
+                    column(6, plotOutput("alcohol_home")),
+                    column(6, plotOutput("obesity_home")),
+                    column(6, plotOutput("smoking_home")),
+                    column(6, plotOutput("e_cig_home")))
+                
                 ),
                 
                 # Scotland menu content
                 tabItem(tabName = "scotland_data",
                         h2("Scotland Data menu content"),
-                        plotOutput("birth_scotland", "50%"),
-                        
+                        fluidRow(column(6, plotOutput("birth_scotland"))),
+                                 
                         conditionalPanel(
                             condition = "input.scotland_comparison =='Smoking Effects'",
                             fluidRow(

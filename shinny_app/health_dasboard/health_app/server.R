@@ -301,5 +301,104 @@ shinyServer(function(input, output) {
                           sd = sd(weight_ratio))
         })
         
+        # Home Tab Menu
+    
+        output$alcohol_home <- renderPlot({
+            scotland_simple %>% 
+                left_join(alcohol, by = c("HBCode" = "feature_code")) %>%
+                filter(sex == input$sex_selection | date_code == input$year_selection) %>%
+                ggplot() +
+                geom_sf(aes(group = hb_name, fill = value)) +
+                theme_minimal() +
+                theme(panel.grid.major = element_blank(), axis.text = element_blank()) +
+                ggtitle("Alcohol Consumption in Scotland") + 
+                scale_fill_gradient(low = "green", high = "red")
+        })
         
+        output$obesity_home <- renderPlot({
+            scotland_simple %>% 
+                left_join(obesity, by = c("HBCode" = "feature_code")) %>% 
+                filter(sex == input$sex_selection | date_code == input$year_selection) %>%
+                ggplot() +
+                geom_sf(aes(group = hb_name, fill = value)) +
+                theme_minimal() +
+                theme(panel.grid.major = element_blank(), axis.text = element_blank()) +
+                ggtitle("Obesity in Scotland") + 
+                scale_fill_gradient(low = "green", high = "red")
+        })
+        
+        output$smoking_home <- renderPlot({
+            scotland_simple %>% 
+                left_join(smoking_status, by = c("HBCode" = "feature_code")) %>% 
+                filter(sex == input$sex_selection | date_code == input$year_selection) %>%
+                ggplot() +
+                geom_sf(aes(group = hb_name, fill = value)) +
+                theme_minimal() +
+                theme(panel.grid.major = element_blank(), axis.text = element_blank()) +
+                ggtitle("Smoking Status in Scotland") + 
+                scale_fill_gradient(low = "green", high = "red")
+        })
+        
+        output$e_cig_home <- renderPlot({
+            scotland_simple %>% 
+                left_join(e_cig, by = c("HBCode" = "feature_code")) %>% 
+                filter(sex == input$sex_selection | date_code == input$year_selection) %>%
+                ggplot() +
+                geom_sf(aes(group = hb_name, fill = value)) +
+                theme_minimal() +
+                theme(panel.grid.major = element_blank(), axis.text = element_blank()) +
+                ggtitle("E-cigarette use in Scotland") + 
+                scale_fill_gradient(low = "green", high = "red")
+        })
+        
+        # Quick Stats
+        
+        output$quickstat1 <- renderValueBox({
+            valueBox(
+                "Alcohol Consumtion",
+                alcohol %>%
+                    filter(sex == input$sex_selection | date_code == input$year_selection) %>%
+                    filter(hb_name == "Scotland") %>%
+                    filter(alcohol_consumption == "Hazardous/Harmful drinker") %>%
+                    select(value) %>%
+                    pull()
+            )
+            })
+        
+        output$quickstat2 <- renderValueBox({
+            valueBox(
+                "Obesity",
+            obesity %>%
+                filter(sex == input$sex_selection | date_code == input$year_selection) %>%
+                filter(hb_name == "Scotland") %>%
+                filter(obesity == "Obese") %>%
+                select(value) %>%
+                pull()
+            )
+        })
+        
+        output$quickstat3 <- renderValueBox({
+            valueBox(
+                "Smoking",
+                smoking_status %>%
+                    filter(sex == input$sex_selection | date_code == input$year_selection) %>%
+                    filter(hb_name == "Scotland") %>%
+                    filter(smoking_status == "Current smoker") %>%
+                    select(value) %>%
+                    pull()
+            )
+        })
+        
+        output$quickstat4 <- renderValueBox({
+            valueBox(
+                "Alcohol Consumtion",
+            e_cig %>%
+                filter(sex == input$sex_selection | date_code == input$year_selection) %>%
+                filter(hb_name == "Scotland") %>%
+                filter(e_cigarette_use == "Currently using") %>%
+                select(value) %>%
+                pull()
+            )
+        })
 })
+
