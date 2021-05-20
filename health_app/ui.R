@@ -46,7 +46,7 @@ shinyUI(
                     condition = "input.menu1 =='council_data'",
                     
                     selectInput("council_selection",
-                                "council",
+                                "Council Selection",
                                 choices = unique(low_birthweight$la_name)),
                     
                     radioButtons("council_comparison",
