@@ -48,6 +48,7 @@ alcohol <- read_csv("../data_clean/alcohol.csv") %>%
 
 alcohol_scotland_simple <- scotland_simple %>% 
   left_join(alcohol, by = c("HBCode" = "feature_code")) 
+
 ggplot(alcohol_scotland_simple) +
   geom_sf(aes(group = hb_name, fill = value)) +
   theme_minimal() +
@@ -112,7 +113,8 @@ ggplot() +
 ```
 
 ```{r}
-alcohol %>% 
+alcohol_scotland <- 
+  alcohol%>% 
   filter(sex == "All") %>% 
   filter(hb_name == "Scotland") %>% 
     filter(date_code == "2016-2019") %>% 
