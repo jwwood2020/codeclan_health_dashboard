@@ -169,10 +169,8 @@ unique (obesity$sex)
 
 ```{r}
 alcohol %>%
-                    filter(sex == "All" | date_code == "2016-2019") %>%
+                    filter(sex == "All" , date_code == "2016-2019") %>%
                     filter(hb_name == "Scotland") %>%
-                    filter(alcohol_consumption == "Hazardous/Harmful drinker") %>%
-                    select(value) %>%
-                    pull()
+                    filter(alcohol_consumption == "Hazardous/Harmful drinker")
 ```
 
