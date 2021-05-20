@@ -1,16 +1,16 @@
-hb_code,hb_name
-S08000020,Grampian
-S08000030,Tayside
-S08000022,Highland
-S08000019,Forth Valley
-S08000017,Dumfries and Galloway
-S08000015,Ayrshire and Arran
-S08000031,Greater Glasgow and Clyde
-S08000024,Lothian
-S08000028,Western Isles
-S08000029,Fife
-S08000032,Lanarkshire
-S08000025,Orkney
-S08000016,Borders
-S08000026,Shetland
-S92000003,Scotland
+hb_code,hb_name,longitude,latitude 
+S08000020,Grampian,-4,56.9166667
+S08000030,Tayside,-3.0331,56.4643
+S08000022,Highland,-4.2264,57.4596
+S08000019,Forth Valley,-3.8477,56.0254
+S08000017,Dumfries and Galloway,-3.6053,55.0701
+S08000015,Ayrshire and Arran,-4.6680,55.3650
+S08000031,Greater Glasgow and Clyde,-4.3210,55.8836
+S08000024,Lothian,-3.2121,55.9484
+S08000028,Western Isles,-7.0194,57.7599
+S08000029,Fife,-3.1495,56.2082
+S08000032,Lanarkshire,-3.7820,55.6736
+S08000025,Orkney,-2.9605,58.9809
+S08000016,Borders,-2.7861,55.5486
+S08000026,Shetland,-1.2659,60.5297
+S92000003,Scotland,-4.2026,56.4907

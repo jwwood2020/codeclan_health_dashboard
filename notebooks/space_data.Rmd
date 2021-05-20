@@ -9,6 +9,7 @@ library(sf)
 library(rmapshaper)
 library(here)
 library(leaflet)
+library(htmltools)
 ```
 
 ```{r}
@@ -45,14 +46,21 @@ alcohol <- read_csv("../data_clean/alcohol.csv") %>%
   filter(date_code == "2016-2019") %>% 
   filter(alcohol_consumption == "Hazardous/Harmful drinker")
 
-scotland_simple %>% 
-  left_join(alcohol, by = c("HBCode" = "feature_code")) %>% 
-ggplot() +
+alcohol_scotland_simple <- scotland_simple %>% 
+  left_join(alcohol, by = c("HBCode" = "feature_code")) 
+ggplot(alcohol_scotland_simple) +
   geom_sf(aes(group = hb_name, fill = value)) +
   theme_minimal() +
   theme(panel.grid.major = element_blank(), axis.text = element_blank()) +
   ggtitle("Alcohol Consumption in Scotland") + 
   scale_fill_gradient(low = "green", high = "red")
+
+alcohol_scotland_simple %>% 
+  leaflet() %>% 
+  addTiles() %>%
+  addMarkers(lng = ~longitude,
+                   lat = ~latitude,
+             popup = ~HBName)
 ```
 
 ```{r}

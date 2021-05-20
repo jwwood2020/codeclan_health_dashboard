@@ -1,271 +1,271 @@
-feature_code,date_code,measurement,units,value,fruit_and_veg_consumption,sex,hb_name
-S92000003,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,All,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,11,None,All,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,68,Less than 5 portions,All,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,22,5 portions or more,All,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,21,5 portions or more,All,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,24,5 portions or more,Female,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,9,None,Female,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,9,None,Female,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,19,5 portions or more,Male,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,20,5 portions or more,Male,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,23,5 portions or more,Female,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,12,None,Male,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,13,None,Male,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Female,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,68,Less than 5 portions,Female,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,68,Less than 5 portions,Male,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Male,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,10,None,All,Scotland
-S08000015,2016-2019,Percent,Percent Of Adults,15,None,Male,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,72,Less than 5 portions,Male,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,13,5 portions or more,Male,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,13,None,All,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,72,Less than 5 portions,All,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,15,5 portions or more,All,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,72,Less than 5 portions,All,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,15,5 portions or more,All,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,72,Less than 5 portions,Male,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,13,None,All,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,17,5 portions or more,Female,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,72,Less than 5 portions,Female,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,17,5 portions or more,Female,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,72,Less than 5 portions,Female,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,11,None,Female,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,11,None,Female,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,13,5 portions or more,Male,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,15,None,Male,Ayrshire and Arran
-S08000016,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Female,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,7,None,Female,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,25,5 portions or more,Female,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,8,None,Male,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,5,None,Female,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,25,5 portions or more,Female,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,20,5 portions or more,Male,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,7,None,All,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,70,Less than 5 portions,All,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,7,None,All,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,8,None,Male,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,Male,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,71,Less than 5 portions,Male,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,70,Less than 5 portions,All,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,23,5 portions or more,All,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,21,5 portions or more,Male,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,69,Less than 5 portions,Female,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,23,5 portions or more,All,Borders
-S08000017,2016-2019,Percent,Percent Of Adults,70,Less than 5 portions,All,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,19,5 portions or more,All,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,12,None,Male,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,20,5 portions or more,All,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,19,5 portions or more,Male,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,10,None,Male,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,70,Less than 5 portions,Female,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,23,5 portions or more,Female,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,73,Less than 5 portions,Female,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,72,Less than 5 portions,All,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,19,5 portions or more,Female,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,71,Less than 5 portions,Male,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,9,None,All,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,9,None,All,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,17,5 portions or more,Male,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,8,None,Female,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,Male,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,7,None,Female,Dumfries and Galloway
-S08000019,2015-2018,Percent,Percent Of Adults,65,Less than 5 portions,Male,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,All,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,68,Less than 5 portions,Female,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,22,5 portions or more,Female,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Male,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Female,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,10,None,Female,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,22,5 portions or more,Female,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,10,None,Female,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,12,None,All,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,11,None,All,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,19,5 portions or more,Male,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,15,None,Male,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,21,5 portions or more,All,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,13,None,Male,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,All,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,21,5 portions or more,All,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,20,5 portions or more,Male,Forth Valley
-S08000020,2016-2019,Percent,Percent Of Adults,20,5 portions or more,All,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,Male,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,All,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,8,None,All,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,19,5 portions or more,All,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,7,None,Female,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,9,None,All,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,72,Less than 5 portions,All,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,72,Less than 5 portions,Female,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,22,5 portions or more,Female,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,71,Less than 5 portions,Female,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,7,None,Female,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,73,Less than 5 portions,Male,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,10,None,Male,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,19,5 portions or more,Male,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,10,None,Male,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,22,5 portions or more,Female,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,16,5 portions or more,Male,Grampian
-S08000022,2016-2019,Percent,Percent Of Adults,22,5 portions or more,All,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,20,5 portions or more,Male,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,11,None,Male,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,69,Less than 5 portions,All,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,69,Less than 5 portions,Female,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,20,5 portions or more,Male,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,70,Less than 5 portions,Female,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,23,5 portions or more,Female,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,9,None,All,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,70,Less than 5 portions,All,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,7,None,Female,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,9,None,All,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,7,None,Female,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,11,None,Male,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,69,Less than 5 portions,Male,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,69,Less than 5 portions,Male,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,25,5 portions or more,Female,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,22,5 portions or more,All,Highland
-S08000024,2015-2018,Percent,Percent Of Adults,29,5 portions or more,All,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,25,5 portions or more,Male,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,8,None,All,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,9,None,All,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,10,None,Male,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,29,5 portions or more,All,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,63,Less than 5 portions,All,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,60,Less than 5 portions,Female,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,7,None,Female,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,32,5 portions or more,Female,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,33,5 portions or more,Female,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,65,Less than 5 portions,Male,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,66,Less than 5 portions,Male,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,63,Less than 5 portions,All,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,26,5 portions or more,Male,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,8,None,Female,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,9,None,Male,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,61,Less than 5 portions,Female,Lothian
-S08000025,2016-2019,Percent,Percent Of Adults,62,Less than 5 portions,Male,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,9,None,All,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,68,Less than 5 portions,All,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,8,None,All,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,10,None,Male,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,22,5 portions or more,Female,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,66,Less than 5 portions,All,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,7,None,Female,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,8,None,Female,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,29,5 portions or more,Male,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,23,5 portions or more,Female,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,65,Less than 5 portions,Male,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,24,5 portions or more,Male,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,11,None,Male,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,70,Less than 5 portions,Female,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,23,5 portions or more,All,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,70,Less than 5 portions,Female,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,25,5 portions or more,All,Orkney
-S08000026,2015-2018,Percent,Percent Of Adults,17,5 portions or more,Female,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,9,None,Male,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,77,Less than 5 portions,All,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,7,None,Female,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,7,None,Female,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,16,5 portions or more,Male,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,8,None,All,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,15,5 portions or more,Female,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,76,Less than 5 portions,Female,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,15,5 portions or more,All,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,15,5 portions or more,Male,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,78,Less than 5 portions,Female,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,75,Less than 5 portions,Male,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,10,None,Male,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,76,Less than 5 portions,Male,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,8,None,All,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,75,Less than 5 portions,All,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,16,5 portions or more,All,Shetland
-S08000028,2016-2019,Percent,Percent Of Adults,20,5 portions or more,Female,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,73,Less than 5 portions,Male,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,17,5 portions or more,Male,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,76,Less than 5 portions,Male,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,72,Less than 5 portions,Female,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,6,None,Male,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,21,5 portions or more,Female,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,8,None,Female,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,20,5 portions or more,All,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,74,Less than 5 portions,All,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,73,Less than 5 portions,All,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,7,None,All,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,7,None,All,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,19,5 portions or more,All,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,19,5 portions or more,Male,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,73,Less than 5 portions,Female,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,6,None,Female,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,8,None,Male,Western Isles
-S08000029,2015-2018,Percent,Percent Of Adults,22,5 portions or more,All,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,9,None,Female,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,14,None,Male,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,Female,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Female,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,11,None,All,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,24,5 portions or more,Female,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Male,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,23,5 portions or more,Female,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,Male,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,All,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,All,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,11,None,All,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,13,None,Male,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,21,5 portions or more,All,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,19,5 portions or more,Male,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,9,None,Female,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,18,5 portions or more,Male,Fife
-S08000030,2016-2019,Percent,Percent Of Adults,11,None,All,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,24,5 portions or more,Female,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,23,5 portions or more,Female,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,10,None,Female,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,19,5 portions or more,Male,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,67,Less than 5 portions,All,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,9,None,Female,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,10,None,All,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,20,5 portions or more,Male,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,67,Less than 5 portions,Male,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,All,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,22,5 portions or more,All,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,13,None,Male,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,22,5 portions or more,All,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,13,None,Male,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,67,Less than 5 portions,Female,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,68,Less than 5 portions,Male,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,Female,Tayside
-S08000031,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,Female,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,23,5 portions or more,All,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,12,None,All,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,24,5 portions or more,Female,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,64,Less than 5 portions,Male,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,24,5 portions or more,Female,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,22,5 portions or more,All,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,20,5 portions or more,Male,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,65,Less than 5 portions,All,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,66,Less than 5 portions,Female,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,65,Less than 5 portions,Male,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,15,None,Male,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,66,Less than 5 portions,All,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,14,None,Male,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,10,None,Female,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,22,5 portions or more,Male,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,10,None,Female,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,12,None,All,Greater Glasgow and Clyde
-S08000032,2015-2018,Percent,Percent Of Adults,71,Less than 5 portions,Male,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,13,None,All,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,14,None,Male,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,12,None,All,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,71,Less than 5 portions,All,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,15,5 portions or more,Male,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,11,None,Female,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,17,5 portions or more,All,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,14,None,Male,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,11,None,Female,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,18,5 portions or more,Female,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,16,5 portions or more,All,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,Female,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,15,5 portions or more,Male,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,Male,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,71,Less than 5 portions,Female,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,All,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,18,5 portions or more,Female,Lanarkshire
+feature_code,date_code,measurement,units,value,fruit_and_veg_consumption,sex,hb_name,longitude,latitude
+S92000003,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,All,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,11,None,All,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,68,Less than 5 portions,All,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,22,5 portions or more,All,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,21,5 portions or more,All,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,24,5 portions or more,Female,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,9,None,Female,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,9,None,Female,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,19,5 portions or more,Male,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,20,5 portions or more,Male,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,23,5 portions or more,Female,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,12,None,Male,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,13,None,Male,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Female,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,68,Less than 5 portions,Female,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,68,Less than 5 portions,Male,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Male,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,10,None,All,Scotland,-4.2026,56.4907
+S08000015,2016-2019,Percent,Percent Of Adults,15,None,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,72,Less than 5 portions,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,13,5 portions or more,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,13,None,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,72,Less than 5 portions,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,15,5 portions or more,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,72,Less than 5 portions,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,15,5 portions or more,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,72,Less than 5 portions,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,13,None,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,17,5 portions or more,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,72,Less than 5 portions,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,17,5 portions or more,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,72,Less than 5 portions,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,11,None,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,11,None,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,13,5 portions or more,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,15,None,Male,Ayrshire and Arran,-4.668,55.365
+S08000016,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Female,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,7,None,Female,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,25,5 portions or more,Female,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,8,None,Male,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,5,None,Female,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,25,5 portions or more,Female,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,20,5 portions or more,Male,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,7,None,All,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,70,Less than 5 portions,All,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,7,None,All,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,8,None,Male,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,Male,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,71,Less than 5 portions,Male,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,70,Less than 5 portions,All,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,23,5 portions or more,All,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,21,5 portions or more,Male,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,69,Less than 5 portions,Female,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,23,5 portions or more,All,Borders,-2.7861,55.5486
+S08000017,2016-2019,Percent,Percent Of Adults,70,Less than 5 portions,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,19,5 portions or more,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,12,None,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,20,5 portions or more,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,19,5 portions or more,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,10,None,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,70,Less than 5 portions,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,23,5 portions or more,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,73,Less than 5 portions,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,72,Less than 5 portions,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,19,5 portions or more,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,71,Less than 5 portions,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,9,None,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,9,None,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,17,5 portions or more,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,8,None,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,7,None,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000019,2015-2018,Percent,Percent Of Adults,65,Less than 5 portions,Male,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,All,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,68,Less than 5 portions,Female,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,22,5 portions or more,Female,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Male,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Female,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,10,None,Female,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,22,5 portions or more,Female,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,10,None,Female,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,12,None,All,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,11,None,All,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,19,5 portions or more,Male,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,15,None,Male,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,21,5 portions or more,All,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,13,None,Male,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,All,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,21,5 portions or more,All,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,20,5 portions or more,Male,Forth Valley,-3.8477,56.0254
+S08000020,2016-2019,Percent,Percent Of Adults,20,5 portions or more,All,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,Male,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,All,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,8,None,All,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,19,5 portions or more,All,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,7,None,Female,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,9,None,All,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,72,Less than 5 portions,All,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,72,Less than 5 portions,Female,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,22,5 portions or more,Female,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,71,Less than 5 portions,Female,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,7,None,Female,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,73,Less than 5 portions,Male,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,10,None,Male,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,19,5 portions or more,Male,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,10,None,Male,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,22,5 portions or more,Female,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,16,5 portions or more,Male,Grampian,-4,56.9166667
+S08000022,2016-2019,Percent,Percent Of Adults,22,5 portions or more,All,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,20,5 portions or more,Male,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,11,None,Male,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,69,Less than 5 portions,All,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,69,Less than 5 portions,Female,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,20,5 portions or more,Male,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,70,Less than 5 portions,Female,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,23,5 portions or more,Female,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,9,None,All,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,70,Less than 5 portions,All,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,7,None,Female,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,9,None,All,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,7,None,Female,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,11,None,Male,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,69,Less than 5 portions,Male,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,69,Less than 5 portions,Male,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,25,5 portions or more,Female,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,22,5 portions or more,All,Highland,-4.2264,57.4596
+S08000024,2015-2018,Percent,Percent Of Adults,29,5 portions or more,All,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,25,5 portions or more,Male,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,8,None,All,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,9,None,All,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,10,None,Male,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,29,5 portions or more,All,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,63,Less than 5 portions,All,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,60,Less than 5 portions,Female,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,7,None,Female,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,32,5 portions or more,Female,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,33,5 portions or more,Female,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,65,Less than 5 portions,Male,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,66,Less than 5 portions,Male,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,63,Less than 5 portions,All,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,26,5 portions or more,Male,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,8,None,Female,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,9,None,Male,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,61,Less than 5 portions,Female,Lothian,-3.2121,55.9484
+S08000025,2016-2019,Percent,Percent Of Adults,62,Less than 5 portions,Male,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,9,None,All,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,68,Less than 5 portions,All,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,8,None,All,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,10,None,Male,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,22,5 portions or more,Female,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,66,Less than 5 portions,All,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,7,None,Female,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,8,None,Female,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,29,5 portions or more,Male,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,23,5 portions or more,Female,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,65,Less than 5 portions,Male,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,24,5 portions or more,Male,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,11,None,Male,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,70,Less than 5 portions,Female,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,23,5 portions or more,All,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,70,Less than 5 portions,Female,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,25,5 portions or more,All,Orkney,-2.9605,58.9809
+S08000026,2015-2018,Percent,Percent Of Adults,17,5 portions or more,Female,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,9,None,Male,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,77,Less than 5 portions,All,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,7,None,Female,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,7,None,Female,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,16,5 portions or more,Male,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,8,None,All,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,15,5 portions or more,Female,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,76,Less than 5 portions,Female,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,15,5 portions or more,All,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,15,5 portions or more,Male,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,78,Less than 5 portions,Female,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,75,Less than 5 portions,Male,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,10,None,Male,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,76,Less than 5 portions,Male,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,8,None,All,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,75,Less than 5 portions,All,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,16,5 portions or more,All,Shetland,-1.2659,60.5297
+S08000028,2016-2019,Percent,Percent Of Adults,20,5 portions or more,Female,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,73,Less than 5 portions,Male,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,17,5 portions or more,Male,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,76,Less than 5 portions,Male,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,72,Less than 5 portions,Female,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,6,None,Male,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,21,5 portions or more,Female,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,8,None,Female,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,20,5 portions or more,All,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,74,Less than 5 portions,All,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,73,Less than 5 portions,All,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,7,None,All,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,7,None,All,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,19,5 portions or more,All,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,19,5 portions or more,Male,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,73,Less than 5 portions,Female,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,6,None,Female,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,8,None,Male,Western Isles,-7.0194,57.7599
+S08000029,2015-2018,Percent,Percent Of Adults,22,5 portions or more,All,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,9,None,Female,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,14,None,Male,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,Female,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Female,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,11,None,All,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,24,5 portions or more,Female,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,Male,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,23,5 portions or more,Female,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,Male,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,68,Less than 5 portions,All,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,All,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,11,None,All,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,13,None,Male,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,21,5 portions or more,All,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,19,5 portions or more,Male,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,9,None,Female,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,18,5 portions or more,Male,Fife,-3.1495,56.2082
+S08000030,2016-2019,Percent,Percent Of Adults,11,None,All,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,24,5 portions or more,Female,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,23,5 portions or more,Female,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,10,None,Female,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,19,5 portions or more,Male,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,67,Less than 5 portions,All,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,9,None,Female,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,10,None,All,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,20,5 portions or more,Male,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,67,Less than 5 portions,Male,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,All,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,22,5 portions or more,All,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,13,None,Male,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,22,5 portions or more,All,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,13,None,Male,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,67,Less than 5 portions,Female,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,68,Less than 5 portions,Male,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,Female,Tayside,-3.0331,56.4643
+S08000031,2015-2018,Percent,Percent Of Adults,67,Less than 5 portions,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,23,5 portions or more,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,12,None,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,24,5 portions or more,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,64,Less than 5 portions,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,24,5 portions or more,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,22,5 portions or more,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,20,5 portions or more,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,65,Less than 5 portions,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,66,Less than 5 portions,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,65,Less than 5 portions,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,15,None,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,66,Less than 5 portions,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,14,None,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,10,None,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,22,5 portions or more,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,10,None,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,12,None,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000032,2015-2018,Percent,Percent Of Adults,71,Less than 5 portions,Male,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,13,None,All,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,14,None,Male,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,12,None,All,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,71,Less than 5 portions,All,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,15,5 portions or more,Male,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,11,None,Female,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,17,5 portions or more,All,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,14,None,Male,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,11,None,Female,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,18,5 portions or more,Female,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,16,5 portions or more,All,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,Female,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,15,5 portions or more,Male,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,Male,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,71,Less than 5 portions,Female,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,71,Less than 5 portions,All,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,18,5 portions or more,Female,Lanarkshire,-3.782,55.6736

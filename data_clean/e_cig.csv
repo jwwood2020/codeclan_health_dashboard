@@ -1,271 +1,271 @@
-feature_code,date_code,measurement,units,value,e_cigarette_use,sex,hb_name
-S92000003,2016-2019,Percent,Percent Of Adults,83,Never used,Female,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,11,Ever previously used,Female,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,83,Never used,Female,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,10,Ever previously used,Female,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,7,Currently using,All,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,7,Currently using,All,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,7,Currently using,Female,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,7,Currently using,Female,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,12,Ever previously used,All,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,11,Ever previously used,All,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,80,Never used,Male,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,80,Never used,Male,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,13,Ever previously used,Male,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Male,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,8,Currently using,Male,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,7,Currently using,Male,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,82,Never used,All,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,81,Never used,All,Scotland
-S08000015,2016-2019,Percent,Percent Of Adults,78,Never used,All,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,10,Currently using,All,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,78,Never used,All,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,10,Currently using,All,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,10,Currently using,Male,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,12,Ever previously used,All,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,12,Ever previously used,All,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Male,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,12,Ever previously used,Female,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,13,Ever previously used,Female,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,9,Currently using,Female,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,11,Ever previously used,Male,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,78,Never used,Male,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,10,Currently using,Female,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,79,Never used,Male,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,79,Never used,Female,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,78,Never used,Female,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,10,Currently using,Male,Ayrshire and Arran
-S08000016,2016-2019,Percent,Percent Of Adults,8,Currently using,All,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,8,Currently using,All,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,84,Never used,Male,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,83,Never used,Male,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,7,Ever previously used,Female,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,83,Never used,All,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,9,Ever previously used,All,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,82,Never used,All,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,5,Currently using,Male,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,10,Ever previously used,Female,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,81,Never used,Female,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,10,Ever previously used,Male,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,11,Ever previously used,All,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,6,Currently using,Male,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,82,Never used,Female,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,12,Ever previously used,Male,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,10,Currently using,Female,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,9,Currently using,Female,Borders
-S08000017,2015-2018,Percent,Percent Of Adults,79,Never used,Female,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,13,Ever previously used,Male,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,80,Never used,Female,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,82,Never used,Male,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Male,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,13,Ever previously used,Female,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Female,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,8,Currently using,Female,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,7,Currently using,All,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,7,Currently using,All,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,6,Currently using,Male,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,80,Never used,All,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,8,Currently using,Female,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,80,Never used,All,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,13,Ever previously used,All,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,81,Never used,Male,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,13,Ever previously used,All,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,5,Currently using,Male,Dumfries and Galloway
-S08000019,2016-2019,Percent,Percent Of Adults,11,Ever previously used,Male,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,81,Never used,Male,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,7,Currently using,All,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,7,Currently using,Male,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,8,Currently using,All,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,80,Never used,Male,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,7,Currently using,Male,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,10,Ever previously used,All,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,11,Ever previously used,All,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,82,Never used,All,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,82,Never used,All,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,6,Currently using,Female,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,8,Currently using,Female,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,83,Never used,Female,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,84,Never used,Female,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Male,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,10,Ever previously used,Female,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,9,Ever previously used,Female,Forth Valley
-S08000020,2016-2019,Percent,Percent Of Adults,10,Ever previously used,Female,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,11,Ever previously used,All,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,4,Currently using,Female,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,4,Currently using,Female,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,86,Never used,Female,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,85,Never used,All,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,84,Never used,All,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,9,Ever previously used,Female,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,87,Never used,Female,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,10,Ever previously used,All,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,5,Currently using,All,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,5,Currently using,All,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,13,Ever previously used,Male,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,7,Currently using,Male,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,81,Never used,Male,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,6,Currently using,Male,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,12,Ever previously used,Male,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,82,Never used,Male,Grampian
-S08000022,2016-2019,Percent,Percent Of Adults,10,Ever previously used,Female,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,12,Currently using,Male,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,71,Never used,Male,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,10,Currently using,All,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,8,Currently using,Female,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,77,Never used,All,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,83,Never used,Female,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,84,Never used,Female,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,79,Never used,All,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,15,Ever previously used,Male,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,74,Never used,Male,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,9,Ever previously used,Female,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,12,Ever previously used,All,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,17,Ever previously used,Male,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,9,Currently using,All,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,6,Currently using,Female,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,12,Currently using,Male,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,13,Ever previously used,All,Highland
-S08000024,2015-2018,Percent,Percent Of Adults,8,Currently using,Male,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,86,Never used,Female,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,82,Never used,All,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,6,Currently using,Female,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,14,Ever previously used,Male,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,78,Never used,Male,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,6,Currently using,Female,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,15,Ever previously used,Male,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,8,Currently using,Male,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,77,Never used,Male,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,9,Ever previously used,Female,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,11,Ever previously used,All,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,7,Currently using,All,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,7,Currently using,All,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,85,Never used,Female,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,82,Never used,All,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,12,Ever previously used,All,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,8,Ever previously used,Female,Lothian
-S08000025,2016-2019,Percent,Percent Of Adults,1,Currently using,All,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,14,Ever previously used,Male,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,8,Ever previously used,All,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,2,Currently using,All,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,10,Ever previously used,All,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,2,Currently using,Female,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,11,Ever previously used,Male,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,87,Never used,Male,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,90,Never used,All,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,5,Ever previously used,Female,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,5,Ever previously used,Female,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,93,Never used,Female,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,84,Never used,Male,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,1,Currently using,Female,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,93,Never used,Female,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,89,Never used,All,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,3,Currently using,Male,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,2,Currently using,Male,Orkney
-S08000026,2015-2018,Percent,Percent Of Adults,3,Currently using,All,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,90,Never used,Female,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,10,Ever previously used,Male,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,4,Currently using,All,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,8,Ever previously used,Female,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,88,Never used,Female,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,8,Ever previously used,Female,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,88,Never used,All,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,85,Never used,Male,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,9,Ever previously used,All,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,87,Never used,All,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,2,Currently using,Female,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,4,Currently using,Male,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,4,Currently using,Male,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,9,Ever previously used,All,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,4,Currently using,Female,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,86,Never used,Male,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,11,Ever previously used,Male,Shetland
-S08000028,2016-2019,Percent,Percent Of Adults,5,Currently using,All,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,87,Never used,All,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,9,Ever previously used,Female,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,89,Never used,All,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,3,Currently using,Female,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,7,Ever previously used,All,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,9,Ever previously used,All,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,90,Never used,Female,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,85,Never used,Male,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,4,Currently using,All,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,88,Never used,Male,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,2,Currently using,Female,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,88,Never used,Female,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,7,Ever previously used,Male,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,9,Ever previously used,Male,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,8,Ever previously used,Female,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,6,Currently using,Male,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,6,Currently using,Male,Western Isles
-S08000029,2016-2019,Percent,Percent Of Adults,7,Currently using,Male,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,8,Currently using,All,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,82,Never used,Male,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,10,Ever previously used,Female,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,10,Ever previously used,All,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,82,Never used,All,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,81,Never used,All,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,11,Ever previously used,All,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,7,Currently using,Male,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,9,Currently using,Female,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,8,Currently using,All,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,11,Ever previously used,Female,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,10,Ever previously used,Male,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,11,Ever previously used,Male,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,9,Currently using,Female,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,81,Never used,Female,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,83,Never used,Male,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,82,Never used,Female,Fife
-S08000030,2016-2019,Percent,Percent Of Adults,6,Currently using,All,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,11,Ever previously used,All,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,5,Currently using,Female,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,6,Currently using,All,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,8,Currently using,Male,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,12,Ever previously used,All,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,4,Currently using,Female,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,8,Currently using,Male,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,83,Never used,All,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,82,Never used,All,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Male,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,80,Never used,Male,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,9,Ever previously used,Female,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,86,Never used,Female,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,9,Ever previously used,Female,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,15,Ever previously used,Male,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,87,Never used,Female,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,78,Never used,Male,Tayside
-S08000031,2016-2019,Percent,Percent Of Adults,80,Never used,All,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,12,Ever previously used,Female,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,80,Never used,All,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,81,Never used,Female,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,79,Never used,Male,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,7,Currently using,All,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,81,Never used,Female,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,7,Currently using,All,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,13,Ever previously used,All,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,13,Ever previously used,All,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,12,Ever previously used,Female,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,7,Currently using,Female,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,7,Currently using,Female,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,79,Never used,Male,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,7,Currently using,Male,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Male,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,7,Currently using,Male,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,14,Ever previously used,Male,Greater Glasgow and Clyde
-S08000032,2016-2019,Percent,Percent Of Adults,11,Ever previously used,Male,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,8,Currently using,Female,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,8,Currently using,Female,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,82,Never used,All,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,81,Never used,Female,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,6,Currently using,Male,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,85,Never used,Male,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,83,Never used,Male,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,11,Ever previously used,All,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,7,Currently using,All,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,11,Ever previously used,Female,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,7,Currently using,All,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,10,Ever previously used,Female,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,8,Ever previously used,Male,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,83,Never used,All,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,6,Currently using,Male,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,9,Ever previously used,All,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,81,Never used,Female,Lanarkshire
+feature_code,date_code,measurement,units,value,e_cigarette_use,sex,hb_name,longitude,latitude
+S92000003,2016-2019,Percent,Percent Of Adults,83,Never used,Female,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,11,Ever previously used,Female,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,83,Never used,Female,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,10,Ever previously used,Female,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,7,Currently using,All,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,7,Currently using,All,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,7,Currently using,Female,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,7,Currently using,Female,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,12,Ever previously used,All,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,11,Ever previously used,All,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,80,Never used,Male,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,80,Never used,Male,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,13,Ever previously used,Male,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Male,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,8,Currently using,Male,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,7,Currently using,Male,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,82,Never used,All,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,81,Never used,All,Scotland,-4.2026,56.4907
+S08000015,2016-2019,Percent,Percent Of Adults,78,Never used,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,10,Currently using,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,78,Never used,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,10,Currently using,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,10,Currently using,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,12,Ever previously used,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,12,Ever previously used,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,12,Ever previously used,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,13,Ever previously used,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,9,Currently using,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,11,Ever previously used,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,78,Never used,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,10,Currently using,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,79,Never used,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,79,Never used,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,78,Never used,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,10,Currently using,Male,Ayrshire and Arran,-4.668,55.365
+S08000016,2016-2019,Percent,Percent Of Adults,8,Currently using,All,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,8,Currently using,All,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,84,Never used,Male,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,83,Never used,Male,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,7,Ever previously used,Female,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,83,Never used,All,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,9,Ever previously used,All,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,82,Never used,All,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,5,Currently using,Male,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,10,Ever previously used,Female,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,81,Never used,Female,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,10,Ever previously used,Male,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,11,Ever previously used,All,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,6,Currently using,Male,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,82,Never used,Female,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,12,Ever previously used,Male,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,10,Currently using,Female,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,9,Currently using,Female,Borders,-2.7861,55.5486
+S08000017,2015-2018,Percent,Percent Of Adults,79,Never used,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,13,Ever previously used,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,80,Never used,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,82,Never used,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,13,Ever previously used,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,8,Currently using,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,7,Currently using,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,7,Currently using,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,6,Currently using,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,80,Never used,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,8,Currently using,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,80,Never used,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,13,Ever previously used,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,81,Never used,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,13,Ever previously used,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,5,Currently using,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000019,2016-2019,Percent,Percent Of Adults,11,Ever previously used,Male,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,81,Never used,Male,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,7,Currently using,All,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,7,Currently using,Male,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,8,Currently using,All,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,80,Never used,Male,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,7,Currently using,Male,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,10,Ever previously used,All,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,11,Ever previously used,All,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,82,Never used,All,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,82,Never used,All,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,6,Currently using,Female,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,8,Currently using,Female,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,83,Never used,Female,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,84,Never used,Female,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Male,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,10,Ever previously used,Female,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,9,Ever previously used,Female,Forth Valley,-3.8477,56.0254
+S08000020,2016-2019,Percent,Percent Of Adults,10,Ever previously used,Female,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,11,Ever previously used,All,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,4,Currently using,Female,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,4,Currently using,Female,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,86,Never used,Female,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,85,Never used,All,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,84,Never used,All,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,9,Ever previously used,Female,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,87,Never used,Female,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,10,Ever previously used,All,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,5,Currently using,All,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,5,Currently using,All,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,13,Ever previously used,Male,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,7,Currently using,Male,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,81,Never used,Male,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,6,Currently using,Male,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,12,Ever previously used,Male,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,82,Never used,Male,Grampian,-4,56.9166667
+S08000022,2016-2019,Percent,Percent Of Adults,10,Ever previously used,Female,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,12,Currently using,Male,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,71,Never used,Male,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,10,Currently using,All,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,8,Currently using,Female,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,77,Never used,All,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,83,Never used,Female,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,84,Never used,Female,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,79,Never used,All,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,15,Ever previously used,Male,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,74,Never used,Male,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,9,Ever previously used,Female,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,12,Ever previously used,All,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,17,Ever previously used,Male,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,9,Currently using,All,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,6,Currently using,Female,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,12,Currently using,Male,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,13,Ever previously used,All,Highland,-4.2264,57.4596
+S08000024,2015-2018,Percent,Percent Of Adults,8,Currently using,Male,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,86,Never used,Female,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,82,Never used,All,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,6,Currently using,Female,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,14,Ever previously used,Male,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,78,Never used,Male,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,6,Currently using,Female,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,15,Ever previously used,Male,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,8,Currently using,Male,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,77,Never used,Male,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,9,Ever previously used,Female,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,11,Ever previously used,All,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,7,Currently using,All,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,7,Currently using,All,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,85,Never used,Female,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,82,Never used,All,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,12,Ever previously used,All,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,8,Ever previously used,Female,Lothian,-3.2121,55.9484
+S08000025,2016-2019,Percent,Percent Of Adults,1,Currently using,All,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,14,Ever previously used,Male,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,8,Ever previously used,All,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,2,Currently using,All,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,10,Ever previously used,All,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,2,Currently using,Female,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,11,Ever previously used,Male,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,87,Never used,Male,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,90,Never used,All,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,5,Ever previously used,Female,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,5,Ever previously used,Female,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,93,Never used,Female,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,84,Never used,Male,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,1,Currently using,Female,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,93,Never used,Female,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,89,Never used,All,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,3,Currently using,Male,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,2,Currently using,Male,Orkney,-2.9605,58.9809
+S08000026,2015-2018,Percent,Percent Of Adults,3,Currently using,All,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,90,Never used,Female,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,10,Ever previously used,Male,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,4,Currently using,All,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,8,Ever previously used,Female,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,88,Never used,Female,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,8,Ever previously used,Female,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,88,Never used,All,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,85,Never used,Male,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,9,Ever previously used,All,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,87,Never used,All,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,2,Currently using,Female,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,4,Currently using,Male,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,4,Currently using,Male,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,9,Ever previously used,All,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,4,Currently using,Female,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,86,Never used,Male,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,11,Ever previously used,Male,Shetland,-1.2659,60.5297
+S08000028,2016-2019,Percent,Percent Of Adults,5,Currently using,All,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,87,Never used,All,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,9,Ever previously used,Female,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,89,Never used,All,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,3,Currently using,Female,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,7,Ever previously used,All,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,9,Ever previously used,All,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,90,Never used,Female,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,85,Never used,Male,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,4,Currently using,All,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,88,Never used,Male,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,2,Currently using,Female,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,88,Never used,Female,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,7,Ever previously used,Male,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,9,Ever previously used,Male,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,8,Ever previously used,Female,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,6,Currently using,Male,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,6,Currently using,Male,Western Isles,-7.0194,57.7599
+S08000029,2016-2019,Percent,Percent Of Adults,7,Currently using,Male,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,8,Currently using,All,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,82,Never used,Male,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,10,Ever previously used,Female,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,10,Ever previously used,All,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,82,Never used,All,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,81,Never used,All,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,11,Ever previously used,All,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,7,Currently using,Male,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,9,Currently using,Female,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,8,Currently using,All,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,11,Ever previously used,Female,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,10,Ever previously used,Male,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,11,Ever previously used,Male,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,9,Currently using,Female,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,81,Never used,Female,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,83,Never used,Male,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,82,Never used,Female,Fife,-3.1495,56.2082
+S08000030,2016-2019,Percent,Percent Of Adults,6,Currently using,All,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,11,Ever previously used,All,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,5,Currently using,Female,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,6,Currently using,All,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,8,Currently using,Male,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,12,Ever previously used,All,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,4,Currently using,Female,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,8,Currently using,Male,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,83,Never used,All,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,82,Never used,All,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Male,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,80,Never used,Male,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,9,Ever previously used,Female,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,86,Never used,Female,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,9,Ever previously used,Female,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,15,Ever previously used,Male,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,87,Never used,Female,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,78,Never used,Male,Tayside,-3.0331,56.4643
+S08000031,2016-2019,Percent,Percent Of Adults,80,Never used,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,12,Ever previously used,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,80,Never used,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,81,Never used,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,79,Never used,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,7,Currently using,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,81,Never used,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,7,Currently using,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,13,Ever previously used,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,13,Ever previously used,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,12,Ever previously used,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,7,Currently using,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,7,Currently using,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,79,Never used,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,7,Currently using,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,13,Ever previously used,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,7,Currently using,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,14,Ever previously used,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000032,2016-2019,Percent,Percent Of Adults,11,Ever previously used,Male,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,8,Currently using,Female,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,8,Currently using,Female,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,82,Never used,All,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,81,Never used,Female,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,6,Currently using,Male,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,85,Never used,Male,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,83,Never used,Male,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,11,Ever previously used,All,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,7,Currently using,All,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,11,Ever previously used,Female,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,7,Currently using,All,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,10,Ever previously used,Female,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,8,Ever previously used,Male,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,83,Never used,All,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,6,Currently using,Male,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,9,Ever previously used,All,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,81,Never used,Female,Lanarkshire,-3.782,55.6736

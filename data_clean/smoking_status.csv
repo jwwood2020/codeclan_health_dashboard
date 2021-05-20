@@ -1,271 +1,271 @@
-feature_code,date_code,measurement,units,value,smoking_status,sex,hb_name
-S92000003,2016-2019,Percent,Percent Of Adults,19,Current smoker,All,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,Female,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,17,Current smoker,Female,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,18,Current smoker,Female,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,All,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,All,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,21,Current smoker,Male,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,Male,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,Male,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,20,Current smoker,Male,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,25,Used to smoke regularly,Male,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,Male,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,23,Used to smoke regularly,Female,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,23,Used to smoke regularly,Female,Scotland
-S92000003,2015-2018,Percent,Percent Of Adults,24,Used to smoke regularly,All,Scotland
-S92000003,2016-2019,Percent,Percent Of Adults,24,Used to smoke regularly,All,Scotland
-S08000015,2016-2019,Percent,Percent Of Adults,20,Current smoker,Male,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,22,Current smoker,Male,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,All,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,All,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,20,Current smoker,All,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,All,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,All,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,Female,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,Female,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,28,Used to smoke regularly,Male,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,Female,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,Female,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,18,Current smoker,Female,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,28,Used to smoke regularly,Male,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,20,Current smoker,Female,Ayrshire and Arran
-S08000015,2016-2019,Percent,Percent Of Adults,52,Never smoked/Used to smoke occasionally,Male,Ayrshire and Arran
-S08000015,2015-2018,Percent,Percent Of Adults,51,Never smoked/Used to smoke occasionally,Male,Ayrshire and Arran
-S08000016,2015-2018,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,All,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,28,Used to smoke regularly,Male,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,31,Used to smoke regularly,Male,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,18,Current smoker,All,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,17,Current smoker,All,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,24,Used to smoke regularly,Female,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,All,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,24,Used to smoke regularly,Female,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,19,Current smoker,Male,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,Female,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,Male,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,26,Used to smoke regularly,All,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,All,Borders
-S08000016,2016-2019,Percent,Percent Of Adults,18,Current smoker,Female,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,50,Never smoked/Used to smoke occasionally,Male,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,19,Current smoker,Male,Borders
-S08000016,2015-2018,Percent,Percent Of Adults,16,Current smoker,Female,Borders
-S08000017,2016-2019,Percent,Percent Of Adults,15,Current smoker,Female,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,24,Used to smoke regularly,Female,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,57,Never smoked/Used to smoke occasionally,Female,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,19,Current smoker,All,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,18,Current smoker,Female,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,Female,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,25,Used to smoke regularly,Female,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,50,Never smoked/Used to smoke occasionally,Male,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,26,Used to smoke regularly,All,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,51,Never smoked/Used to smoke occasionally,Male,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,All,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,23,Current smoker,Male,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,22,Current smoker,Male,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,All,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,26,Used to smoke regularly,Male,Dumfries and Galloway
-S08000017,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,Male,Dumfries and Galloway
-S08000017,2015-2018,Percent,Percent Of Adults,54,Never smoked/Used to smoke occasionally,All,Dumfries and Galloway
-S08000019,2016-2019,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,Female,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,Female,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,Female,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,Female,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,18,Current smoker,All,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,All,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,All,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,24,Used to smoke regularly,Male,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,Male,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,Male,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,All,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,25,Used to smoke regularly,All,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,21,Current smoker,Male,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,22,Current smoker,Male,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,17,Current smoker,Female,Forth Valley
-S08000019,2016-2019,Percent,Percent Of Adults,15,Current smoker,Female,Forth Valley
-S08000019,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,Male,Forth Valley
-S08000020,2016-2019,Percent,Percent Of Adults,16,Current smoker,Female,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,All,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,61,Never smoked/Used to smoke occasionally,All,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,18,Current smoker,Female,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,20,Used to smoke regularly,Female,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,63,Never smoked/Used to smoke occasionally,Female,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,22,Used to smoke regularly,All,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,62,Never smoked/Used to smoke occasionally,Female,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,22,Used to smoke regularly,All,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,20,Used to smoke regularly,Female,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,17,Current smoker,All,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,18,Current smoker,All,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,Male,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,24,Used to smoke regularly,Male,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,Male,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,17,Current smoker,Male,Grampian
-S08000020,2016-2019,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Male,Grampian
-S08000020,2015-2018,Percent,Percent Of Adults,19,Current smoker,Male,Grampian
-S08000022,2016-2019,Percent,Percent Of Adults,15,Current smoker,Female,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,15,Current smoker,Female,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,20,Current smoker,All,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,26,Current smoker,Male,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,All,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,26,Current smoker,Male,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,Male,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,46,Never smoked/Used to smoke occasionally,Male,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,47,Never smoked/Used to smoke occasionally,Male,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,26,Used to smoke regularly,All,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,All,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,28,Used to smoke regularly,Male,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,52,Never smoked/Used to smoke occasionally,All,Highland
-S08000022,2016-2019,Percent,Percent Of Adults,26,Used to smoke regularly,Female,Highland
-S08000022,2015-2018,Percent,Percent Of Adults,26,Used to smoke regularly,Female,Highland
-S08000024,2016-2019,Percent,Percent Of Adults,63,Never smoked/Used to smoke occasionally,Female,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,Male,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,17,Current smoker,Female,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,Female,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,16,Current smoker,Female,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,Female,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,22,Used to smoke regularly,Female,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,19,Current smoker,Male,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,23,Used to smoke regularly,Male,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,All,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,57,Never smoked/Used to smoke occasionally,Male,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,20,Current smoker,Male,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,23,Used to smoke regularly,All,Lothian
-S08000024,2015-2018,Percent,Percent Of Adults,18,Current smoker,All,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,17,Current smoker,All,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Male,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,61,Never smoked/Used to smoke occasionally,All,Lothian
-S08000024,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,All,Lothian
-S08000025,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,All,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,23,Used to smoke regularly,All,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,17,Current smoker,Male,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,Female,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,31,Used to smoke regularly,Male,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,67,Never smoked/Used to smoke occasionally,Female,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,65,Never smoked/Used to smoke occasionally,All,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,15,Current smoker,Male,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,All,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,25,Used to smoke regularly,Male,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,70,Never smoked/Used to smoke occasionally,Female,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,12,Current smoker,All,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,13,Current smoker,All,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,Male,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,23,Used to smoke regularly,Female,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,51,Never smoked/Used to smoke occasionally,Male,Orkney
-S08000025,2015-2018,Percent,Percent Of Adults,10,Current smoker,Female,Orkney
-S08000025,2016-2019,Percent,Percent Of Adults,9,Current smoker,Female,Orkney
-S08000026,2016-2019,Percent,Percent Of Adults,14,Current smoker,Female,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,18,Current smoker,Female,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,62,Never smoked/Used to smoke occasionally,Female,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,65,Never smoked/Used to smoke occasionally,Female,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,17,Current smoker,All,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,21,Current smoker,Male,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,22,Current smoker,Male,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,All,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,20,Used to smoke regularly,All,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,Male,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,All,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,20,Used to smoke regularly,Male,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,57,Never smoked/Used to smoke occasionally,Male,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,62,Never smoked/Used to smoke occasionally,All,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,22,Used to smoke regularly,Male,Shetland
-S08000026,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,Female,Shetland
-S08000026,2015-2018,Percent,Percent Of Adults,20,Used to smoke regularly,Female,Shetland
-S08000028,2015-2018,Percent,Percent Of Adults,31,Used to smoke regularly,Male,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,29,Used to smoke regularly,All,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,18,Current smoker,Male,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,14,Current smoker,Female,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,All,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,All,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,29,Used to smoke regularly,Male,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,52,Never smoked/Used to smoke occasionally,Male,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,51,Never smoked/Used to smoke occasionally,Male,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,28,Used to smoke regularly,All,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,16,Current smoker,All,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,19,Current smoker,Male,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,Female,Western Isles
-S08000028,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,Female,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,16,Current smoker,All,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,13,Current smoker,Female,Western Isles
-S08000028,2016-2019,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Western Isles
-S08000029,2016-2019,Percent,Percent Of Adults,18,Current smoker,Male,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,All,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,21,Current smoker,Male,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,18,Current smoker,All,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,51,Never smoked/Used to smoke occasionally,Male,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,28,Used to smoke regularly,Male,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,All,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,All,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,29,Used to smoke regularly,Male,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,Male,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,23,Used to smoke regularly,Female,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,Female,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,Female,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,18,Current smoker,Female,Fife
-S08000029,2015-2018,Percent,Percent Of Adults,19,Current smoker,Female,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,All,Fife
-S08000029,2016-2019,Percent,Percent Of Adults,26,Used to smoke regularly,Female,Fife
-S08000030,2016-2019,Percent,Percent Of Adults,62,Never smoked/Used to smoke occasionally,All,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,24,Used to smoke regularly,All,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,Male,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,17,Current smoker,Male,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,54,Never smoked/Used to smoke occasionally,Male,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,18,Current smoker,Female,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,19,Current smoker,Male,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,57,Never smoked/Used to smoke occasionally,All,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,22,Used to smoke regularly,All,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,14,Current smoker,Female,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,66,Never smoked/Used to smoke occasionally,Female,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,61,Never smoked/Used to smoke occasionally,Female,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,20,Used to smoke regularly,Female,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,Male,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,16,Current smoker,All,Tayside
-S08000030,2016-2019,Percent,Percent Of Adults,25,Used to smoke regularly,Male,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,19,Current smoker,All,Tayside
-S08000030,2015-2018,Percent,Percent Of Adults,21,Used to smoke regularly,Female,Tayside
-S08000031,2015-2018,Percent,Percent Of Adults,23,Used to smoke regularly,All,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,Male,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,Male,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,20,Current smoker,Female,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,22,Used to smoke regularly,Female,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,Female,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,22,Used to smoke regularly,All,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,23,Current smoker,Male,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,19,Current smoker,Female,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,Female,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,22,Current smoker,Male,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,21,Current smoker,All,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,23,Used to smoke regularly,Male,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,24,Used to smoke regularly,Male,Greater Glasgow and Clyde
-S08000031,2015-2018,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,All,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,20,Current smoker,All,Greater Glasgow and Clyde
-S08000031,2016-2019,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,All,Greater Glasgow and Clyde
-S08000032,2015-2018,Percent,Percent Of Adults,22,Current smoker,Male,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,20,Current smoker,Female,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,51,Never smoked/Used to smoke occasionally,Male,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,Female,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,57,Never smoked/Used to smoke occasionally,Female,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,54,Never smoked/Used to smoke occasionally,All,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,23,Used to smoke regularly,Female,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,54,Never smoked/Used to smoke occasionally,All,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,24,Used to smoke regularly,Female,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,20,Current smoker,Female,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,26,Used to smoke regularly,Male,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,21,Current smoker,All,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,21,Current smoker,All,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,26,Used to smoke regularly,Male,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,52,Never smoked/Used to smoke occasionally,Male,Lanarkshire
-S08000032,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,All,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,23,Current smoker,Male,Lanarkshire
-S08000032,2016-2019,Percent,Percent Of Adults,24,Used to smoke regularly,All,Lanarkshire
+feature_code,date_code,measurement,units,value,smoking_status,sex,hb_name,longitude,latitude
+S92000003,2016-2019,Percent,Percent Of Adults,19,Current smoker,All,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,Female,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,17,Current smoker,Female,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,18,Current smoker,Female,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,All,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,All,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,21,Current smoker,Male,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,Male,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,Male,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,20,Current smoker,Male,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,25,Used to smoke regularly,Male,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,Male,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,23,Used to smoke regularly,Female,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,23,Used to smoke regularly,Female,Scotland,-4.2026,56.4907
+S92000003,2015-2018,Percent,Percent Of Adults,24,Used to smoke regularly,All,Scotland,-4.2026,56.4907
+S92000003,2016-2019,Percent,Percent Of Adults,24,Used to smoke regularly,All,Scotland,-4.2026,56.4907
+S08000015,2016-2019,Percent,Percent Of Adults,20,Current smoker,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,22,Current smoker,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,20,Current smoker,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,All,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,28,Used to smoke regularly,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,18,Current smoker,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,28,Used to smoke regularly,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,20,Current smoker,Female,Ayrshire and Arran,-4.668,55.365
+S08000015,2016-2019,Percent,Percent Of Adults,52,Never smoked/Used to smoke occasionally,Male,Ayrshire and Arran,-4.668,55.365
+S08000015,2015-2018,Percent,Percent Of Adults,51,Never smoked/Used to smoke occasionally,Male,Ayrshire and Arran,-4.668,55.365
+S08000016,2015-2018,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,All,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,28,Used to smoke regularly,Male,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,31,Used to smoke regularly,Male,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,18,Current smoker,All,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,17,Current smoker,All,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,24,Used to smoke regularly,Female,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,All,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,24,Used to smoke regularly,Female,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,19,Current smoker,Male,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,Female,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,Male,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,26,Used to smoke regularly,All,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,All,Borders,-2.7861,55.5486
+S08000016,2016-2019,Percent,Percent Of Adults,18,Current smoker,Female,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,50,Never smoked/Used to smoke occasionally,Male,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,19,Current smoker,Male,Borders,-2.7861,55.5486
+S08000016,2015-2018,Percent,Percent Of Adults,16,Current smoker,Female,Borders,-2.7861,55.5486
+S08000017,2016-2019,Percent,Percent Of Adults,15,Current smoker,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,24,Used to smoke regularly,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,57,Never smoked/Used to smoke occasionally,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,19,Current smoker,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,18,Current smoker,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,25,Used to smoke regularly,Female,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,50,Never smoked/Used to smoke occasionally,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,26,Used to smoke regularly,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,51,Never smoked/Used to smoke occasionally,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,23,Current smoker,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,22,Current smoker,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,All,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,26,Used to smoke regularly,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,Male,Dumfries and Galloway,-3.6053,55.0701
+S08000017,2015-2018,Percent,Percent Of Adults,54,Never smoked/Used to smoke occasionally,All,Dumfries and Galloway,-3.6053,55.0701
+S08000019,2016-2019,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,Female,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,Female,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,Female,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,Female,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,18,Current smoker,All,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,All,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,All,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,24,Used to smoke regularly,Male,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,Male,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,Male,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,All,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,25,Used to smoke regularly,All,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,21,Current smoker,Male,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,22,Current smoker,Male,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,17,Current smoker,Female,Forth Valley,-3.8477,56.0254
+S08000019,2016-2019,Percent,Percent Of Adults,15,Current smoker,Female,Forth Valley,-3.8477,56.0254
+S08000019,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,Male,Forth Valley,-3.8477,56.0254
+S08000020,2016-2019,Percent,Percent Of Adults,16,Current smoker,Female,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,All,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,61,Never smoked/Used to smoke occasionally,All,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,18,Current smoker,Female,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,20,Used to smoke regularly,Female,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,63,Never smoked/Used to smoke occasionally,Female,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,22,Used to smoke regularly,All,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,62,Never smoked/Used to smoke occasionally,Female,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,22,Used to smoke regularly,All,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,20,Used to smoke regularly,Female,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,17,Current smoker,All,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,18,Current smoker,All,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,Male,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,24,Used to smoke regularly,Male,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,Male,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,17,Current smoker,Male,Grampian,-4,56.9166667
+S08000020,2016-2019,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Male,Grampian,-4,56.9166667
+S08000020,2015-2018,Percent,Percent Of Adults,19,Current smoker,Male,Grampian,-4,56.9166667
+S08000022,2016-2019,Percent,Percent Of Adults,15,Current smoker,Female,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,15,Current smoker,Female,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,20,Current smoker,All,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,26,Current smoker,Male,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,All,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,26,Current smoker,Male,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,Male,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,46,Never smoked/Used to smoke occasionally,Male,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,47,Never smoked/Used to smoke occasionally,Male,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,26,Used to smoke regularly,All,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,All,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,28,Used to smoke regularly,Male,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,52,Never smoked/Used to smoke occasionally,All,Highland,-4.2264,57.4596
+S08000022,2016-2019,Percent,Percent Of Adults,26,Used to smoke regularly,Female,Highland,-4.2264,57.4596
+S08000022,2015-2018,Percent,Percent Of Adults,26,Used to smoke regularly,Female,Highland,-4.2264,57.4596
+S08000024,2016-2019,Percent,Percent Of Adults,63,Never smoked/Used to smoke occasionally,Female,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,Male,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,17,Current smoker,Female,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,Female,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,16,Current smoker,Female,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,Female,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,22,Used to smoke regularly,Female,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,19,Current smoker,Male,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,23,Used to smoke regularly,Male,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,All,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,57,Never smoked/Used to smoke occasionally,Male,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,20,Current smoker,Male,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,23,Used to smoke regularly,All,Lothian,-3.2121,55.9484
+S08000024,2015-2018,Percent,Percent Of Adults,18,Current smoker,All,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,17,Current smoker,All,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Male,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,61,Never smoked/Used to smoke occasionally,All,Lothian,-3.2121,55.9484
+S08000024,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,All,Lothian,-3.2121,55.9484
+S08000025,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,All,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,23,Used to smoke regularly,All,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,17,Current smoker,Male,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,Female,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,31,Used to smoke regularly,Male,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,67,Never smoked/Used to smoke occasionally,Female,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,65,Never smoked/Used to smoke occasionally,All,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,15,Current smoker,Male,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,All,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,25,Used to smoke regularly,Male,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,70,Never smoked/Used to smoke occasionally,Female,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,12,Current smoker,All,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,13,Current smoker,All,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,Male,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,23,Used to smoke regularly,Female,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,51,Never smoked/Used to smoke occasionally,Male,Orkney,-2.9605,58.9809
+S08000025,2015-2018,Percent,Percent Of Adults,10,Current smoker,Female,Orkney,-2.9605,58.9809
+S08000025,2016-2019,Percent,Percent Of Adults,9,Current smoker,Female,Orkney,-2.9605,58.9809
+S08000026,2016-2019,Percent,Percent Of Adults,14,Current smoker,Female,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,18,Current smoker,Female,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,62,Never smoked/Used to smoke occasionally,Female,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,65,Never smoked/Used to smoke occasionally,Female,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,17,Current smoker,All,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,21,Current smoker,Male,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,22,Current smoker,Male,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,All,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,20,Used to smoke regularly,All,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,Male,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,All,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,20,Used to smoke regularly,Male,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,57,Never smoked/Used to smoke occasionally,Male,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,62,Never smoked/Used to smoke occasionally,All,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,22,Used to smoke regularly,Male,Shetland,-1.2659,60.5297
+S08000026,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,Female,Shetland,-1.2659,60.5297
+S08000026,2015-2018,Percent,Percent Of Adults,20,Used to smoke regularly,Female,Shetland,-1.2659,60.5297
+S08000028,2015-2018,Percent,Percent Of Adults,31,Used to smoke regularly,Male,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,29,Used to smoke regularly,All,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,18,Current smoker,Male,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,14,Current smoker,Female,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,All,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,All,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,29,Used to smoke regularly,Male,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,52,Never smoked/Used to smoke occasionally,Male,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,51,Never smoked/Used to smoke occasionally,Male,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,28,Used to smoke regularly,All,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,16,Current smoker,All,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,19,Current smoker,Male,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,Female,Western Isles,-7.0194,57.7599
+S08000028,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,Female,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,16,Current smoker,All,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,13,Current smoker,Female,Western Isles,-7.0194,57.7599
+S08000028,2016-2019,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Western Isles,-7.0194,57.7599
+S08000029,2016-2019,Percent,Percent Of Adults,18,Current smoker,Male,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,All,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,21,Current smoker,Male,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,18,Current smoker,All,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,51,Never smoked/Used to smoke occasionally,Male,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,20,Current smoker,All,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,28,Used to smoke regularly,Male,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,All,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,All,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,29,Used to smoke regularly,Male,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,Male,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,23,Used to smoke regularly,Female,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,Female,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,Female,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,18,Current smoker,Female,Fife,-3.1495,56.2082
+S08000029,2015-2018,Percent,Percent Of Adults,19,Current smoker,Female,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,27,Used to smoke regularly,All,Fife,-3.1495,56.2082
+S08000029,2016-2019,Percent,Percent Of Adults,26,Used to smoke regularly,Female,Fife,-3.1495,56.2082
+S08000030,2016-2019,Percent,Percent Of Adults,62,Never smoked/Used to smoke occasionally,All,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,24,Used to smoke regularly,All,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,Male,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,17,Current smoker,Male,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,54,Never smoked/Used to smoke occasionally,Male,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,18,Current smoker,Female,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,19,Current smoker,Male,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,57,Never smoked/Used to smoke occasionally,All,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,22,Used to smoke regularly,All,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,14,Current smoker,Female,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,66,Never smoked/Used to smoke occasionally,Female,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,61,Never smoked/Used to smoke occasionally,Female,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,20,Used to smoke regularly,Female,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,27,Used to smoke regularly,Male,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,16,Current smoker,All,Tayside,-3.0331,56.4643
+S08000030,2016-2019,Percent,Percent Of Adults,25,Used to smoke regularly,Male,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,19,Current smoker,All,Tayside,-3.0331,56.4643
+S08000030,2015-2018,Percent,Percent Of Adults,21,Used to smoke regularly,Female,Tayside,-3.0331,56.4643
+S08000031,2015-2018,Percent,Percent Of Adults,23,Used to smoke regularly,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,55,Never smoked/Used to smoke occasionally,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,53,Never smoked/Used to smoke occasionally,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,20,Current smoker,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,22,Used to smoke regularly,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,59,Never smoked/Used to smoke occasionally,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,60,Never smoked/Used to smoke occasionally,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,22,Used to smoke regularly,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,23,Current smoker,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,19,Current smoker,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,21,Used to smoke regularly,Female,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,22,Current smoker,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,21,Current smoker,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,23,Used to smoke regularly,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,24,Used to smoke regularly,Male,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2015-2018,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,20,Current smoker,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000031,2016-2019,Percent,Percent Of Adults,58,Never smoked/Used to smoke occasionally,All,Greater Glasgow and Clyde,-4.321,55.8836
+S08000032,2015-2018,Percent,Percent Of Adults,22,Current smoker,Male,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,20,Current smoker,Female,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,51,Never smoked/Used to smoke occasionally,Male,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,56,Never smoked/Used to smoke occasionally,Female,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,57,Never smoked/Used to smoke occasionally,Female,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,54,Never smoked/Used to smoke occasionally,All,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,23,Used to smoke regularly,Female,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,54,Never smoked/Used to smoke occasionally,All,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,24,Used to smoke regularly,Female,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,20,Current smoker,Female,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,26,Used to smoke regularly,Male,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,21,Current smoker,All,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,21,Current smoker,All,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,26,Used to smoke regularly,Male,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,52,Never smoked/Used to smoke occasionally,Male,Lanarkshire,-3.782,55.6736
+S08000032,2015-2018,Percent,Percent Of Adults,25,Used to smoke regularly,All,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,23,Current smoker,Male,Lanarkshire,-3.782,55.6736
+S08000032,2016-2019,Percent,Percent Of Adults,24,Used to smoke regularly,All,Lanarkshire,-3.782,55.6736
