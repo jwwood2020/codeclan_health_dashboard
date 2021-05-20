@@ -282,7 +282,6 @@ vignettes/*.pdf
 *.dat
 *.efx
 *.gbr
-*.key
 *.pps
 *.ppt
 *.pptx
