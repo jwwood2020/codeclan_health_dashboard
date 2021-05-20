@@ -118,8 +118,8 @@ shinyUI(
                         br(),
                         
                         fluidRow(
-                            column(6, plotOutput("birth_scotland")),
-                            column(6, icon = icon("baby"))),
+                            column(8, plotOutput("birth_scotland")),
+                            column(4, icon("baby", style="font-size: 300px"))),
                         
                         br(),
                                  

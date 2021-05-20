@@ -199,7 +199,7 @@ shinyServer(function(input, output) {
         
         output$mothers_ages_council  <- renderPlot({
             mothers_ages_m %>% 
-                filter(la_name == "Scotland" | la_name == "East Lothian") %>%
+                filter(la_name == "Scotland" | la_name == input$council_selection) %>%
                 ggplot() +
                 aes(x = year,
                     y = ratio,
