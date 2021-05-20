@@ -78,22 +78,21 @@ shinyUI(
                         
                 h2("Welcome to the Scotland Health Dashboard"),
                 h4("The dashboards and data available through this application are the 
-                   result of ongoing collaboration between Scothish Public Heath Department and CodeClan D8 Team 1. 
-                   The porpouse of this Dashboard on general LifStyle stats across Scotland and 
-                   Baby Weight data across Scotland and by Concils as well. This Data can then be youse to make informed 
-                   dicisions relating to Public Health of the people of Alba."),
+                   result of ongoing collaboration between the Scottish Public Heath Department and CodeClan D8 Team 1. 
+                   This Dashboard presents general Lifestyle stats for healthboards across Scotland and Baby Weight data for councils across Scotland. 
+                   This Data can then be used to make informed decisions relating to Public Health of the people of Scotland."),
                 h4 ("Ps: We are the Best!!"),
                 
-                h3 ("Scotland LifeStyle Quick Stats"),
+                h3 ("Scotland Lifestyle Quick Stats"),
                 h4 ("The following LifeStyle stats are the average across Scotland."),
                 valueBoxOutput ("quickstat1", 3), 
                 valueBoxOutput ("quickstat2", 3),
                 valueBoxOutput ("quickstat3", 3),
                 valueBoxOutput ("quickstat4", 3),
                 
-                h3("Council LifeStyle Stats"),
+                h3("Council Lifestyle Stats"),
                 h4("The following maps provide a detailed distribution of 
-                   LifeStyle Stats across the counties in Scoltand"),
+                   Lifestyle Stats across the counties in Scoltand"),
                 br(),
                 
                 fluidRow(
@@ -111,10 +110,10 @@ shinyUI(
                 # Scotland menu content
                 
                 tabItem(tabName = "scotland_data",
-                        h3 ("Scotland Birthweigh Data"),
-                        h4 ("The following graphs provide information on birthweigh across Scotland as a whole. 
-                            The effects of the mother's smoking habits and age,
-                            can be compared by selecting the oprion on the right side."),
+                        h3 ("Scotland Birthweight Data"),
+                        h4 ("The following graphs provide information on birthweight across Scotland as a whole. 
+                            The effects of the mother's smoking habits and age
+                            can be compared by selecting the option on the right side."),
                         br(),
                         
                         fluidRow(
@@ -141,11 +140,11 @@ shinyUI(
                 # Council menu content
                 tabItem(tabName = "council_data",
                         h2 ("Council Birthweigh Data"),
-                        h4 ("The following graphs provide information on birthweigh across Scotland and the 
+                        h4 ("The following graphs provide information on birthweight across Scotland and the 
                             Councils of Scotland, 
-                            there by alerting council members if they fall below the average. 
+                            thereby alerting council members if they fall below the average. 
                             The effects of the mother's smoking habits and age,
-                            can be compared by selecting the oprion on the right side."),
+                            can be compared by selecting the option on the right side."),
                         h4 ("we can write a short discription of what we see"),
                         
                         br(),

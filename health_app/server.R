@@ -359,7 +359,7 @@ shinyServer(function(input, output) {
         
         output$quickstat1 <- renderValueBox({
             valueBox(
-                value = tags$p("Alcoholic %", style = "font-size: 100%;"),
+                value = tags$p("Alcohol %", style = "font-size: 100%;"),
                 subtitle = tags$p(quickstat1 <- alcohol %>%
                                       filter(sex == input$sex_selection, date_code == input$year_selection) %>%
                                       filter(hb_name == "Scotland") %>%
@@ -402,10 +402,10 @@ shinyServer(function(input, output) {
         output$quickstat4 <- renderValueBox({
             valueBox(
                 value = tags$p("E Cig %", style = "font-size: 100%;"),
-                subtitle = tags$p(quickstat1 <- alcohol %>%
+                subtitle = tags$p(quickstat1 <- e_cig %>%
                                       filter(sex == input$sex_selection, date_code == input$year_selection) %>%
                                       filter(hb_name == "Scotland") %>%
-                                      filter(alcohol_consumption == "Hazardous/Harmful drinker") %>%
+                                      filter(e_cigarette_use == "Currently using") %>%
                                       select(value) %>%
                                       pull(), style = "font-size: 200%;"),
                 icon = icon("power-off"),
