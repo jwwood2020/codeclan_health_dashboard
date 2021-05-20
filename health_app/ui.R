@@ -47,7 +47,7 @@ shinyUI(
                     
                     selectInput("council_selection",
                                 "Council Selection",
-                                choices = unique(low_birthweight$la_name)),
+                                choices = sort(unique(low_birthweight$la_name))),
                     
                     radioButtons("council_comparison",
                                  "Comparison Selection",
