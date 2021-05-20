@@ -141,7 +141,7 @@ shinyUI(
                 tabItem(tabName = "council_data",
                         h2 ("Low birthweight - Council area"),
                         h4 ("The following graphs provide information on prevalence of low birthweight
-                            in Scotland.
+                            in local Council areas.
                             The relationship with antenatal smoking or mothers' age
                             can be explored by selecting the option on the side panel"),
 
@@ -169,22 +169,22 @@ shinyUI(
 
                 # Stats menu content
                 tabItem(tabName = "stats",
-                        h2("Statistics data for Babybirth weight"),
-                        h4("Do you want to add something here?"),
+                        h2("Distributions  by Council area"),
+                        
                         br(),
                         plotOutput("weights_hist_stats"),
                         br(),
 
                         conditionalPanel(
                             condition = "input.stats_comparison =='Smoking'",
-                            h4("stuff for smoker selection"),
+                           
                             plotOutput("smoker_hist_stats"),
                             br(),
                             dataTableOutput("weights_h_stats")),
 
                         conditionalPanel(
                             condition = "input.stats_comparison =='Mother\\'s Age'",
-                            h4("stuff for age selection"),
+                            
                             plotOutput("ages_hist_stats"),
                             br(),
                             h4("and stuff here"),
