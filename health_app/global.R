@@ -31,6 +31,7 @@ mothers_ages <- read_csv(here("data_clean/mothers_ages.csv")) %>%
   mutate(year = as.character(year))
 
 mothers_ages_m <- mothers_ages %>% 
+  mutate(year = as.numeric((year))) %>% 
   rename (la_name = reference_area)
 
 

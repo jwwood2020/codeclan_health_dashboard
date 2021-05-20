@@ -199,14 +199,13 @@ shinyServer(function(input, output) {
         
         output$mothers_ages_council  <- renderPlot({
             mothers_ages_m %>% 
-                filter(la_name == "Scotland" | la_name == input$council_selection) %>% 
+                filter(la_name == "Scotland" | la_name == "East Lothian") %>%
                 ggplot() +
                 aes(x = year,
                     y = ratio,
-                    group = age_band,
-                    colour = age_band) +
-                geom_point() +
-                geom_line(fill = la_name) +
+                    color = age_band,
+                    linetype = la_name) +
+                geom_line() +
                 scale_x_discrete(breaks = 2002:2019) +
                 scale_y_continuous(limits = c(0, NA)) +
                 #  geom_smooth(method=lm , color="red", se = FALSE) +

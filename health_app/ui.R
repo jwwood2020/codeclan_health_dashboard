@@ -27,7 +27,7 @@ shinyUI(
             
             # Scotland data Menu    
             sidebarMenu(id = "menu1",    
-                menuItem("Scotland Data", tabName = "scotland_data", icon = icon("baby"))),
+                menuItem("Scotland Data", tabName = "scotland_data", icon = icon("plus"))),
                 
                 conditionalPanel(
                     condition = "input.menu1 =='scotland_data'",
@@ -117,7 +117,10 @@ shinyUI(
                             can be compared by selecting the oprion on the right side."),
                         br(),
                         
-                        fluidRow(column(6, plotOutput("birth_scotland"))),
+                        fluidRow(
+                            column(6, plotOutput("birth_scotland")),
+                            column(6, icon = icon("baby"))),
+                        
                         br(),
                                  
                         conditionalPanel(
@@ -143,6 +146,9 @@ shinyUI(
                             there by alerting council members if they fall below the average. 
                             The effects of the mother's smoking habits and age,
                             can be compared by selecting the oprion on the right side."),
+                        h4 ("we can write a short discription of what we see"),
+                        
+                        br(),
                         
                         fluidRow(
                             column(6, plotOutput("birth_council"))),
@@ -183,6 +189,7 @@ shinyUI(
                             h4("stuff for age selection"),
                             plotOutput("ages_hist_stats"),
                             br(),
+                            h4("and stuff here"),
                             dataTableOutput("smoker_stats_stats"))
                         
                 )
