@@ -12,15 +12,15 @@ shinyServer(function(input, output) {
                 aes(x = year,
                     y = smoker_ratio) +
                 geom_point() +
+                geom_line() +
                 #scale_x_continuous(breaks = 2002:2019) +
                 #scale_y_continuous(limits = c(0, NA)) +
-                geom_smooth(method=lm , color="grey", se = FALSE) +
+                #geom_smooth(method=lm , color="grey", se = FALSE) +
                 labs(x = "Year",
                      y = "Percentage of new mothers smoking",
                      title = "Antenatal smokers in Scotland") +
                 theme_classic() +
-                theme(plot.title = element_text(face = "bold", size = 24),
-                      plot.background = element_rect(colour = "black", size = 2))
+                theme(plot.title = element_text(face = "bold", size = 18))
         
         })
         
@@ -31,13 +31,13 @@ shinyServer(function(input, output) {
                 aes(x = year,
                     y = weight_ratio,) +
                 geom_point() +
-                geom_smooth(method=lm , color="grey", se = FALSE) +
+                geom_line() +
+                #geom_smooth(method=lm , color="grey", se = FALSE) +
                 labs(x = "Year",
                      y = "Percentage of births class as low weight",
                      title = "Low birthweight in Scotland") +
                 theme_classic() +
-                theme(plot.title = element_text(face = "bold", size = 24),
-                      plot.background = element_rect(colour = "black", size = 2))
+                theme(plot.title = element_text(face = "bold", size = 18))
         })
         
         output$smokebirth_scotland <- renderPlot({
@@ -55,8 +55,8 @@ shinyServer(function(input, output) {
                      size = "Births classed as low birthweight",
                      title = "Change in smoking & low birthweight") +
                 theme_classic() +
-                theme(plot.title = element_text(face = "bold", size = 24),
-                      plot.background = element_rect(colour = "black", size = 2))
+                theme(plot.title = element_text(face = "bold", size = 18),
+                      legend.position = c(1, 1), legend.justification = c(1, 1))
             
         })
         
@@ -77,8 +77,7 @@ shinyServer(function(input, output) {
                      y = "Percentage of first-time mothers",
                      title = "First-time mothers in Scotland by age-band") +
                 theme_classic() +
-                theme(plot.title = element_text(face = "bold", size = 24),
-                      plot.background = element_rect(colour = "black", size = 2))
+                theme(plot.title = element_text(face = "bold", size = 18))
         })
         
         output$age_weight_scotland <- renderPlot({
@@ -103,7 +102,8 @@ shinyServer(function(input, output) {
                 ggplot() +
                 aes(x = year,
                     y = older_ratio,
-                    size = weight_ratio) +
+                    size = weight_ratio,
+                    colour = age_band) +
                 geom_point() +
                 # geom_smooth(method=lm , color="red") +
                 labs(x = "Year",
@@ -111,6 +111,7 @@ shinyServer(function(input, output) {
                      title = "Change in low birthweight and mother's age",
                      size = "% low birthweight") +
                 theme_classic() +
+                theme(plot.title = element_text(face = "bold", size = 18)) +
                 facet_wrap(~ age_band)
         })
         
@@ -149,9 +150,8 @@ shinyServer(function(input, output) {
                      title = "Antenatal smokers",
                      colour = "Council area") +
                 theme_classic() +
-                theme(plot.title = element_text(face = "bold", size = 24),
-                      legend.position = c(1, 1), legend.justification = c(1, 1),
-                      plot.background = element_rect(colour = "black", size = 2))
+                theme(plot.title = element_text(face = "bold", size = 18),
+                      legend.position = c(1, 1), legend.justification = c(1, 1))
             
             
         })
@@ -170,9 +170,8 @@ shinyServer(function(input, output) {
                      title = "Low Birthweight",
                      colour = "Council area") +
                 theme_classic() +
-                theme(plot.title = element_text(face = "bold", size = 24),
-                      legend.position = c(1, 1), legend.justification = c(1, 1),
-                      plot.background = element_rect(colour = "black", size = 2))
+                theme(plot.title = element_text(face = "bold", size = 18),
+                      legend.position = c(1, 1), legend.justification = c(1, 1))
         })
         
         output$smokebirth_council <- renderPlot({
@@ -192,8 +191,7 @@ shinyServer(function(input, output) {
                      colour = "Council area",
                      size = "% loweight births") +
                 theme_classic() +
-                theme(plot.title = element_text(face = "bold", size = 24),
-                      plot.background = element_rect(colour = "black", size = 2))
+                theme(plot.title = element_text(face = "bold", size = 18))
             
         })
         
@@ -211,7 +209,11 @@ shinyServer(function(input, output) {
                 #  geom_smooth(method=lm , color="red", se = FALSE) +
                 labs(x = "Year",
                      y = "Percentage of first-time mothers",
-                     title = "G4 Are first-time mothers in Scotland getting older?")
+                     title = "First time mothers by age band",
+                     colour = "Age band",
+                     linetype = "Council area") +
+                theme_classic() +
+                theme(plot.title = element_text(face = "bold", size = 18))
         })
         
         
@@ -222,14 +224,16 @@ shinyServer(function(input, output) {
                 aes(x = year,
                     y = older_ratio,
                     size = weight_ratio,
-                    fill = la_name) +
+                    colour = la_name) +
                 geom_point() +
                 # geom_smooth(method=lm , color="red") +
                 labs(x = "Year",
-                     y = "Percentage of first-time mothers aged 35+",
-                     title = "Is there a relationship between low birthweight and mother's age?",
-                     subtitle = "G6 Plot of low birthweight % vs older mothers %, Scotland 2002 - 2019",
-                     size = "% low birthweight") +
+                     y = "Percentage of first-time mothers",
+                     title = "Change in low birthweight and mothers age",
+                     size = "% low birthweight",
+                     colour = "Council area") +
+                theme_classic() +
+                theme(plot.title = element_text(face = "bold", size = 18)) +
                 facet_wrap(~ age_band)
         })
         
@@ -247,8 +251,7 @@ shinyServer(function(input, output) {
                      y = "Number of local councils",
                      title = "Histogram of antenatal smoking percentages") +
                 theme_classic() +
-                theme(plot.title = element_text(face = "bold", size = 24),
-                      plot.background = element_rect(colour = "black", size = 2))
+                theme(plot.title = element_text(face = "bold", size = 24))
         })
 
         output$smoker_stats_stats <- renderDataTable({
@@ -274,8 +277,7 @@ shinyServer(function(input, output) {
                      x = "Percentage of first-time mothers in age band",
                      title = "Histogram of first-time mother age bands") +
                 theme_classic() +
-                theme(plot.title = element_text(face = "bold", size = 24),
-                      plot.background = element_rect(colour = "black", size = 2))
+                theme(plot.title = element_text(face = "bold", size = 24))
         })
 
         output$weights_hist_stats <- renderPlot({
@@ -290,8 +292,7 @@ shinyServer(function(input, output) {
                      x = "Percentage of births classed as low weight",
                      title = "Histogram of low birthweights") +
                 theme_classic() +
-                theme(plot.title = element_text(face = "bold", size = 24),
-                      plot.background = element_rect(colour = "black", size = 2))
+                theme(plot.title = element_text(face = "bold", size = 24))
         })
 
         output$weights_h_stats <- renderDataTable({
@@ -315,7 +316,7 @@ shinyServer(function(input, output) {
                 geom_sf(aes(group = hb_name, fill = value)) +
                 theme_minimal() +
                 theme(panel.grid.major = element_blank(), axis.text = element_blank()) +
-                ggtitle("Alcohol Consumption in Scotland") + 
+                ggtitle("Prevalence of hazardous/harmful drinking") + 
                 scale_fill_gradient(low = "green", high = "red")
         })
         
@@ -327,7 +328,7 @@ shinyServer(function(input, output) {
                 geom_sf(aes(group = hb_name, fill = value)) +
                 theme_minimal() +
                 theme(panel.grid.major = element_blank(), axis.text = element_blank()) +
-                ggtitle("Obesity in Scotland") + 
+                ggtitle("Percentage of adults who are obese") + 
                 scale_fill_gradient(low = "green", high = "red")
         })
         
@@ -339,7 +340,7 @@ shinyServer(function(input, output) {
                 geom_sf(aes(group = hb_name, fill = value)) +
                 theme_minimal() +
                 theme(panel.grid.major = element_blank(), axis.text = element_blank()) +
-                ggtitle("Smoking Status in Scotland") + 
+                ggtitle("Percentage of adults who smoke") + 
                 scale_fill_gradient(low = "green", high = "red")
         })
         
@@ -351,7 +352,7 @@ shinyServer(function(input, output) {
                 geom_sf(aes(group = hb_name, fill = value)) +
                 theme_minimal() +
                 theme(panel.grid.major = element_blank(), axis.text = element_blank()) +
-                ggtitle("E-cigarette use in Scotland") + 
+                ggtitle("Percentage of adults who use E-cigarettes") + 
                 scale_fill_gradient(low = "green", high = "red")
         })
         
