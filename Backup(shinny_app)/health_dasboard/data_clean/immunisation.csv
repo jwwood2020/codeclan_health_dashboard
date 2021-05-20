@@ -1,0 +1,34 @@
+feature_code,date_code,measurement,units,value,vaccination_uptake
+S92000003,2016,Count,Children,56126,Vaccinated by 24 Months
+S92000003,2012,Count,Children,57737,Vaccinated by 24 Months
+S92000003,2014,Count,Children,57547,Vaccinated by 24 Months
+S92000003,2010,Count,Children,58536,Vaccinated by 24 Months
+S92000003,2015,Count,Children,55628,Vaccinated by 24 Months
+S92000003,2013,Count,Children,57742,Vaccinated by 24 Months
+S92000003,2009,Count,Children,56833,Vaccinated by 24 Months
+S92000003,2008,Count,Children,54947,Vaccinated by 24 Months
+S92000003,2011,Count,Children,58029,Vaccinated by 24 Months
+S92000003,2017,Count,Children,54667,Vaccinated by 24 Months
+S92000003,2018,Count,Children,53885,Vaccinated by 24 Months
+S92000003,2010,Count,Children,59607,Number In 24 Month Cohort
+S92000003,2014,Count,Children,58636,Number In 24 Month Cohort
+S92000003,2017,Count,Children,56021,Number In 24 Month Cohort
+S92000003,2015,Count,Children,56844,Number In 24 Month Cohort
+S92000003,2011,Count,Children,59149,Number In 24 Month Cohort
+S92000003,2012,Count,Children,58793,Number In 24 Month Cohort
+S92000003,2013,Count,Children,58763,Number In 24 Month Cohort
+S92000003,2009,Count,Children,57935,Number In 24 Month Cohort
+S92000003,2016,Count,Children,57436,Number In 24 Month Cohort
+S92000003,2008,Count,Children,56243,Number In 24 Month Cohort
+S92000003,2018,Count,Children,55337,Number In 24 Month Cohort
+S92000003,2013,Ratio,Percent Of Children,98.3,Vaccinated by 24 Months
+S92000003,2014,Ratio,Percent Of Children,98.1,Vaccinated by 24 Months
+S92000003,2009,Ratio,Percent Of Children,98.1,Vaccinated by 24 Months
+S92000003,2008,Ratio,Percent Of Children,97.7,Vaccinated by 24 Months
+S92000003,2011,Ratio,Percent Of Children,98.1,Vaccinated by 24 Months
+S92000003,2010,Ratio,Percent Of Children,98.2,Vaccinated by 24 Months
+S92000003,2012,Ratio,Percent Of Children,98.2,Vaccinated by 24 Months
+S92000003,2017,Ratio,Percent Of Children,97.6,Vaccinated by 24 Months
+S92000003,2015,Ratio,Percent Of Children,97.9,Vaccinated by 24 Months
+S92000003,2016,Ratio,Percent Of Children,97.7,Vaccinated by 24 Months
+S92000003,2018,Ratio,Percent Of Children,97.4,Vaccinated by 24 Months
