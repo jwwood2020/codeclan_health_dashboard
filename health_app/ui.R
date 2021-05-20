@@ -76,24 +76,22 @@ shinyUI(
                 # Home Menu Content
                 tabItem(tabName = "home",
                         
-                h2("Welcome to the Scotland Health Dashboard"),
-                h4("The dashboards and data available through this application are the 
-                   result of ongoing collaboration between Scothish Public Heath Department and CodeClan D8 Team 1. 
-                   The porpouse of this Dashboard on general LifStyle stats across Scotland and 
-                   Baby Weight data across Scotland and by Concils as well. This Data can then be youse to make informed 
-                   dicisions relating to Public Health of the people of Alba."),
-                h4 ("Ps: We are the Best!!"),
+                h2("Health Survey Results - Scotland"),
+               # h4("This page shows summary Scotland-level results from the Scottish Health Survey for four 
+                 #  lifestyle metrics relating to Excess Alcohol Consumption, Smoking and Obesity."),
                 
-                h3 ("Scotland LifeStyle Quick Stats"),
-                h4 ("The following LifeStyle stats are the average across Scotland."),
+               # h3 ("Health Survey Results - Scotland"),
+               # h4 ("The following LifeStyle stats are the average across Scotland."),
                 valueBoxOutput ("quickstat1", 3), 
                 valueBoxOutput ("quickstat2", 3),
                 valueBoxOutput ("quickstat3", 3),
                 valueBoxOutput ("quickstat4", 3),
-                
-                h3("Council LifeStyle Stats"),
-                h4("The following maps provide a detailed distribution of 
-                   LifeStyle Stats across the counties in Scoltand"),
+                h5(" - Alcohol: Prevalence of hazardous or harmful drinking"),
+                h5(" - Obesity: % of adults who are obese"),
+                h5(" - Smoking: % of adults who smoke"),
+                h5(" - E Cig: % of adults who use e-cigarettes"),
+                h2("Health Survey Results - Health Board level"),
+               # h4("The maps show how the four metrics vary across local Health Board regions"),
                 br(),
                 
                 fluidRow(
@@ -111,10 +109,11 @@ shinyUI(
                 # Scotland menu content
                 
                 tabItem(tabName = "scotland_data",
-                        h3 ("Scotland Birthweigh Data"),
-                        h4 ("The following graphs provide information on birthweigh across Scotland as a whole. 
-                            The effects of the mother's smoking habits and age,
-                            can be compared by selecting the oprion on the right side."),
+                        h3 ("Low Birthweight - Scotland"),
+                        h4 ("The following graphs provide information on prevalence of low birthweight
+                            in Scotland. 
+                            The relationship with antenatal smoking or mothers' age
+                            can be explored by selecting the option on the side panel."),
                         br(),
                         
                         fluidRow(
@@ -140,13 +139,12 @@ shinyUI(
                 
                 # Council menu content
                 tabItem(tabName = "council_data",
-                        h2 ("Council Birthweigh Data"),
-                        h4 ("The following graphs provide information on birthweigh across Scotland and the 
-                            Councils of Scotland, 
-                            there by alerting council members if they fall below the average. 
-                            The effects of the mother's smoking habits and age,
-                            can be compared by selecting the oprion on the right side."),
-                        h4 ("we can write a short discription of what we see"),
+                        h2 ("Council Birthweigh - Council area"),
+                        h4 ("The following graphs provide information on prevalence of low birthweight
+                            in Scotland. 
+                            The relationship with antenatal smoking or mothers' age
+                            can be explored by selecting the option on the side panel"),
+                       
                         
                         br(),
                         
