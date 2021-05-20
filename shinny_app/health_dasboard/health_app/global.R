@@ -10,7 +10,7 @@ library(sf)
 library(leaflet)
 library(rmapshaper)
 
-# John's Data (not working need to get some more context interms of the data used)
+# John's Data ()
 
 smokers <- read_csv(here("data_clean/antenatal_smoking.csv")) %>% 
   arrange(year) %>% 
@@ -50,7 +50,7 @@ breastfeeding <- read_csv(here("data_clean/breastfeeding.csv"))
 
 # scotland_simple <- st_read("data_clean/scotland_simple.shp")
 
-scotland <- read_sf(here("data_raw/SG_NHS_HealthBoards_2019/SG_NHS_HealthBoards_2019.shp"))
+scotland <- read_sf(here("data_clean/SG_NHS_HealthBoards_2019/SG_NHS_HealthBoards_2019.shp"))
 
 scotland_simple <- ms_simplify(scotland)
 

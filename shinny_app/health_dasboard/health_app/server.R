@@ -392,7 +392,7 @@ shinyServer(function(input, output) {
         output$quickstat1 <- renderValueBox({
             valueBox(
                 "Alcohol Consumtion",
-                alcohol %>%
+                quickstat1 <- alcohol %>%
                     filter(sex == input$sex_selection | date_code == input$year_selection) %>%
                     filter(hb_name == "Scotland") %>%
                     filter(alcohol_consumption == "Hazardous/Harmful drinker") %>%
