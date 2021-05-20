@@ -391,49 +391,57 @@ shinyServer(function(input, output) {
         
         output$quickstat1 <- renderValueBox({
             valueBox(
-                "Alcohol Consumtion",
-                quickstat1 <- alcohol %>%
-                    filter(sex == input$sex_selection | date_code == input$year_selection) %>%
-                    filter(hb_name == "Scotland") %>%
-                    filter(alcohol_consumption == "Hazardous/Harmful drinker") %>%
-                    select(value) %>%
-                    pull()
+                value = tags$p("Alcoholic %", style = "font-size: 100%;"),
+                subtitle = tags$p(quickstat1 <- alcohol %>%
+                                      filter(sex == input$sex_selection, date_code == input$year_selection) %>%
+                                      filter(hb_name == "Scotland") %>%
+                                      filter(alcohol_consumption == "Hazardous/Harmful drinker") %>%
+                                      select(value) %>%
+                                      pull(), style = "font-size: 200%;"),
+                icon = icon("wine-bottle"),
+                color = "blue"
             )
             })
         
         output$quickstat2 <- renderValueBox({
             valueBox(
-                "Obesity",
-            obesity %>%
-                filter(sex == input$sex_selection | date_code == input$year_selection) %>%
-                filter(hb_name == "Scotland") %>%
-                filter(obesity == "Obese") %>%
-                select(value) %>%
-                pull()
+                value = tags$p("Obesity %", style = "font-size: 100%;"),
+                subtitle = tags$p(obesity %>%
+                                      filter(sex == input$sex_selection, date_code == input$year_selection) %>%
+                                      filter(hb_name == "Scotland") %>%
+                                      filter(obesity == "Obese") %>%
+                                      select(value) %>%
+                                      pull(), style = "font-size: 200%;"),
+                icon = icon("arrows-alt-h"),
+                color = "blue"
             )
         })
         
         output$quickstat3 <- renderValueBox({
             valueBox(
-                "Smoking",
-                smoking_status %>%
-                    filter(sex == input$sex_selection | date_code == input$year_selection) %>%
-                    filter(hb_name == "Scotland") %>%
-                    filter(smoking_status == "Current smoker") %>%
-                    select(value) %>%
-                    pull()
+                value = tags$p("Smoking %", style = "font-size: 100%;"),
+                subtitle = tags$p(smoking_status %>%
+                                          filter(sex == input$sex_selection, date_code == input$year_selection) %>%
+                                          filter(hb_name == "Scotland") %>%
+                                          filter(smoking_status == "Current smoker") %>%
+                                          select(value) %>%
+                                          pull(), style = "font-size: 200%;"),
+                icon = icon("smoking"),
+                color = "blue"
             )
         })
         
         output$quickstat4 <- renderValueBox({
             valueBox(
-                "Alcohol Consumtion",
-                e_cig %>%
-                filter(sex == input$sex_selection | date_code == input$year_selection) %>%
-                filter(hb_name == "Scotland") %>%
-                filter(e_cigarette_use == "Currently using") %>%
-                select(value) %>%
-                pull()
+                value = tags$p("E Cig %", style = "font-size: 100%;"),
+                subtitle = tags$p(quickstat1 <- alcohol %>%
+                                      filter(sex == input$sex_selection, date_code == input$year_selection) %>%
+                                      filter(hb_name == "Scotland") %>%
+                                      filter(alcohol_consumption == "Hazardous/Harmful drinker") %>%
+                                      select(value) %>%
+                                      pull(), style = "font-size: 200%;"),
+                icon = icon("power-off"),
+                color = "blue"
             )
         })
 })
