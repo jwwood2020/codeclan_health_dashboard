@@ -47,7 +47,7 @@ low_birthweight <- low_birthweight %>%
 
 breastfeeding <- read_csv(here("data_clean/breastfeeding.csv")) 
 
-# Emilies Data 
+# Emily's Data 
 
 # scotland_simple <- st_read("data_clean/scotland_simple.shp")
 
