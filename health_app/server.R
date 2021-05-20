@@ -215,21 +215,6 @@ shinyServer(function(input, output) {
                      title = "G4 Are first-time mothers in Scotland getting older?")
         })
         
-        # output$age_weight_council <- renderPlot({
-        #     low_birthweight %>% 
-        #         filter(la_name == "Scotland" | la_name == input$council_selection) %>% 
-        #         ggplot() +
-        #         aes(x = older_ratio,
-        #             y = weight_ratio,
-        #             fill = la_name) +
-        #         geom_point() +
-        #         geom_smooth(method=lm , color="red") +
-        #         labs(x = "Percentage of first-time mothers",
-        #              y = "Percentage of low-weight births",
-        #              title = "Is there a relationship between low birthweight and mother's age?",
-        #              subtitle = "G5 Plot of low birthweight % vs mothers age band %, Scotland 2002 - 2019") +
-        #         facet_wrap(~ age_band)
-        # })
         
         output$age_weight2_council  <- renderPlot({
             low_birthweight %>% 
@@ -248,22 +233,6 @@ shinyServer(function(input, output) {
                      size = "% low birthweight") +
                 facet_wrap(~ age_band)
         })
-        
-        # output$breastfed_council  <- renderPlot({
-        #     breastfeeding %>% 
-        #         filter(la_name == "Scotland" | la_name == input$council_selection) %>% 
-        #         ggplot() +
-        #         aes(x = year,
-        #             y = feeding_ratio,
-        #             fill = la_name) +
-        #         geom_point() +
-        #         scale_x_continuous(breaks = 2002:2019) +
-        #         scale_y_continuous(limits = c(0, NA)) +
-        #         geom_smooth(method=lm , color="red", se = FALSE) +
-        #         labs(x = "Year",
-        #              y = "Percentage of babies breastfed",
-        #              title = "G7 Are more babies being breastfed?")
-        # })
         
         # Stats data Menu
         
@@ -391,49 +360,57 @@ shinyServer(function(input, output) {
         
         output$quickstat1 <- renderValueBox({
             valueBox(
-                "Alcohol Consumtion",
-                quickstat1 <- alcohol %>%
-                    filter(sex == input$sex_selection | date_code == input$year_selection) %>%
-                    filter(hb_name == "Scotland") %>%
-                    filter(alcohol_consumption == "Hazardous/Harmful drinker") %>%
-                    select(value) %>%
-                    pull()
+                value = tags$p("Alcoholic %", style = "font-size: 100%;"),
+                subtitle = tags$p(quickstat1 <- alcohol %>%
+                                      filter(sex == input$sex_selection, date_code == input$year_selection) %>%
+                                      filter(hb_name == "Scotland") %>%
+                                      filter(alcohol_consumption == "Hazardous/Harmful drinker") %>%
+                                      select(value) %>%
+                                      pull(), style = "font-size: 200%;"),
+                icon = icon("wine-bottle"),
+                color = "blue"
             )
             })
         
         output$quickstat2 <- renderValueBox({
             valueBox(
-                "Obesity",
-            obesity %>%
-                filter(sex == input$sex_selection | date_code == input$year_selection) %>%
-                filter(hb_name == "Scotland") %>%
-                filter(obesity == "Obese") %>%
-                select(value) %>%
-                pull()
+                value = tags$p("Obesity %", style = "font-size: 100%;"),
+                subtitle = tags$p(obesity %>%
+                                      filter(sex == input$sex_selection, date_code == input$year_selection) %>%
+                                      filter(hb_name == "Scotland") %>%
+                                      filter(obesity == "Obese") %>%
+                                      select(value) %>%
+                                      pull(), style = "font-size: 200%;"),
+                icon = icon("arrows-alt-h"),
+                color = "blue"
             )
         })
         
         output$quickstat3 <- renderValueBox({
             valueBox(
-                "Smoking",
-                smoking_status %>%
-                    filter(sex == input$sex_selection | date_code == input$year_selection) %>%
-                    filter(hb_name == "Scotland") %>%
-                    filter(smoking_status == "Current smoker") %>%
-                    select(value) %>%
-                    pull()
+                value = tags$p("Smoking %", style = "font-size: 100%;"),
+                subtitle = tags$p(smoking_status %>%
+                                          filter(sex == input$sex_selection, date_code == input$year_selection) %>%
+                                          filter(hb_name == "Scotland") %>%
+                                          filter(smoking_status == "Current smoker") %>%
+                                          select(value) %>%
+                                          pull(), style = "font-size: 200%;"),
+                icon = icon("smoking"),
+                color = "blue"
             )
         })
         
         output$quickstat4 <- renderValueBox({
             valueBox(
-                "Alcohol Consumtion",
-                e_cig %>%
-                filter(sex == input$sex_selection | date_code == input$year_selection) %>%
-                filter(hb_name == "Scotland") %>%
-                filter(e_cigarette_use == "Currently using") %>%
-                select(value) %>%
-                pull()
+                value = tags$p("E Cig %", style = "font-size: 100%;"),
+                subtitle = tags$p(quickstat1 <- alcohol %>%
+                                      filter(sex == input$sex_selection, date_code == input$year_selection) %>%
+                                      filter(hb_name == "Scotland") %>%
+                                      filter(alcohol_consumption == "Hazardous/Harmful drinker") %>%
+                                      select(value) %>%
+                                      pull(), style = "font-size: 200%;"),
+                icon = icon("power-off"),
+                color = "blue"
             )
         })
 })
