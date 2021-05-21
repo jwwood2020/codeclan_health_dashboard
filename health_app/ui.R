@@ -77,11 +77,15 @@ shinyUI(
                 tabItem(tabName = "home",
 
                 h2("Health Survey Results - Scotland"),
+                h4("The dashboards and data available through this application 
+                   are the result of ongoing collaboration with Public Health Scotland and is 
+                   designed to inform the public of general health stats and Baby Birthweigh across Scotland"),
                # h4("This page shows summary Scotland-level results from the Scottish Health Survey for four
                  #  lifestyle metrics relating to Excess Alcohol Consumption, Smoking and Obesity."),
 
                # h3 ("Health Survey Results - Scotland"),
                # h4 ("The following LifeStyle stats are the average across Scotland."),
+               br(),
                 valueBoxOutput ("quickstat1", 3),
                 valueBoxOutput ("quickstat2", 3),
                 valueBoxOutput ("quickstat3", 3),
@@ -117,7 +121,8 @@ shinyUI(
                         br(),
 
                         fluidRow(
-                            column(8, plotOutput("birth_scotland")),
+                            column(6, plotOutput("birth_scotland")),
+                            br(),
                             column(4, icon("baby", style="font-size: 300px"))),
 
                         br(),
@@ -187,7 +192,6 @@ shinyUI(
                             
                             plotOutput("ages_hist_stats"),
                             br(),
-                            h4("and stuff here"),
                             dataTableOutput("smoker_stats_stats"))
 
                 )
