@@ -90,11 +90,17 @@ shinyUI(
                 valueBoxOutput ("quickstat2", 3),
                 valueBoxOutput ("quickstat3", 3),
                 valueBoxOutput ("quickstat4", 3),
-                h5(" - Alcohol: Prevalence of hazardous or harmful drinking"),
-                h5(" - Obesity: % of adults who are obese"),
-                h5(" - Smoking: % of adults who smoke"),
-                h5(" - E Cig: % of adults who use e-cigarettes"),
-                h2("Health Survey Results - Health Board level"),
+               
+               fluidRow(
+                   column(3 , h5(" - Alcohol: % Hazardous or harmful drinking")),
+                   column(3 , h5(" - Obesity: % of adults who are obese")),
+                   column(3 , h5(" - Smoking: % of adults who smoke")),
+                   column(3 , h5("E Cig: % of adults who use e-cigarettes"))),
+                # h5(" - Alcohol: Prevalence of hazardous or harmful drinking"),
+                # h5(" - Obesity: % of adults who are obese"),
+                # h5(" - Smoking: % of adults who smoke"),
+                # h5(" - E Cig: % of adults who use e-cigarettes"),
+                # h2("Health Survey Results - Health Board level"),
                # h4("The maps show how the four metrics vary across local Health Board regions"),
                 br(),
 
