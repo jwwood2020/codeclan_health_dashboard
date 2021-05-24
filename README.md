@@ -20,6 +20,12 @@ Our dashboard contains …
 Our health topic is …
 The dashboard outlines our health topic in terms of …
 
+## Which tools were used in the project
+Zoom (daily stand-ups and occasional mob programming)
+Trello (planning & task allocation)
+Git/GitHub (collaboration & version control)
+and so on …
+
 ## Libraries used
 1. tidyverse
 2. janitor
@@ -56,12 +62,6 @@ This folder contains all outputs.
 Planning & dashboard wireframe
 Git branching & version control
 Choosing datasets
-and so on …
-
-## Which tools were used in the project
-Zoom (daily stand-ups and occasional mob programming)
-Trello (planning & task allocation)
-Git/GitHub (collaboration & version control)
 and so on …
 
 ## How did you gather and synthesise requirements for the project?
