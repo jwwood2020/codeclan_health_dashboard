@@ -36,21 +36,21 @@ The dashboard outlines our health topic in terms of …
 ### Structure
 The project is structured as follows:
 
-### 1. raw_data
+# 1. raw_data
 This folder contains the raw data downloaded from the Scottish Government statistics website [statistics.gov.home]
 (https://statistics.gov.scot/home)
 
-### 2. data\_cleaning\_scripts
+# 2. data\_cleaning\_scripts
 This folder contains .R scripts used to clean and transform the data into Tidy format.
 
 
-### 3. clean_data
+# 3. clean_data
 This folder contains the clean data produced by the .R scripts.
 
-### 4. notebooks
+# 4. notebooks
 This folder contains the .RMD notebooks which perform the analsyis, create the Shiny app and produce the results.
 
-### 5. output
+# 5. output
 This folder contains all outputs.
 
 ## Stages of the project
