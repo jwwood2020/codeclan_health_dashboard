@@ -77,9 +77,9 @@ shinyUI(
                 tabItem(tabName = "home",
 
                 h2("Health Survey Results - Scotland"),
-                h4("The dashboards and data available through this application 
-                   are the result of ongoing collaboration with Public Health Scotland and is 
-                   designed to inform the public of general health stats and Baby Birthweigh across Scotland"),
+                h4("This dashboard looks at selected metrics from the Scotland 
+                   Health Survey and public health statistics related to pregnancy and birth. 
+                   The data used is published by Public Health Scotland"),
                # h4("This page shows summary Scotland-level results from the Scottish Health Survey for four
                  #  lifestyle metrics relating to Excess Alcohol Consumption, Smoking and Obesity."),
 
@@ -95,7 +95,7 @@ shinyUI(
                    column(3 , h5(" - Alcohol: % Hazardous or harmful drinking")),
                    column(3 , h5(" - Obesity: % of adults who are obese")),
                    column(3 , h5(" - Smoking: % of adults who smoke")),
-                   column(3 , h5("E Cig: % of adults who use e-cigarettes"))),
+                   column(3 , h5(" - E Cig: % of adults who use e-cigarettes"))),
                 # h5(" - Alcohol: Prevalence of hazardous or harmful drinking"),
                 # h5(" - Obesity: % of adults who are obese"),
                 # h5(" - Smoking: % of adults who smoke"),
