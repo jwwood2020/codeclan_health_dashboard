@@ -10,7 +10,8 @@ This repository contains the data and R files used in the CodeClan group project
 -  John Wood
 
 ## Roles & responsibilities of each member
-*Jonathan D'Costa worked on*
+
+Jonathan D'Costa worked on the design, creating and entering data into the dashboad. During the design phase various healt related dashboards were looked at and some of the best features were noted so that they could be entered into the teams dashboard, also during this process ways to simplify creating the dashboard were also selected, such as using Shiny dashboard design. This saved considerable time during the creation process as we had only a week to complete the dashboard. The data was enetered in collaboration with the team to ensure the message and analysis they wanted to get across was portrayed the way they intended. 
 
 Emily Jaco worked on part 1: the Scottish Health Survey Local Data. She began by reviewing the different survey categories and selecting 4 categories to look at in greater detail: Smokers, Alcohol drinkers, E-cigarette users and obesity levels. She used spatial data that was divided by the Health Boards in Scotland and created geographical ggplot spreads with a colour range from green and red based on low to high percentages. 
 
