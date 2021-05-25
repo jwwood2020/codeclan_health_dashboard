@@ -11,8 +11,11 @@ This repository contains the data and R files used in the CodeClan group project
 
 ## Roles & responsibilities of each member
 Jonathan D'Costa worked on 
-Emily Jaco worked on …
+
+Emily Jaco worked on part 1: the Local Scottish Survey Data. She began by reviewing the different survey categories and selecting 4 categories to look at in greater detail: Smokers, Alcohol drinkers, E-cigarette users and obesity levels. She used spatial data that was divided by the Health Boards in Scotland and created geographical ggplot spreads with a colour range from green and red based on low to high percentages. 
+
 John Wood worked on …
+
 Everyone worked on …
 
 ## Brief description of dashboard topic
@@ -22,9 +25,8 @@ The dashboard outlines our health topic in terms of …
 
 ## Which tools were used in the project
 Zoom (daily stand-ups and occasional mob programming)
-Trello (planning & task allocation)
 Git/GitHub (collaboration & version control)
-and so on …
+R Studio (with the below libraries)
 
 ## Libraries used
 1. tidyverse
@@ -42,14 +44,14 @@ and so on …
 ## Structure
 The project is structured as follows:
 
-### 1. raw_data
+### 1. data_raw
 This folder contains the raw data downloaded from the Scottish Government statistics website [statistics.gov.home]
 (https://statistics.gov.scot/home)
 
-### 2. data\_cleaning\_scripts
+### 2. data_ cleaning_scripts
 This folder contains .R scripts used to clean and transform the data into Tidy format.
 
-### 3. clean_data
+### 3. data_clean
 This folder contains the clean data produced by the .R scripts.
 
 ### 4. notebooks
