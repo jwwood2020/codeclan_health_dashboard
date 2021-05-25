@@ -10,18 +10,20 @@ This repository contains the data and R files used in the CodeClan group project
 -  John Wood
 
 ## Roles & responsibilities of each member
-Jonathan D'Costa worked on 
+*Jonathan D'Costa worked on*
 
-Emily Jaco worked on part 1: the Local Scottish Survey Data. She began by reviewing the different survey categories and selecting 4 categories to look at in greater detail: Smokers, Alcohol drinkers, E-cigarette users and obesity levels. She used spatial data that was divided by the Health Boards in Scotland and created geographical ggplot spreads with a colour range from green and red based on low to high percentages. 
+Emily Jaco worked on part 1: the Scottish Health Survey Local Data. She began by reviewing the different survey categories and selecting 4 categories to look at in greater detail: Smokers, Alcohol drinkers, E-cigarette users and obesity levels. She used spatial data that was divided by the Health Boards in Scotland and created geographical ggplot spreads with a colour range from green and red based on low to high percentages. 
 
-John Wood worked on …
+*John Wood worked on …*
 
-Everyone worked on …
+*Everyone worked on …*
 
 ## Brief description of dashboard topic
-Our dashboard contains …
-Our health topic is …
-The dashboard outlines our health topic in terms of …
+*Our dashboard contains …*
+
+*Our health topic is …*
+
+*The dashboard outlines our health topic in terms of …*
 
 ## Which tools were used in the project
 Zoom (daily stand-ups and occasional mob programming)
@@ -61,38 +63,41 @@ This folder contains the .RMD notebooks which perform the analsyis, create the S
 This folder contains all outputs.
 
 ## Stages of the project
-Planning & dashboard wireframe
-Git branching & version control
-Choosing datasets
-and so on …
+* Researched existing dashboards and Scotland Public Health data sets
+* Created Github repo and relevant folders to organise
+* Developed a wireframe markup
+* Reviewed data as a team and selected points of interest 
+* Team members split up to work on different tasks of the project i.e. data handling and app development
+* Creation of UI along with simultaneous data handling
+* Entered data into the app and made changes to the UI as required
 
 ## How did you gather and synthesise requirements for the project?
-We synthesised the information given in the brief by …
+*We synthesised the information given in the brief by …*
 
-We prioritised …
+*We prioritised …*
 
 ## Motivations for using the data you have chosen
-We used the dataset on … to answer … and because it was …
+For part 1 the team chose to use the dataset on the Scottish Health Survey Local Data because they found it was an interesting overview into health levels across Scotland. Visualising this data gave a good insight into the 14 different Health Boards across Scotland broken down by sex (All, Female, Male) and year (2015-2018 and 2016-2019). It also would be a great data set to add future years to as you could compare with previous years to see any key changes. 
+
+*For part 2...*
 
 ## Data quality and potential bias, including a brief summary of data cleaning and transformations
-According to the About tab on the dataset page/dedicated page online, the data quality …
+*According to the About tab on the dataset page/dedicated page online, the data quality …*
 
-The dataset may/may not be biased because …
+The dataset may not be biased because there is a high level of anonymisation from the data i.e. there are at least 3-5 degrees that separate an individual from being identified. 
 
-To clean the datasets we …
+As the data was pre-cleaned there wasn't a huge amount of cleaning to be done, however, the team spent time reviewing the data to see what would be the most beneficial to the project. Following that they spent time wrangling the data to best present the data in visualisations. 
 
 ## How is the data on statistics.gov.scot stored and structured
-[Hint: This page offers a good starting point for understanding the data structure: https://guides.statistics.gov.scot/article/34-understanding-the-data-structure]
 
-The data on statistics.gov.scot is in the form of …
+The data on statistics.gov.scot is in the form of Linked Data - any data point contained in a Linked Dataset should have a unique identiifer which is a URL. The datastore on statistics.gov.scot is in the form  of millions of statements, or ‘triples’ which is a combination of three bits of information that form a subject - predicate - object arrangement. 
 
-This means …
+This means that the data point can be browsed using a web browser and that the data point can be refernced by other Linked Data sets. 
 
-Benefits of storing the data like this are …
+Benefits of storing the data like this are that the structure of the database is contained within the data so there is no need to have complex databases. 
 
 ## Ethical and legal considerations of the data
-[Hint: this page contains information on the Open Government License which covers most datasets on statistics.gov.scot: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/]
 
-There are no/There may be ethical considerations, because …
+*There are no/There may be ethical considerations, because …*
 
-The datasets are covered by the Open Government License, which means …
+The datasets are covered by the Open Government License, which means individuals or businesses in the public sector are allowed to license the use and re-use of the National Archives information under a common open licence. 
