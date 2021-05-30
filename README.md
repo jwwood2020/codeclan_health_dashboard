@@ -20,11 +20,19 @@ Emily Jaco worked on part 1: the Scottish Health Survey Local Data. She began by
 *Everyone worked on …*
 
 ## Brief description of dashboard topic
-*Our dashboard contains …*
 
-*Our health topic is …*
+Our dashboard contains selected metrics from the Scotland Health Survey and public health statistics related to pregnancy and birth.
+The data used is published by Public Health Scotland.
 
-*The dashboard outlines our health topic in terms of …*
+Our health topics are Scotland Health Survey and Birth Statistics. 
+
+The first tab of our dashboard outlines our health survey in terms of alcoholism, obesity, cigarette and e-cigarette usage for Scotland as a whole and individual councils.
+
+The second tab outlines the factors effecting baby birthweight for Scotland as a whole. 
+
+The Third tab outlines the factors effecting baby birthwight for individual councils and compares them to Scotland as a whole. 
+
+The forth tab outlines the statistics for the factors effecting baby birthweight to compare the effects of smoking and Mother's age. 
 
 ## Which tools were used in the project
 Zoom (daily stand-ups and occasional mob programming)
